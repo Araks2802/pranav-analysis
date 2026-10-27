@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ config.title }}</title>
+    <link>{{ base }}/</link>
+    <description>{{ config.description }}</description>
+    <language>en</language>
+    {% for a in articles %}
+    <item>
+      <title>{{ a.title }}</title>
+      <link>{{ base }}{{ a.url }}</link>
+      <guid>{{ base }}{{ a.url }}</guid>
+      <description>{{ a.description }}</description>
+      {% if a.date %}<pubDate>{{ a.date.strftime('%a, %d %b %Y 00:00:00 +0000') }}</pubDate>{% endif %}
+      <category>{{ a.section_name }} / {{ a.category }}</category>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

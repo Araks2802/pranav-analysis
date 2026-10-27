@@ -1,0 +1,29 @@
+# Build output
+dist/
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rapp.history
+.RDataTmp
+.Rproj.user/
+
+# Large / raw cricket data — keep processed CSVs, exclude bulky raw downloads.
+analysis/cricket/data/*.rds
+analysis/**/*.zip
+*.csv.gz
+
+# Node (not used, but guard against accidental installs)
+node_modules/

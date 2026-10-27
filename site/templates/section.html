@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% from "_card.html" import article_card %}
+{% block body_class %}page-section section-{{ section }}{% endblock %}
+{% block content %}
+
+<section class="section-hero wrap" data-accent="{{ meta.accent }}">
+  <p class="eyebrow">{{ all_count }} piece{{ '' if all_count == 1 else 's' }}</p>
+  <h1 class="section-hero-title accent-{{ meta.accent }}">{{ meta.name }}</h1>
+  <p class="section-hero-blurb">{{ meta.blurb }}</p>
+</section>
+
+{% if featured %}
+<section class="featured wrap">
+  <a class="featured-card" href="{{ featured.url }}" data-accent="{{ featured.accent }}">
+    <div class="featured-media">
+      {% if featured.cover %}
+      <img src="{{ featured.cover }}" alt="{{ featured.cover_alt }}" width="1200" height="675">
+      {% else %}
+      <div class="card-media--placeholder" aria-hidden="true"><span>{{ featured.section_name }}</span></div>
+      {% endif %}
+    </div>
+    <div class="featured-body">
+      <span class="kicker kicker--{{ featured.accent }}">Featured · {{ featured.category }}</span>
+      <h2 class="featured-title">{{ featured.title }}</h2>
+      <p class="featured-dek">{{ featured.standfirst }}</p>
+      <p class="card-meta"><time datetime="{{ featured.date }}">{{ featured.date_display }}</time><span aria-hidden="true">·</span><span>{{ featured.reading_time }} min read</span></p>
+    </div>
+  </a>
+</section>
+{% endif %}
+
+<section class="listing wrap" data-accent="{{ meta.accent }}">
+  <div class="listing-controls">
+    <div class="filter-row" role="group" aria-label="Filter by category">
+      <button class="chip is-active" data-filter="all">All</button>
+      {% for cat in meta.categories %}
+      <button class="chip" data-filter="{{ cat }}">{{ cat }}</button>
+      {% endfor %}
+    </div>
+    <label class="search">
+      <span class="visually-hidden">Search {{ meta.name }} articles</span>
+      <input type="search" id="article-search" placeholder="Search {{ meta.name|lower }} articles…" autocomplete="off">
+    </label>
+  </div>
+
+  {% if articles %}
+  <div class="card-grid js-filter-grid">
+    {% for a in articles %}{{ article_card(a) }}{% endfor %}
+  </div>
+  <p class="no-results" hidden>No articles match that filter yet.</p>
+  {% else %}
+  <p class="empty-note">More {{ meta.name|lower }} analysis is on the way. The featured piece above is the first.</p>
+  {% endif %}
+</section>
+
+{% endblock %}

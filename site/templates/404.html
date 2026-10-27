@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body_class %}page-404{% endblock %}
+{% block content %}
+<section class="wrap error-page">
+  <p class="eyebrow">404</p>
+  <h1 class="section-hero-title">That page got an outside edge.</h1>
+  <p class="section-hero-blurb">The page you're after isn't here. Try the cricket or football sections.</p>
+  <div class="hero-actions">
+    <a class="btn btn--solid" href="/">Home</a>
+    <a class="btn btn--ghost" href="/cricket/">Cricket</a>
+    <a class="btn btn--ghost" href="/football/">Football</a>
+  </div>
+</section>
+{% endblock %}

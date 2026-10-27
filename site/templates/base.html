@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
+  <link rel="canonical" href="{{ config.base_url.rstrip('/') }}{{ canonical }}">
+  <meta name="author" content="{{ config.author }}">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ config.base_url.rstrip('/') }}{{ canonical }}">
+  {% if og_image %}<meta property="og:image" content="{{ config.base_url.rstrip('/') }}{{ og_image }}">{% endif %}
+  <meta name="twitter:card" content="{% if og_image %}summary_large_image{% else %}summary{% endif %}">
+
+  <link rel="alternate" type="application/rss+xml" title="{{ config.title }}" href="/rss.xml">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  {% block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="/">
+        <span class="wordmark-name">{{ config.wordmark }}</span>
+        <span class="wordmark-sub">Sports Analytics</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/cricket/" data-accent="lime">Cricket</a>
+        <a href="/football/" data-accent="cyan">Football</a>
+        <a href="/projects/">Projects</a>
+        <a href="/about/">About</a>
+        {% if config.contact.email %}
+        <a class="nav-contact" href="mailto:{{ config.contact.email }}">Contact</a>
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <span class="wordmark-name">{{ config.wordmark }}</span>
+        <p>{{ config.tagline }}</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/cricket/">Cricket</a>
+        <a href="/football/">Football</a>
+        <a href="/projects/">Projects</a>
+        <a href="/about/">About</a>
+        <a href="/rss.xml">RSS</a>
+      </nav>
+      <div class="footer-contact">
+        {% if config.contact.email %}<a href="mailto:{{ config.contact.email }}">{{ config.contact.email }}</a>{% endif %}
+        <div class="social">
+          {% if config.contact.github %}<a href="{{ config.contact.github }}" rel="me noopener">GitHub</a>{% endif %}
+          {% if config.contact.linkedin %}<a href="{{ config.contact.linkedin }}" rel="me noopener">LinkedIn</a>{% endif %}
+          {% if config.contact.x %}<a href="{{ config.contact.x }}" rel="me noopener">X</a>{% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-legal">
+      <p>&copy; {{ now.year }} {{ config.author }}. Analysis and words are my own. Data attributed where used.</p>
+    </div>
+  </footer>
+
+  <script src="/main.js" defer></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

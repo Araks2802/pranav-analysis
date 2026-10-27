@@ -1,0 +1,43 @@
+{% macro article_card(a, large=False) %}
+<article class="card {% if large %}card--large{% endif %}" data-accent="{{ a.accent }}" data-category="{{ a.category }}" data-title="{{ a.title|lower }}" data-tags="{{ a.tags|join(' ')|lower }}">
+  <a class="card-link" href="{{ a.url }}" aria-label="{{ a.title }}">
+    <div class="card-media">
+      {% if a.cover %}
+      <img src="{{ a.cover }}" alt="{{ a.cover_alt }}" loading="lazy" width="800" height="500">
+      {% else %}
+      <div class="card-media--placeholder" aria-hidden="true"><span>{{ a.section_name }}</span></div>
+      {% endif %}
+      <span class="kicker kicker--{{ a.accent }}">{{ a.category }}</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">{{ a.title }}</h3>
+      <p class="card-dek">{{ a.description }}</p>
+      <p class="card-meta">
+        <time datetime="{{ a.date }}">{{ a.date_display }}</time>
+        <span aria-hidden="true">·</span>
+        <span>{{ a.reading_time }} min read</span>
+      </p>
+    </div>
+  </a>
+</article>
+{% endmacro %}
+
+{% macro project_card(p) %}
+<article class="card project-card" data-accent="{{ p.accent }}">
+  <a class="card-link" href="{{ p.url }}" aria-label="{{ p.title }}">
+    <div class="card-media">
+      {% if p.cover %}
+      <img src="{{ p.cover }}" alt="{{ p.cover_alt }}" loading="lazy" width="800" height="500">
+      {% else %}
+      <div class="card-media--placeholder" aria-hidden="true"><span>Project</span></div>
+      {% endif %}
+      <span class="kicker kicker--{{ p.accent }}">Research Project</span>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">{{ p.title }}</h3>
+      <p class="card-dek">{{ p.summary }}</p>
+      {% if p.competition %}<p class="card-meta"><span>{{ p.competition }}</span></p>{% endif %}
+    </div>
+  </a>
+</article>
+{% endmacro %}

@@ -1,0 +1,19 @@
+# Site-wide configuration. Edit these values and rebuild.
+title: "Pranav Arakkal — Sports Analytics"
+wordmark: "PRANAV ARAKKAL"
+tagline: "Data-driven cricket and football analysis"
+# The absolute URL the site will live at once deployed. Used for SEO/OpenGraph
+# and the sitemap. Update to your real domain after you deploy.
+base_url: "https://pranav-analysis.netlify.app"
+author: "Pranav Arakkal"
+description: >-
+  Independent cricket and football analysis — match breakdowns, player studies,
+  tactical pieces and reproducible data projects, built on open data and
+  transparent methods.
+# Contact / social links. These are placeholders — replace with your real
+# details before publishing. Leave a value blank to hide that link.
+contact:
+  email: "your.email@example.com"
+  github: ""        # e.g. https://github.com/yourusername
+  linkedin: ""      # e.g. https://www.linkedin.com/in/yourusername
+  x: ""             # e.g. https://x.com/yourusername

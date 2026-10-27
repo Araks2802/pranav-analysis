@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% from "_card.html" import article_card %}
+{% block body_class %}page-article article-{{ a.section }}{% endblock %}
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ a.title|tojson }},
+  "description": {{ a.description|tojson }},
+  "datePublished": "{{ a.date }}",
+  "author": {"@type": "Person", "name": {{ a.author|tojson }}},
+  "articleSection": {{ a.category|tojson }}
+}
+</script>
+{% endblock %}
+{% block content %}
+
+<article class="article" data-accent="{{ a.accent }}">
+  <header class="article-head wrap-narrow">
+    <p class="article-kicker"><a href="/{{ a.section }}/" class="kicker kicker--{{ a.accent }}">{{ a.section_name }}</a> <span class="cat-tag">{{ a.category }}</span></p>
+    <h1 class="article-title">{{ a.title }}</h1>
+    <p class="article-standfirst">{{ a.standfirst }}</p>
+    <p class="article-byline">
+      By {{ a.author }} <span aria-hidden="true">·</span>
+      <time datetime="{{ a.date }}">{{ a.date_display }}</time> <span aria-hidden="true">·</span>
+      {{ a.reading_time }} min read
+    </p>
+  </header>
+
+  {% if a.cover %}
+  <figure class="article-hero">
+    <img src="{{ a.cover }}" alt="{{ a.cover_alt }}" width="1200" height="675">
+  </figure>
+  {% endif %}
+
+  <div class="article-body wrap-narrow">
+    {{ a.body_html|safe }}
+  </div>
+
+  {% if a.sources %}
+  <section class="article-sources wrap-narrow">
+    <h2>Sources &amp; methodology</h2>
+    {% if a.methodology %}<p class="methodology">{{ a.methodology }}</p>{% endif %}
+    <ul class="source-list">
+      {% for s in a.sources %}
+      <li>{% if s.url %}<a href="{{ s.url }}" rel="noopener">{{ s.label }}</a>{% else %}{{ s.label }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <nav class="article-foot wrap-narrow">
+    <a class="back-link" href="/{{ a.section }}/">← Back to {{ a.section_name }}</a>
+  </nav>
+</article>
+
+{% if related %}
+<section class="related wrap">
+  <p class="section-label">Related</p>
+  <div class="card-grid card-grid--compact">
+    {% for r in related %}{{ article_card(r) }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

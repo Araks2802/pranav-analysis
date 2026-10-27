@@ -1,0 +1,4 @@
+# Python dependencies for the static site generator (site/build.py).
+Jinja2>=3.1
+Markdown>=3.4
+PyYAML>=6.0
