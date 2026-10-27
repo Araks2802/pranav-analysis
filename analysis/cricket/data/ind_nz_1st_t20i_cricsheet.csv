@@ -1,0 +1,255 @@
+match_id,season,start_date,venue,innings,over,ball,batting_team,bowling_team,striker,non_striker,bowler,runs_off_bat,extras,ball_in_over,extra_ball,balls_remaining,runs_scored_yet,wicket,wickets_lost_yet,innings1_total,innings2_total,target,wides,noballs,byes,legbyes,penalty,wicket_type,player_dismissed,other_wicket_type,other_player_dismissed,actual_delivery,non_boundary,fielder_1,fielder_2,fielder_3,.groups
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,1,1,New Zealand,India,TL Seifert,FH Allen,B Kumar,0,0,1,FALSE,119,0,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,1,2,New Zealand,India,TL Seifert,FH Allen,B Kumar,0,0,2,FALSE,118,0,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,1,3,New Zealand,India,TL Seifert,FH Allen,B Kumar,1,0,3,FALSE,117,1,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,1,4,New Zealand,India,FH Allen,TL Seifert,B Kumar,1,0,4,FALSE,116,2,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,1,5,New Zealand,India,TL Seifert,FH Allen,B Kumar,0,0,5,FALSE,115,2,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,1,6,New Zealand,India,TL Seifert,FH Allen,B Kumar,2,0,6,FALSE,114,4,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,2,1,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,1,0,1,FALSE,113,5,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,2,2,New Zealand,India,TL Seifert,FH Allen,Arshdeep Singh,1,0,2,FALSE,112,6,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,2,3,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,4,0,3,FALSE,111,10,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,2,4,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,1,0,4,FALSE,110,11,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,2,5,New Zealand,India,TL Seifert,FH Allen,Arshdeep Singh,1,0,5,FALSE,109,12,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,2,6,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,0,0,6,FALSE,108,12,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,1,New Zealand,India,TL Seifert,FH Allen,B Kumar,0,1,0,TRUE,108,13,FALSE,0,225,230,226,NA,1,NA,NA,NA,,,NA,NA,2.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,2,New Zealand,India,TL Seifert,FH Allen,B Kumar,4,0,1,FALSE,107,17,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,3,New Zealand,India,TL Seifert,FH Allen,B Kumar,0,0,2,FALSE,106,17,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,4,New Zealand,India,TL Seifert,FH Allen,B Kumar,1,0,3,FALSE,105,18,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,5,New Zealand,India,FH Allen,TL Seifert,B Kumar,1,0,4,FALSE,104,19,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,6,New Zealand,India,TL Seifert,FH Allen,B Kumar,4,0,5,FALSE,103,23,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,3,7,New Zealand,India,TL Seifert,FH Allen,B Kumar,6,0,6,FALSE,102,29,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,4,1,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,4,0,1,FALSE,101,33,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,4,2,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,4,0,2,FALSE,100,37,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,4,3,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,4,0,3,FALSE,99,41,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,4,4,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,0,0,4,FALSE,98,41,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,4,5,New Zealand,India,FH Allen,TL Seifert,Arshdeep Singh,1,0,5,FALSE,97,42,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,4,6,New Zealand,India,TL Seifert,FH Allen,Arshdeep Singh,4,0,6,FALSE,96,46,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,5,1,New Zealand,India,FH Allen,TL Seifert,MP Yadav,0,0,1,FALSE,95,46,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,5,2,New Zealand,India,FH Allen,TL Seifert,MP Yadav,2,0,2,FALSE,94,48,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,5,3,New Zealand,India,FH Allen,TL Seifert,MP Yadav,1,0,3,FALSE,93,49,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,5,4,New Zealand,India,TL Seifert,FH Allen,MP Yadav,0,0,4,FALSE,92,49,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,5,5,New Zealand,India,TL Seifert,FH Allen,MP Yadav,0,0,5,FALSE,91,49,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,5,6,New Zealand,India,TL Seifert,FH Allen,MP Yadav,0,0,6,FALSE,90,49,TRUE,1,225,230,226,NA,NA,NA,NA,NA,caught,TL Seifert,NA,NA,4.6,NA,SV Samson,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,6,1,New Zealand,India,FH Allen,DJ Mitchell,AR Patel,0,0,1,FALSE,89,49,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,6,2,New Zealand,India,FH Allen,DJ Mitchell,AR Patel,6,0,2,FALSE,88,55,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,6,3,New Zealand,India,FH Allen,DJ Mitchell,AR Patel,3,0,3,FALSE,87,58,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,6,4,New Zealand,India,DJ Mitchell,FH Allen,AR Patel,6,0,4,FALSE,86,64,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,6,5,New Zealand,India,DJ Mitchell,FH Allen,AR Patel,0,0,5,FALSE,85,64,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,6,6,New Zealand,India,DJ Mitchell,FH Allen,AR Patel,1,0,6,FALSE,84,65,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,1,New Zealand,India,DJ Mitchell,FH Allen,MP Yadav,1,0,1,FALSE,83,66,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,2,New Zealand,India,FH Allen,DJ Mitchell,MP Yadav,0,0,2,FALSE,82,66,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,3,New Zealand,India,FH Allen,DJ Mitchell,MP Yadav,0,1,2,TRUE,82,67,FALSE,1,225,230,226,1,NA,NA,NA,NA,,,NA,NA,6.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,4,New Zealand,India,FH Allen,DJ Mitchell,MP Yadav,4,0,3,FALSE,81,71,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,5,New Zealand,India,FH Allen,DJ Mitchell,MP Yadav,0,0,4,FALSE,80,71,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,6,New Zealand,India,FH Allen,DJ Mitchell,MP Yadav,1,0,5,FALSE,79,72,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,7,7,New Zealand,India,DJ Mitchell,FH Allen,MP Yadav,0,0,6,FALSE,78,72,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,8,1,New Zealand,India,FH Allen,DJ Mitchell,AR Patel,6,0,1,FALSE,77,78,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,8,2,New Zealand,India,FH Allen,DJ Mitchell,AR Patel,1,0,2,FALSE,76,79,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,8,3,New Zealand,India,DJ Mitchell,FH Allen,AR Patel,1,0,3,FALSE,75,80,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,8,4,New Zealand,India,FH Allen,DJ Mitchell,AR Patel,0,0,4,FALSE,74,80,TRUE,2,225,230,226,NA,NA,NA,NA,NA,caught,FH Allen,NA,NA,7.4,NA,Tilak Varma,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,8,5,New Zealand,India,GD Phillips,DJ Mitchell,AR Patel,0,0,5,FALSE,73,80,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,8,6,New Zealand,India,GD Phillips,DJ Mitchell,AR Patel,1,0,6,FALSE,72,81,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,9,1,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,0,0,1,FALSE,71,81,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,9,2,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,1,0,2,FALSE,70,82,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,9,3,New Zealand,India,DJ Mitchell,GD Phillips,Nithish Kumar Reddy,1,0,3,FALSE,69,83,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,9,4,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,1,0,4,FALSE,68,84,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,9,5,New Zealand,India,DJ Mitchell,GD Phillips,Nithish Kumar Reddy,1,0,5,FALSE,67,85,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,9,6,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,1,0,6,FALSE,66,86,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,10,1,New Zealand,India,GD Phillips,DJ Mitchell,AR Patel,1,0,1,FALSE,65,87,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,10,2,New Zealand,India,DJ Mitchell,GD Phillips,AR Patel,1,0,2,FALSE,64,88,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,10,3,New Zealand,India,GD Phillips,DJ Mitchell,AR Patel,1,0,3,FALSE,63,89,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,10,4,New Zealand,India,DJ Mitchell,GD Phillips,AR Patel,2,0,4,FALSE,62,91,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,10,5,New Zealand,India,DJ Mitchell,GD Phillips,AR Patel,1,0,5,FALSE,61,92,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,10,6,New Zealand,India,GD Phillips,DJ Mitchell,AR Patel,6,0,6,FALSE,60,98,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,11,1,New Zealand,India,DJ Mitchell,GD Phillips,MP Yadav,1,0,1,FALSE,59,99,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,11,2,New Zealand,India,GD Phillips,DJ Mitchell,MP Yadav,1,0,2,FALSE,58,100,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,11,3,New Zealand,India,DJ Mitchell,GD Phillips,MP Yadav,1,0,3,FALSE,57,101,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,11,4,New Zealand,India,GD Phillips,DJ Mitchell,MP Yadav,1,0,4,FALSE,56,102,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,11,5,New Zealand,India,DJ Mitchell,GD Phillips,MP Yadav,4,0,5,FALSE,55,106,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,11,6,New Zealand,India,DJ Mitchell,GD Phillips,MP Yadav,4,0,6,FALSE,54,110,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,12,1,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,1,0,1,FALSE,53,111,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,12,2,New Zealand,India,DJ Mitchell,GD Phillips,Nithish Kumar Reddy,2,0,2,FALSE,52,113,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,12,3,New Zealand,India,DJ Mitchell,GD Phillips,Nithish Kumar Reddy,0,0,3,FALSE,51,113,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,12,4,New Zealand,India,DJ Mitchell,GD Phillips,Nithish Kumar Reddy,1,0,4,FALSE,50,114,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,12,5,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,6,0,5,FALSE,49,120,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,12,6,New Zealand,India,GD Phillips,DJ Mitchell,Nithish Kumar Reddy,2,0,6,FALSE,48,122,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,1,New Zealand,India,DJ Mitchell,GD Phillips,Arshdeep Singh,0,0,1,FALSE,47,122,TRUE,3,225,230,226,NA,NA,NA,NA,NA,caught,DJ Mitchell,NA,NA,12.1,NA,B Kumar,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,2,New Zealand,India,BJ Jacobs,GD Phillips,Arshdeep Singh,6,0,2,FALSE,46,128,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,3,New Zealand,India,BJ Jacobs,GD Phillips,Arshdeep Singh,1,0,3,FALSE,45,129,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,4,New Zealand,India,GD Phillips,BJ Jacobs,Arshdeep Singh,1,0,4,FALSE,44,130,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,5,New Zealand,India,BJ Jacobs,GD Phillips,Arshdeep Singh,0,1,4,TRUE,44,131,FALSE,3,225,230,226,1,NA,NA,NA,NA,,,NA,NA,12.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,6,New Zealand,India,BJ Jacobs,GD Phillips,Arshdeep Singh,1,0,5,FALSE,43,132,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,13,7,New Zealand,India,GD Phillips,BJ Jacobs,Arshdeep Singh,1,0,6,FALSE,42,133,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,14,1,New Zealand,India,GD Phillips,BJ Jacobs,AR Patel,1,0,1,FALSE,41,134,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,14,2,New Zealand,India,BJ Jacobs,GD Phillips,AR Patel,0,0,2,FALSE,40,134,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,14,3,New Zealand,India,BJ Jacobs,GD Phillips,AR Patel,1,0,3,FALSE,39,135,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,14,4,New Zealand,India,GD Phillips,BJ Jacobs,AR Patel,4,0,4,FALSE,38,139,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,14,5,New Zealand,India,GD Phillips,BJ Jacobs,AR Patel,4,0,5,FALSE,37,143,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,14,6,New Zealand,India,GD Phillips,BJ Jacobs,AR Patel,4,0,6,FALSE,36,147,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,1,New Zealand,India,BJ Jacobs,GD Phillips,Nithish Kumar Reddy,2,0,1,FALSE,35,149,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,2,New Zealand,India,BJ Jacobs,GD Phillips,Nithish Kumar Reddy,1,0,2,FALSE,34,150,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,3,New Zealand,India,GD Phillips,BJ Jacobs,Nithish Kumar Reddy,2,0,3,FALSE,33,152,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,4,New Zealand,India,GD Phillips,BJ Jacobs,Nithish Kumar Reddy,1,0,4,FALSE,32,153,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,5,New Zealand,India,BJ Jacobs,GD Phillips,Nithish Kumar Reddy,0,1,4,TRUE,32,154,FALSE,3,225,230,226,1,NA,NA,NA,NA,,,NA,NA,14.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,6,New Zealand,India,BJ Jacobs,GD Phillips,Nithish Kumar Reddy,2,0,5,FALSE,31,156,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,15,7,New Zealand,India,BJ Jacobs,GD Phillips,Nithish Kumar Reddy,2,0,6,FALSE,30,158,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,1,New Zealand,India,GD Phillips,BJ Jacobs,B Kumar,2,0,1,FALSE,29,160,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,2,New Zealand,India,GD Phillips,BJ Jacobs,B Kumar,1,0,2,FALSE,28,161,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,3,New Zealand,India,BJ Jacobs,GD Phillips,B Kumar,6,0,3,FALSE,27,167,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,4,New Zealand,India,BJ Jacobs,GD Phillips,B Kumar,0,1,3,TRUE,27,168,FALSE,3,225,230,226,NA,1,NA,NA,NA,,,NA,NA,15.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,5,New Zealand,India,BJ Jacobs,GD Phillips,B Kumar,1,0,4,FALSE,26,169,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,6,New Zealand,India,GD Phillips,BJ Jacobs,B Kumar,2,0,5,FALSE,25,171,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,16,7,New Zealand,India,GD Phillips,BJ Jacobs,B Kumar,1,0,6,FALSE,24,172,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,17,1,New Zealand,India,GD Phillips,BJ Jacobs,MP Yadav,6,0,1,FALSE,23,178,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,17,2,New Zealand,India,GD Phillips,BJ Jacobs,MP Yadav,1,0,2,FALSE,22,179,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,17,3,New Zealand,India,BJ Jacobs,GD Phillips,MP Yadav,0,0,3,FALSE,21,179,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,17,4,New Zealand,India,BJ Jacobs,GD Phillips,MP Yadav,6,0,4,FALSE,20,185,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,17,5,New Zealand,India,BJ Jacobs,GD Phillips,MP Yadav,1,0,5,FALSE,19,186,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,17,6,New Zealand,India,GD Phillips,BJ Jacobs,MP Yadav,4,0,6,FALSE,18,190,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,1,New Zealand,India,BJ Jacobs,GD Phillips,Arshdeep Singh,1,0,1,FALSE,17,191,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,2,New Zealand,India,GD Phillips,BJ Jacobs,Arshdeep Singh,4,0,2,FALSE,16,195,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,3,New Zealand,India,GD Phillips,BJ Jacobs,Arshdeep Singh,0,0,3,FALSE,15,195,TRUE,4,225,230,226,NA,NA,NA,NA,NA,run out,BJ Jacobs,NA,NA,17.3,NA,Arshdeep Singh,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,4,New Zealand,India,MG Bracewell,GD Phillips,Arshdeep Singh,1,0,4,FALSE,14,196,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,5,New Zealand,India,GD Phillips,MG Bracewell,Arshdeep Singh,1,0,5,FALSE,13,197,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,6,New Zealand,India,MG Bracewell,GD Phillips,Arshdeep Singh,0,1,5,TRUE,13,198,FALSE,4,225,230,226,1,NA,NA,NA,NA,,,NA,NA,17.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,18,7,New Zealand,India,MG Bracewell,GD Phillips,Arshdeep Singh,1,0,6,FALSE,12,199,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,19,1,New Zealand,India,MG Bracewell,GD Phillips,Nithish Kumar Reddy,0,0,1,FALSE,11,199,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,19,2,New Zealand,India,MG Bracewell,GD Phillips,Nithish Kumar Reddy,1,0,2,FALSE,10,200,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,19,3,New Zealand,India,GD Phillips,MG Bracewell,Nithish Kumar Reddy,4,0,3,FALSE,9,204,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,19,4,New Zealand,India,GD Phillips,MG Bracewell,Nithish Kumar Reddy,2,0,4,FALSE,8,206,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,19,5,New Zealand,India,GD Phillips,MG Bracewell,Nithish Kumar Reddy,4,0,5,FALSE,7,210,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,19,6,New Zealand,India,GD Phillips,MG Bracewell,Nithish Kumar Reddy,1,0,6,FALSE,6,211,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,1,New Zealand,India,GD Phillips,MG Bracewell,B Kumar,0,1,0,TRUE,6,212,FALSE,4,225,230,226,1,NA,NA,NA,NA,,,NA,NA,19.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,2,New Zealand,India,GD Phillips,MG Bracewell,B Kumar,1,0,1,FALSE,5,213,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,3,New Zealand,India,MG Bracewell,GD Phillips,B Kumar,3,0,2,FALSE,4,216,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,4,New Zealand,India,GD Phillips,MG Bracewell,B Kumar,0,1,2,TRUE,4,217,FALSE,4,225,230,226,1,NA,NA,NA,NA,,,NA,NA,19.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,5,New Zealand,India,GD Phillips,MG Bracewell,B Kumar,1,0,3,FALSE,3,218,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,6,New Zealand,India,MG Bracewell,GD Phillips,B Kumar,1,0,4,FALSE,2,219,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,7,New Zealand,India,GD Phillips,MG Bracewell,B Kumar,2,0,5,FALSE,1,221,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",1,20,8,New Zealand,India,GD Phillips,MG Bracewell,B Kumar,4,0,6,FALSE,0,225,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,1,1,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,0,0,1,FALSE,119,0,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,1,2,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,0,0,2,FALSE,118,0,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,1,3,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,4,0,3,FALSE,117,4,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,1,4,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,0,0,4,FALSE,116,4,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,1,5,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,1,0,5,FALSE,115,5,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,1,6,India,New Zealand,Abhishek Sharma,SV Samson,MJ Henry,6,0,6,FALSE,114,11,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,0.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,2,1,India,New Zealand,SV Samson,Abhishek Sharma,AF Milne,0,0,1,FALSE,113,11,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,2,2,India,New Zealand,SV Samson,Abhishek Sharma,AF Milne,4,0,2,FALSE,112,15,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,2,3,India,New Zealand,SV Samson,Abhishek Sharma,AF Milne,4,0,3,FALSE,111,19,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,2,4,India,New Zealand,SV Samson,Abhishek Sharma,AF Milne,0,0,4,FALSE,110,19,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,2,5,India,New Zealand,SV Samson,Abhishek Sharma,AF Milne,0,0,5,FALSE,109,19,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,2,6,India,New Zealand,SV Samson,Abhishek Sharma,AF Milne,1,0,6,FALSE,108,20,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,1.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,1,India,New Zealand,SV Samson,Abhishek Sharma,LH Ferguson,0,2,0,TRUE,108,22,FALSE,0,225,230,226,2,NA,NA,NA,NA,,,NA,NA,2.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,2,India,New Zealand,Abhishek Sharma,SV Samson,LH Ferguson,0,0,1,FALSE,107,22,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,3,India,New Zealand,Abhishek Sharma,SV Samson,LH Ferguson,1,0,2,FALSE,106,23,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,4,India,New Zealand,SV Samson,Abhishek Sharma,LH Ferguson,4,0,3,FALSE,105,27,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,5,India,New Zealand,SV Samson,Abhishek Sharma,LH Ferguson,6,0,4,FALSE,104,33,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,6,India,New Zealand,SV Samson,Abhishek Sharma,LH Ferguson,4,0,5,FALSE,103,37,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,7,India,New Zealand,SV Samson,Abhishek Sharma,LH Ferguson,0,5,5,TRUE,103,42,FALSE,0,225,230,226,5,NA,NA,NA,NA,,,NA,NA,2.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,3,8,India,New Zealand,SV Samson,Abhishek Sharma,LH Ferguson,0,0,6,FALSE,102,42,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,2.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,1,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,4,0,1,FALSE,101,46,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,2,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,0,5,1,TRUE,101,51,FALSE,0,225,230,226,5,NA,NA,NA,NA,,,NA,NA,3.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,3,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,0,0,2,FALSE,100,51,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,4,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,0,0,3,FALSE,99,51,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,5,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,4,0,4,FALSE,98,55,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,6,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,0,1,4,TRUE,98,56,FALSE,0,225,230,226,1,NA,NA,NA,NA,,,NA,NA,3.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,7,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,6,0,5,FALSE,97,62,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,4,8,India,New Zealand,Abhishek Sharma,SV Samson,AF Milne,6,0,6,FALSE,96,68,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,3.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,1,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,4,0,1,FALSE,95,72,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,2,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,6,0,2,FALSE,94,78,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,3,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,0,0,3,FALSE,93,78,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,4,India,New Zealand,SV Samson,Abhishek Sharma,MJ Henry,1,0,4,FALSE,92,79,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,5,India,New Zealand,Abhishek Sharma,SV Samson,MJ Henry,0,1,4,TRUE,92,80,FALSE,0,225,230,226,1,NA,NA,NA,NA,,,NA,NA,4.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,6,India,New Zealand,Abhishek Sharma,SV Samson,MJ Henry,0,0,5,FALSE,91,80,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,5,7,India,New Zealand,Abhishek Sharma,SV Samson,MJ Henry,2,0,6,FALSE,90,82,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,4.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,6,1,India,New Zealand,SV Samson,Abhishek Sharma,MG Bracewell,0,0,1,FALSE,89,82,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,6,2,India,New Zealand,SV Samson,Abhishek Sharma,MG Bracewell,6,0,2,FALSE,88,88,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,6,3,India,New Zealand,SV Samson,Abhishek Sharma,MG Bracewell,4,0,3,FALSE,87,92,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,6,4,India,New Zealand,SV Samson,Abhishek Sharma,MG Bracewell,1,0,4,FALSE,86,93,FALSE,0,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,6,5,India,New Zealand,Abhishek Sharma,SV Samson,MG Bracewell,0,0,5,FALSE,85,93,TRUE,1,225,230,226,NA,NA,NA,NA,NA,caught,Abhishek Sharma,NA,NA,5.5,NA,AF Milne,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,6,6,India,New Zealand,Tilak Varma,SV Samson,MG Bracewell,1,0,6,FALSE,84,94,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,5.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,7,1,India,New Zealand,Tilak Varma,SV Samson,MJ Santner,1,0,1,FALSE,83,95,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,7,2,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,0,0,2,FALSE,82,95,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,7,3,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,0,0,3,FALSE,81,95,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,7,4,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,2,0,4,FALSE,80,97,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,7,5,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,4,0,5,FALSE,79,101,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,7,6,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,1,0,6,FALSE,78,102,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,6.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,8,1,India,New Zealand,SV Samson,Tilak Varma,MG Bracewell,6,0,1,FALSE,77,108,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,8,2,India,New Zealand,SV Samson,Tilak Varma,MG Bracewell,1,0,2,FALSE,76,109,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,8,3,India,New Zealand,Tilak Varma,SV Samson,MG Bracewell,0,0,3,FALSE,75,109,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,8,4,India,New Zealand,Tilak Varma,SV Samson,MG Bracewell,1,0,4,FALSE,74,110,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,8,5,India,New Zealand,SV Samson,Tilak Varma,MG Bracewell,1,0,5,FALSE,73,111,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,8,6,India,New Zealand,Tilak Varma,SV Samson,MG Bracewell,1,0,6,FALSE,72,112,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,7.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,9,1,India,New Zealand,Tilak Varma,SV Samson,MJ Santner,0,0,1,FALSE,71,112,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,9,2,India,New Zealand,Tilak Varma,SV Samson,MJ Santner,0,0,2,FALSE,70,112,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,9,3,India,New Zealand,Tilak Varma,SV Samson,MJ Santner,0,0,3,FALSE,69,112,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,9,4,India,New Zealand,Tilak Varma,SV Samson,MJ Santner,1,0,4,FALSE,68,113,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,9,5,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,2,0,5,FALSE,67,115,FALSE,1,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,8.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,9,6,India,New Zealand,SV Samson,Tilak Varma,MJ Santner,0,0,6,FALSE,66,115,TRUE,2,225,230,226,NA,NA,NA,NA,NA,bowled,SV Samson,NA,NA,8.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,10,1,India,New Zealand,Tilak Varma,SS Iyer,MG Bracewell,1,0,1,FALSE,65,116,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,10,2,India,New Zealand,SS Iyer,Tilak Varma,MG Bracewell,1,0,2,FALSE,64,117,FALSE,2,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,10,3,India,New Zealand,Tilak Varma,SS Iyer,MG Bracewell,0,0,3,FALSE,63,117,TRUE,3,225,230,226,NA,NA,NA,NA,NA,caught,Tilak Varma,NA,NA,9.3,NA,LH Ferguson,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,10,4,India,New Zealand,Ishan Kishan,SS Iyer,MG Bracewell,0,0,4,FALSE,62,117,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,10,5,India,New Zealand,Ishan Kishan,SS Iyer,MG Bracewell,1,0,5,FALSE,61,118,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,10,6,India,New Zealand,SS Iyer,Ishan Kishan,MG Bracewell,1,0,6,FALSE,60,119,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,9.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,11,1,India,New Zealand,SS Iyer,Ishan Kishan,MJ Santner,2,0,1,FALSE,59,121,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,11,2,India,New Zealand,SS Iyer,Ishan Kishan,MJ Santner,1,0,2,FALSE,58,122,FALSE,3,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,11,3,India,New Zealand,Ishan Kishan,SS Iyer,MJ Santner,0,0,3,FALSE,57,122,TRUE,4,225,230,226,NA,NA,NA,NA,NA,caught,Ishan Kishan,NA,NA,10.3,NA,FH Allen,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,11,4,India,New Zealand,AR Patel,SS Iyer,MJ Santner,1,0,4,FALSE,56,123,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,11,5,India,New Zealand,SS Iyer,AR Patel,MJ Santner,1,0,5,FALSE,55,124,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,11,6,India,New Zealand,AR Patel,SS Iyer,MJ Santner,4,0,6,FALSE,54,128,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,10.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,12,1,India,New Zealand,SS Iyer,AR Patel,MG Bracewell,1,0,1,FALSE,53,129,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,12,2,India,New Zealand,AR Patel,SS Iyer,MG Bracewell,1,0,2,FALSE,52,130,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,12,3,India,New Zealand,SS Iyer,AR Patel,MG Bracewell,1,0,3,FALSE,51,131,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,12,4,India,New Zealand,AR Patel,SS Iyer,MG Bracewell,1,0,4,FALSE,50,132,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,12,5,India,New Zealand,SS Iyer,AR Patel,MG Bracewell,1,0,5,FALSE,49,133,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,12,6,India,New Zealand,AR Patel,SS Iyer,MG Bracewell,6,0,6,FALSE,48,139,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,11.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,13,1,India,New Zealand,SS Iyer,AR Patel,LH Ferguson,0,0,1,FALSE,47,139,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,13,2,India,New Zealand,SS Iyer,AR Patel,LH Ferguson,1,0,2,FALSE,46,140,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,13,3,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,0,0,3,FALSE,45,140,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,13,4,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,0,0,4,FALSE,44,140,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,13,5,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,2,0,5,FALSE,43,142,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,13,6,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,4,0,6,FALSE,42,146,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,12.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,14,1,India,New Zealand,SS Iyer,AR Patel,MJ Henry,6,0,1,FALSE,41,152,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,14,2,India,New Zealand,SS Iyer,AR Patel,MJ Henry,2,0,2,FALSE,40,154,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,14,3,India,New Zealand,SS Iyer,AR Patel,MJ Henry,1,0,3,FALSE,39,155,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,14,4,India,New Zealand,AR Patel,SS Iyer,MJ Henry,4,0,4,FALSE,38,159,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,14,5,India,New Zealand,AR Patel,SS Iyer,MJ Henry,1,0,5,FALSE,37,160,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,14,6,India,New Zealand,SS Iyer,AR Patel,MJ Henry,6,0,6,FALSE,36,166,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,13.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,1,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,0,0,1,FALSE,35,166,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,2,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,0,1,1,TRUE,35,167,FALSE,4,225,230,226,1,NA,NA,NA,NA,,,NA,NA,14.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,3,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,0,0,2,FALSE,34,167,FALSE,4,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,4,India,New Zealand,AR Patel,SS Iyer,LH Ferguson,0,0,3,FALSE,33,167,TRUE,5,225,230,226,NA,NA,NA,NA,NA,caught,AR Patel,NA,NA,14.3,NA,DP Conway,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,5,India,New Zealand,Naman Dhir,SS Iyer,LH Ferguson,1,0,4,FALSE,32,168,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,6,India,New Zealand,SS Iyer,Naman Dhir,LH Ferguson,2,0,5,FALSE,31,170,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,15,7,India,New Zealand,SS Iyer,Naman Dhir,LH Ferguson,1,0,6,FALSE,30,171,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,14.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,1,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,2,0,1,FALSE,29,173,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,2,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,1,0,2,FALSE,28,174,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,3,India,New Zealand,Naman Dhir,SS Iyer,NG Smith,1,0,3,FALSE,27,175,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,4,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,2,0,4,FALSE,26,177,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,5,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,0,0,5,FALSE,25,177,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,6,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,0,1,5,TRUE,25,178,FALSE,5,225,230,226,NA,1,NA,NA,NA,,,NA,NA,15.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,16,7,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,0,0,6,FALSE,24,178,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,15.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,1,India,New Zealand,Naman Dhir,SS Iyer,MJ Santner,2,0,1,FALSE,23,180,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,2,India,New Zealand,Naman Dhir,SS Iyer,MJ Santner,0,1,1,TRUE,23,181,FALSE,5,225,230,226,1,NA,NA,NA,NA,,,NA,NA,16.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,3,India,New Zealand,Naman Dhir,SS Iyer,MJ Santner,6,0,2,FALSE,22,187,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,4,India,New Zealand,Naman Dhir,SS Iyer,MJ Santner,4,0,3,FALSE,21,191,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,5,India,New Zealand,Naman Dhir,SS Iyer,MJ Santner,1,0,4,FALSE,20,192,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,6,India,New Zealand,SS Iyer,Naman Dhir,MJ Santner,4,0,5,FALSE,19,196,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,17,7,India,New Zealand,SS Iyer,Naman Dhir,MJ Santner,1,0,6,FALSE,18,197,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,16.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,18,1,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,2,0,1,FALSE,17,199,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,18,2,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,1,0,2,FALSE,16,200,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,18,3,India,New Zealand,Naman Dhir,SS Iyer,NG Smith,1,0,3,FALSE,15,201,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,18,4,India,New Zealand,SS Iyer,Naman Dhir,NG Smith,1,0,4,FALSE,14,202,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,18,5,India,New Zealand,Naman Dhir,SS Iyer,NG Smith,4,0,5,FALSE,13,206,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,18,6,India,New Zealand,Naman Dhir,SS Iyer,NG Smith,4,0,6,FALSE,12,210,FALSE,5,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,17.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,19,1,India,New Zealand,SS Iyer,Naman Dhir,AF Milne,0,0,1,FALSE,11,210,TRUE,6,225,230,226,NA,NA,NA,NA,NA,caught,SS Iyer,NA,NA,18.1,NA,MJ Santner,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,19,2,India,New Zealand,Nithish Kumar Reddy,Naman Dhir,AF Milne,0,0,2,FALSE,10,210,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,19,3,India,New Zealand,Nithish Kumar Reddy,Naman Dhir,AF Milne,1,0,3,FALSE,9,211,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,19,4,India,New Zealand,Naman Dhir,Nithish Kumar Reddy,AF Milne,4,0,4,FALSE,8,215,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.4,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,19,5,India,New Zealand,Naman Dhir,Nithish Kumar Reddy,AF Milne,2,0,5,FALSE,7,217,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.5,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,19,6,India,New Zealand,Naman Dhir,Nithish Kumar Reddy,AF Milne,1,0,6,FALSE,6,218,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,18.6,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,20,1,India,New Zealand,Naman Dhir,Nithish Kumar Reddy,MJ Henry,4,0,1,FALSE,5,222,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.1,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,20,2,India,New Zealand,Naman Dhir,Nithish Kumar Reddy,MJ Henry,1,0,2,FALSE,4,223,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.2,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,20,3,India,New Zealand,Nithish Kumar Reddy,Naman Dhir,MJ Henry,1,0,3,FALSE,3,224,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.3,NA,,NA,NA,drop
+1539432,2026/27,2026-10-22,"Hagley Oval, Christchurch",2,20,4,India,New Zealand,Naman Dhir,Nithish Kumar Reddy,MJ Henry,6,0,4,FALSE,2,230,FALSE,6,225,230,226,NA,NA,NA,NA,NA,,,NA,NA,19.4,NA,,NA,NA,drop

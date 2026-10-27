@@ -326,11 +326,16 @@ def build(serve=False):
     print(f"  articles: {len(articles)}  projects: {len(projects)}")
 
     if serve:
+        import functools
         import http.server
         import socketserver
-        os.chdir(DIST)
         port = 8000
-        handler = http.server.SimpleHTTPRequestHandler
+        # Bind the handler to dist/ explicitly rather than chdir-ing into it,
+        # so a later rebuild (which recreates dist/) can't break the server's
+        # working directory.
+        handler = functools.partial(http.server.SimpleHTTPRequestHandler,
+                                    directory=str(DIST))
+        socketserver.TCPServer.allow_reuse_address = True
         with socketserver.TCPServer(("", port), handler) as httpd:
             print(f"Serving {DIST} at http://localhost:{port} (Ctrl-C to stop)")
             httpd.serve_forever()

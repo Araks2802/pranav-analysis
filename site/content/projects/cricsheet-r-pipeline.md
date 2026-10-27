@@ -11,8 +11,8 @@ source: "Cricsheet (CC BY-SA 4.0)"
 tools: ["R", "cricketdata", "dplyr", "tidyr", "ggplot2", "readr"]
 repo: ""
 app: ""
-cover: "/charts/cricket/01_chase_progression.png"
-cover_alt: "Example chart output from the R pipeline: India's chase progression"
+cover: "/charts/cricket/t1_01_chase_worm.png"
+cover_alt: "Example chart output from the R pipeline: a ball-by-ball chase worm"
 summary: "The analytical engine behind the cricket writing — fetch, clean, validate, and chart any supported T20 match reproducibly."
 status: "Active"
 ---
@@ -35,7 +35,7 @@ Shared theme, palette, save and validation helpers live in `_helpers.R`, so a ne
 
 ## Key findings
 
-The first published output is the India–New Zealand 3rd T20I of 27 October 2026 (see the [featured article](/cricket/199-in-80-balls-india-demolition/)). That match was **not yet in the Cricsheet archive** at the time of writing, which the pipeline handled exactly as designed: it reported the gap, fell back to the verified scorecard, validated every total, and labelled the charts that would normally need ball-by-ball data as checkpoint reconstructions.
+The first published output is the India–New Zealand 1st T20I of 22 October 2026 (see the [featured article](/cricket/226-chased-down-christchurch-thriller/)). That match is **complete in the Cricsheet archive** — both innings, every delivery — so the pipeline fetched it, reconciled all four innings totals, wickets and legal-ball counts against the published scorecard, and generated a real ball-by-ball worm, phase breakdown and bowling figures. A later match in the same series (the 3rd T20I) was **not yet archived** when first examined, and the pipeline handled that too: it reported the gap and fell back to scorecard-level metrics rather than inventing deliveries. Same workflow, honest about what each match's data can support.
 
 ## Limitations
 
