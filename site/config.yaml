@@ -10,10 +10,11 @@ description: >-
   Independent cricket and football analysis — match breakdowns, player studies,
   tactical pieces and reproducible data projects, built on open data and
   transparent methods.
-# Contact / social links. These are placeholders — replace with your real
-# details before publishing. Leave a value blank to hide that link.
+# Contact / social links. Replace the placeholder email with your real address.
+# Leave a value blank to hide that link.
 contact:
-  email: "your.email@example.com"
+  email: "your.email@example.com"   # <-- replace with your real email
+  medium: "https://medium.com/@arakkal.pranav"
   github: ""        # e.g. https://github.com/yourusername
   linkedin: ""      # e.g. https://www.linkedin.com/in/yourusername
   x: ""             # e.g. https://x.com/yourusername

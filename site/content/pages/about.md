@@ -5,7 +5,7 @@ description: "About Pranav Arakkal — a sports analyst working in R and Python 
 preview: "I'm a sports analyst who likes the awkward questions — the ones that need a dataset, not a hot take. This site is where I work through them in cricket and football, with the method shown alongside the story."
 ---
 
-I analyse cricket and football with data. This site is where that work lives: match breakdowns, player studies, tactical pieces and longer research projects, each one built on data I can point to and methods I can defend.
+I'm a Master's student in sport analytics, and I analyse cricket and football with data. This site is where that work lives: match breakdowns, player studies, tactical pieces and longer research projects, each one built on data I can point to and methods I can defend.
 
 My approach is simple to describe and harder to do well. Start with a question worth answering. Find data that can actually answer it. Clean it, validate it, and be honest about what it can and can't tell you. Then write it up so that someone who loves the sport — not just someone who loves spreadsheets — wants to read to the end.
 
@@ -25,6 +25,6 @@ That discipline matters most when the story is exciting. It's easy to let a spec
 
 ## What I'm looking for
 
-I'm keen to work in cricket or football analysis — with clubs, performance teams, recruitment setups or sports-technology companies — and to keep building this body of public, reproducible work. If something here is useful, or you'd like to talk about a problem you're trying to solve with data, please get in touch.
+I'm keen to work in cricket or football analysis — with clubs, performance teams, recruitment setups or sports-technology companies — and to keep building this body of public, reproducible work. You can also find my longer-form writing on [Medium](https://medium.com/@arakkal.pranav). If something here is useful, or you'd like to talk about a problem you're trying to solve with data, please get in touch.
 
-*The contact links on this page are placeholders until I add my real details — if you're reading this before I have, the email address in the site footer is the one to use.*
+*The email address below is a placeholder until I add my real contact details.*

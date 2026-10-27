@@ -14,6 +14,7 @@
   <p>Open to cricket and football analysis roles, data projects and conversations about the game.</p>
   <ul class="contact-list">
     {% if config.contact.email %}<li><a href="mailto:{{ config.contact.email }}">{{ config.contact.email }}</a></li>{% endif %}
+    {% if config.contact.medium %}<li><a href="{{ config.contact.medium }}" rel="me noopener">Medium</a></li>{% endif %}
     {% if config.contact.github %}<li><a href="{{ config.contact.github }}" rel="me noopener">GitHub</a></li>{% endif %}
     {% if config.contact.linkedin %}<li><a href="{{ config.contact.linkedin }}" rel="me noopener">LinkedIn</a></li>{% endif %}
     {% if config.contact.x %}<li><a href="{{ config.contact.x }}" rel="me noopener">X</a></li>{% endif %}

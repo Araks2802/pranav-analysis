@@ -55,28 +55,28 @@ Start with New Zealand, because their innings is the reason this was a contest a
 <div class="stat-row">
   <div class="stat-callout"><div class="stat-value">225/4</div><div class="stat-label">New Zealand's total — a score that wins the vast majority of T20Is</div></div>
   <div class="stat-callout"><div class="stat-value">82*</div><div class="stat-label">Glenn Phillips off 40 balls, at a strike rate of 205</div></div>
-  <div class="stat-callout"><div class="stat-value">13.0</div><div class="stat-label">New Zealand's death-overs run rate (overs 16-20) — they finished hard</div></div>
+  <div class="stat-callout"><div class="stat-value">13.4</div><div class="stat-label">New Zealand's death-overs run rate (overs 16-20) — they finished hard</div></div>
 </div>
 
-New Zealand did exactly what a side batting first should do on a flat one: they front-loaded nothing and saved their fastest scoring for last, lifting from under ten an over in the powerplay to thirteen at the death. On most nights, 225 with that late surge is a winning script.
+New Zealand did exactly what a side batting first should do on a flat one: they kept a steady ten an over through the first fifteen, then saved their fastest scoring for last, lifting to 13.4 an over at the death. On most nights, 225 with that late surge is a winning script.
 
 ## How India actually won it: the first six overs
 
-India's answer was to make the powerplay the whole argument. They were **82 without loss after six overs** — scoring at 16.4 an over while New Zealand had managed 49 in the same phase. That 33-run head start was, in effect, the match.
+India's answer was to make the powerplay the whole argument. They were **94 for 1 after six overs** — scoring at 15.7 an over while New Zealand had managed 65 in the same phase. That 29-run head start was, in effect, the match.
 
 <figure class="chart-figure">
-  <img src="/charts/cricket/t1_02_phase.png" alt="Bar chart of run rate by phase for both teams; India's powerplay rate of 16.4 towers over every other bar">
+  <img src="/charts/cricket/t1_02_phase.png" alt="Bar chart of run rate by phase for both teams; India's powerplay rate of 15.7 towers over every other bar">
   <figcaption>India's powerplay rate towers over everything else in the match. They banked the game early, then had to hang on.
   <span class="chart-source">Cricsheet ball-by-ball · 1st T20I, 22 Oct 2026.</span></figcaption>
 </figure>
 
-Abhishek Sharma set it alight with 29 off 12, and the openers raced to 93 before the first wicket. Here's the honest wrinkle, though: that phase chart also shows where New Zealand nearly got back in. India's middle overs (7-15) slowed to 9.33 an over — *below* New Zealand's rate in the same phase — and that's not a coincidence of tempo. It's where the wickets came.
+Abhishek Sharma set it alight with 29 off 12, and the openers had raced to 93 before he holed out in the sixth over. Here's the honest wrinkle, though: that phase chart also shows where New Zealand nearly got back in. India's middle overs (7-15) slowed to 8.6 an over — *below* New Zealand's rate in the same phase — and that's not a coincidence of tempo. It's where the wickets came.
 
 ## The wobble the scoreboard hides
 
-Between overs 6.5 and 11.3, India lost four wickets for 29 runs: Abhishek, Samson's early partners, and a middle order suddenly staring at a required rate creeping back up. A chase that looked won at 93 for 0 was 122 for 4 inside five overs. This is the part a "won by 4 wickets" line erases completely.
+Having lost Abhishek at 93, India then lost three more wickets for 29 runs: by the 11th over they had slid from a serene 94 for 1 to 122 for 4. A chase that looked all but won in the powerplay suddenly had a middle order staring at a required rate ticking back up. This is the part a "won by 4 wickets" line erases completely.
 
-What saved it was Sanju Samson. His 67 off 33 was the innings that held the chase together through the wobble — not the flashiest hand on the card, but the one that mattered most, absorbing the pressure while the required rate ticked and then reopening the throttle. Then Naman Dhir's 42 not out off 15 at the death turned a nervy finish into a two-ball win.
+What saved it was Sanju Samson. His 67 off 33 was the innings that held the chase together through the wobble — not the flashiest hand on the card, but the one that mattered most, absorbing the pressure while the required rate climbed and then reopening the throttle. Then Naman Dhir's 42 not out off 15 at the death turned a nervy finish into a two-ball win.
 
 <figure class="chart-figure">
   <img src="/charts/cricket/t1_04_boundary_split.png" alt="Horizontal bars splitting the top scorers' runs into boundary runs and runs from running">
@@ -100,6 +100,6 @@ That's the fairer reading than "New Zealand bowled badly." Two bowlers did their
 
 ## The verdict
 
-So who won this — India's batting, or New Zealand's bowling? The data points firmly at the first innings of India's reply. The powerplay was the match: 82 for 0 against 49 for 1 is a lead you rarely surrender, even through a four-wicket wobble. New Zealand's spinners dragged it back to a genuine contest and very nearly all the way; their quicks couldn't finish the job.
+So who won this — India's batting, or New Zealand's bowling? The data points firmly at the first innings of India's reply. The powerplay was the match: 94 for 1 against 65 for 1 is a lead you rarely surrender, even through a middle-overs wobble. New Zealand's spinners dragged it back to a genuine contest and very nearly all the way; their quicks couldn't finish the job.
 
 For New Zealand, the uncomfortable truth is that 225 and a brilliant Phillips hundred-in-all-but-name still lost, because India's top order treats a big target as a sprint to be won in the first six overs rather than a marathon to be managed over twenty. For India, the takeaway is subtler than the scoreline: they won going away up front, then had to dig in. Two balls to spare isn't a thrashing. It's a reminder that even a record chase can get interesting if you let the middle overs drift.

@@ -130,6 +130,7 @@ def load_articles():
                 "reading_time": fm.get("reading_time") or reading_time(body),
                 "body_html": html,
                 "related": fm.get("related", []) or [],
+                "medium": fm.get("medium", ""),
             })
     # newest first
     articles.sort(key=lambda a: (a["date"] or dt.date.min), reverse=True)

@@ -30,8 +30,10 @@ Rodri (Spain) and Declan Rice (England) both anchored midfields that reached the
 
 ## Key findings
 
-- The two players progress the ball through **different mechanisms**: Rodri's final-third entries are predominantly *passes* from a deep central base; Rice's include a heavier share of *carries*, driving the ball forward himself before release.
+- The two players progress the ball through **different mechanisms**: Rodri's final-third entries are predominantly *passes* from a deep central base (436 passes at 94% completion); Rice's include a heavier share of *carries* (443), driving the ball forward himself before release.
+- Volume vs efficiency: Rice did more in raw terms (536 passes, 443 carries) but across 690 minutes to Rodri's 521 — on a per-90 basis Rodri is the more efficient distributor.
 - This matches the stylistic demands of their teams — Spain's structured possession versus England's more direct, line-breaking use of Rice.
+- The fuller write-up, including the territory and defensive-profile comparison, is the [featured football article](/football/rodri-rice-euro-2024-progressions/) and the [original on Medium](https://medium.com/@arakkal.pranav/who-ran-euro-2024s-engine-room-rodri-vs-declan-rice-0f61faf3bf20).
 
 <figure class="chart-figure">
   <img src="/charts/football/rodri_touches.png" alt="Rodri touch map at Euro 2024">

@@ -77,29 +77,33 @@ bowl_card <- function(d) {
 ind_bowl <- bowl_card(nz)    # India bowled in innings 1
 nz_bowl  <- bowl_card(ind)   # NZ bowled in innings 2
 
-# Cumulative worm per innings (by legal-ball count for a smooth real worm)
+# Cumulative worm per innings.
+# Cricsheet here: `over` is 1-indexed (1..20); `is_legal` flags legal balls.
+# Decimal-over position AFTER a delivery = (legal balls bowled so far) / 6, so
+# the innings' last legal ball lands at legal_no/6 overs (e.g. 118/6 = 19.67).
 worm <- m %>% arrange(innings, over, ball) %>%
   group_by(innings) %>%
   mutate(cum_runs = cumsum(runs_off_bat + extras),
-         ball_no = row_number(),
+         ball_no  = row_number(),
          legal_no = cumsum(is_legal),
-         over_dec = (legal_no - 1) %/% 6 + ((legal_no - 1) %% 6) / 6) %>%
+         over_dec = legal_no / 6) %>%   # overs completed after this delivery
   ungroup()
 
-# Fall of wickets with score & over
-fow <- m %>% filter(is_wkt) %>% arrange(innings, over, ball) %>%
-  group_by(innings) %>%
-  mutate(team_runs_at = NA) %>% ungroup()
-# compute runs at each wicket from worm
+# Cricket-notation over string for a given legal-ball count, e.g. 118 -> "19.4"
+overs_notation <- function(legal_balls) sprintf("%d.%d", legal_balls %/% 6, legal_balls %% 6)
+
+# Fall of wickets: use the worm's correct decimal over + running score.
 fow <- worm %>% filter(is_wkt) %>%
   transmute(innings, batting_team, player_dismissed,
-            over_num = over + ball/10, score_at = cum_runs)
+            over_dec, over_str = overs_notation(legal_no),
+            score_at = cum_runs)
 
-# Phase scoring (powerplay 1-6, middle 7-15, death 16-20) per innings
+# Phase scoring. `over` is 1-indexed, so powerplay = overs 1-6 (over <= 6),
+# middle = 7-15 (over <= 15), death = 16-20.
 phase <- m %>%
-  mutate(phase = case_when(over < 6 ~ "Powerplay (1-6)",
-                           over < 15 ~ "Middle (7-15)",
-                           TRUE ~ "Death (16-20)"),
+  mutate(phase = case_when(over <= 6  ~ "Powerplay (1-6)",
+                           over <= 15 ~ "Middle (7-15)",
+                           TRUE       ~ "Death (16-20)"),
          phase = factor(phase, levels = c("Powerplay (1-6)","Middle (7-15)","Death (16-20)"))) %>%
   group_by(innings, batting_team, phase) %>%
   summarise(runs = sum(runs_off_bat + extras), balls = sum(is_legal),
@@ -135,7 +139,7 @@ p1 <- ggplot(worm_plot, aes(over_dec, cum_runs, colour = side)) +
   annotate("text", x = 0.3, y = 233, label = "NZ 225 — India's target: 226",
            colour = brand$red, hjust = 0, size = 3.6) +
   geom_line(linewidth = 1.25) +
-  geom_point(data = fow_lab, aes(over_num, score_at, colour = side), shape = 4, size = 3, stroke = 1.3) +
+  geom_point(data = fow_lab, aes(over_dec, score_at, colour = side), shape = 4, size = 3, stroke = 1.3) +
   scale_colour_manual(values = c("India 230/6" = col_india, "New Zealand 225/4" = col_nz), name = NULL) +
   scale_x_continuous(limits = c(0, 20), breaks = seq(0, 20, 4)) +
   scale_y_continuous(limits = c(0, 245), breaks = seq(0, 240, 60)) +

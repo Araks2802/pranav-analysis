@@ -254,9 +254,12 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .source-list li { padding: 7px 0; border-bottom: 1px solid var(--line-soft); font-size: .92rem; color: var(--ink-dim); }
 .source-list a { color: var(--lime); text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
 
-.article-foot { margin-top: 36px; }
+.article-foot { margin-top: 36px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .back-link { color: var(--ink-dim); font-weight: 600; transition: color var(--t); }
 .back-link:hover { color: var(--lime); }
+.medium-link { color: var(--ink-dim); font-weight: 600; transition: color var(--t); }
+.medium-link:hover { color: var(--lime); }
+.article-football .medium-link:hover, .article-football .back-link:hover { color: var(--cyan); }
 
 /* ---- Related ------------------------------------------------------------- */
 .related { padding-block: 48px; border-top: 1px solid var(--line-soft); }
