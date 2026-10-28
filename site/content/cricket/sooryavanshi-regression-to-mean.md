@@ -24,8 +24,7 @@ methodology: >-
 sources:
   - label: "Cricsheet ball-by-ball via the cricketdata R package (CC BY-SA 4.0)"
     url: "https://cricsheet.org/"
-  - label: "Cricket Trader project — full methodology and the other questions"
-    url: "/projects/cricket-trader/"
+  - label: "Cricket Trader — a T20 analytics case study (the wider project this is from)"
 related:
   - "226-chased-down-christchurch-thriller"
 ---
@@ -73,4 +72,4 @@ The honest caveat: Sooryavanshi sits at the very edge of the data, so the uncert
 
 If a market — or a selector, or a headline — prices ~220 as Sooryavanshi's new normal, that's a misread. The defensible expectation for 2027 is a high-but-human strike rate around 177 and an average near 34, with wide error bars. Still one of the most exciting young batters in the world. Just not, in cold numerical terms, quite the one IPL 2026 made him look.
 
-*This analysis is one question from the [Cricket Trader project](/projects/cricket-trader/), a set of T20 analytics problems worked end to end in R.*
+*This analysis is one question from Cricket Trader, a set of T20 analytics problems worked end to end in R.*

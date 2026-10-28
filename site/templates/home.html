@@ -15,40 +15,11 @@
   </div>
 </section>
 
-<section class="section-split wrap">
-  <div class="split-col" data-accent="lime">
-    <div class="split-head">
-      <h2><span class="accent-lime">Cricket</span></h2>
-      <a class="more-link" href="/cricket/">All cricket →</a>
-    </div>
-    <div class="card-grid card-grid--compact">
-      {% for a in cricket_articles %}{{ article_card(a) }}{% endfor %}
-    </div>
-  </div>
-  <div class="split-col" data-accent="cyan">
-    <div class="split-head">
-      <h2><span class="accent-cyan">Football</span></h2>
-      <a class="more-link" href="/football/">All football →</a>
-    </div>
-    <div class="card-grid card-grid--compact">
-      {% for a in football_articles %}{{ article_card(a) }}{% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="latest wrap">
+<section class="latest-feed wrap">
   <p class="section-label">Latest</p>
-  <ul class="latest-list">
-    {% for a in latest %}
-    <li>
-      <a href="{{ a.url }}"{% if a.external %} rel="noopener"{% endif %}>
-        <span class="latest-kicker kicker--{{ a.accent }}">{{ a.section_name }}</span>
-        <span class="latest-title">{{ a.title }}{% if a.external %} <span class="ext-mark">↗</span>{% endif %}</span>
-        <span class="latest-meta"><time datetime="{{ a.date }}">{{ a.date_display }}</time></span>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="card-grid">
+    {% for a in latest %}{{ article_card(a) }}{% endfor %}
+  </div>
 </section>
 
 {% endblock %}

@@ -6,16 +6,16 @@ standfirst: "After conceding 250 in Ranchi, India's bowlers finally found a way 
 date: 2026-10-11
 category: "Match Analysis"
 tags: ["T20I", "India", "West Indies", "Abhishek Sharma", "bowling"]
-cover: "/charts/cricket/indwi_3rd_t20i_worm.png"
-cover_alt: "Ball-by-ball worm of the third India–West Indies T20I showing West Indies falling short of 224"
+cover: "/charts/cricket/indwi_3rd_t20i_cover.png"
+cover_alt: "Match cover: India 223, West Indies 209/7, India won by 14 runs — Abhishek Sharma 69 off 30"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
-  Built from complete ball-by-ball data via Cricsheet, checked against the
-  published scorecard.
+  Built from detailed ball-by-ball data carrying delivery length, line, shot
+  type and bowler style, checked against the published scorecard.
 sources:
-  - label: "Cricsheet ball-by-ball (CC BY-SA 4.0)"
-    url: "https://cricsheet.org/"
+  - label: "Ball-by-ball data with line, length and bowler-type detail"
+  - label: "Scorecard cross-checked against ESPNcricinfo"
 related:
   - "hope-double-hyderabad-ind-wi-4th"
 ---
@@ -50,12 +50,18 @@ They didn't quite kick on — losing wickets steadily and being bowled out for 2
 
 The difference from Ranchi was the powerplay. In the chase of 250, West Indies came out swinging; here they managed just 54 for 1 in the first six, and against a target of 224 that's a hole you rarely climb out of. Shimron Hetmyer (43) and Kyle Pooran (42) kept them in touch, but the required rate stayed stubbornly ahead and India's bowlers — leaking so badly two nights earlier — found enough control at the back end to close the door.
 
+## Pace, spin and a used Indore surface
+
+The bowler-type data explains why this was the low-scoring game of the series. Break every over down into pace and spin and a clear split appears.
+
 <figure class="chart-figure">
-  <img src="/charts/cricket/indwi_3rd_t20i_bowling.png" alt="India bowling figures in the West Indies chase">
-  <figcaption>No single spell dominated, but India spread the wickets and never let West Indies find the surge that won them Ranchi.
-  <span class="chart-source">Cricsheet ball-by-ball · 3rd T20I, Indore, 11 Oct 2026.</span></figcaption>
+  <img src="/charts/cricket/indwi_3rd_pacespin.png" alt="Economy and wickets split by pace and spin for both sides; West Indies' spin and India's pace were the most economical">
+  <figcaption>Economy and wickets by bowler type. West Indies' spin (9.4 an over, four wickets) and India's pace (9.7) kept control; the attacks that went to the other type got punished.
+  <span class="chart-source">Ball-by-ball with bowler-type data · 3rd T20I, Indore, 11 Oct 2026.</span></figcaption>
 </figure>
+
+On the tired Holkar surface, the bowlers who got their type right strangled the scoring — West Indies' spinners were the most economical in the match, and India's seamers matched them. The difference was that India's pace *and* their total gave them just enough cushion. West Indies' pace, by contrast, leaked 12 an over, and chasing 224 you can't give away a phase like that. This is the game where reading the surface mattered more than firepower.
 
 ## The takeaway
 
-Not India's best batting night, but their best bowling one — and in a series this high-scoring, that was worth more. 2-1 up, one win from the series, with everything still to play for.
+Not India's best batting night, but their most controlled one with the ball — and in a series this high-scoring, that was worth more. 2-1 up, one win from the series, with everything still to play for.

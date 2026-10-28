@@ -6,16 +6,16 @@ standfirst: "Two games, two Shai Hope hundreds. His 102 lifted West Indies to 24
 date: 2026-10-14
 category: "Match Analysis"
 tags: ["T20I", "India", "West Indies", "Shai Hope", "run chase"]
-cover: "/charts/cricket/indwi_4th_t20i_worm.png"
-cover_alt: "Ball-by-ball worm of the fourth India–West Indies T20I showing India falling short of 248"
+cover: "/charts/cricket/indwi_4th_t20i_cover.png"
+cover_alt: "Match cover: West Indies 247/3, India 223, West Indies won by 24 runs — Shai Hope's second century of the series"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
-  Built from complete ball-by-ball data via Cricsheet, checked against the
-  published scorecard.
+  Built from detailed ball-by-ball data carrying delivery length, line, shot
+  type and bowler style, checked against the published scorecard.
 sources:
-  - label: "Cricsheet ball-by-ball (CC BY-SA 4.0)"
-    url: "https://cricsheet.org/"
+  - label: "Ball-by-ball data with line, length and bowler-type detail"
+  - label: "Scorecard cross-checked against ESPNcricinfo"
 related:
   - "hope-rutherford-ranchi-ind-wi-2nd"
 ---
@@ -50,11 +50,17 @@ Losing only three wickets while making 247 is the mark of a controlled, ruthless
 
 India's 223 would win plenty of games, but not when you're chasing 248 and keep losing wickets at the wrong moments. Sanju Samson's 56 off 22 gave them a flying start, and Tilak Varma's 43 kept them in the hunt, but the regular loss of partners meant the required rate crept away. Being bowled out with three balls left tells the story: India threw everything at it and came up 24 short.
 
+## No safe length: how Hope built his second ton
+
+What made Hope's 102 so demoralising for India is that there was nowhere to bowl at him. Split his innings by delivery length and every bar is tall.
+
 <figure class="chart-figure">
-  <img src="/charts/cricket/indwi_4th_t20i_bowling.png" alt="West Indies bowling figures in India's chase">
-  <figcaption>West Indies didn't need to bowl perfectly — they needed to keep taking wickets, and they did.
-  <span class="chart-source">Cricsheet ball-by-ball · 4th T20I, Hyderabad, 14 Oct 2026.</span></figcaption>
+  <img src="/charts/cricket/indwi_4th_hope_length.png" alt="Bar chart of Shai Hope's runs by delivery length; he scored heavily off full, full toss, good length and short balls alike">
+  <figcaption>Hope's 102, broken down by the length he faced. He took 44 off full balls, punished the full tosses, and even the back-of-a-length deliveries that are supposed to contain went for a healthy clip.
+  <span class="chart-source">Ball-by-ball with length data · 4th T20I, Hyderabad, 14 Oct 2026.</span></figcaption>
 </figure>
+
+This is the nightmare chart for a bowling attack. The usual plan against a set batter is to find the length they *don't* score off and camp there. Against Hope on this night there wasn't one — full, good or short, the runs kept coming. India's seamers tried to go fuller to bowl him out and got driven; they pulled the length back and got pulled. When a batter answers every question, the only mistake left is the one India made: leaking the loose balls around him too.
 
 ## The takeaway
 

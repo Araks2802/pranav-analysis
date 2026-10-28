@@ -6,16 +6,16 @@ standfirst: "India's 249 was the highest total of the series. It still lost. Sha
 date: 2026-10-09
 category: "Match Analysis"
 tags: ["T20I", "India", "West Indies", "Shai Hope", "Sherfane Rutherford", "run chase"]
-cover: "/charts/cricket/indwi_2nd_t20i_worm.png"
-cover_alt: "Ball-by-ball worm of the second India–West Indies T20I showing West Indies chasing down 250"
+cover: "/charts/cricket/indwi_2nd_t20i_cover.png"
+cover_alt: "Match cover: India 249/5, West Indies 252/4, West Indies won by 6 wickets — Shai Hope 102 off 45"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
-  Built from complete ball-by-ball data via Cricsheet, checked against the
-  published scorecard.
+  Built from detailed ball-by-ball data carrying delivery length, line, shot
+  type and bowler style, checked against the published scorecard.
 sources:
-  - label: "Cricsheet ball-by-ball (CC BY-SA 4.0)"
-    url: "https://cricsheet.org/"
+  - label: "Ball-by-ball data with line, length and bowler-type detail"
+  - label: "Scorecard cross-checked against ESPNcricinfo"
 related:
   - "hope-double-hyderabad-ind-wi-4th"
 ---
@@ -50,12 +50,18 @@ A target of 250 in a T20 is supposed to be close to unbeatable. The required rat
 
 Shai Hope's **102 off 45** was the definition of a controlled chase — he never let the required rate balloon, and once Rutherford joined him the game tilted fast. Their partnership did what you have to do to chase 250: keep the rate honest from ball one so the death overs become a finish, not a rescue. West Indies' 18.6 an over at the back end sealed it with overs to spare.
 
+## Settling into the chase
+
+Every ball can be logged as "in control" or a false shot — a mishit, edge or play-and-miss. Plot that by phase and the shape of West Indies' chase comes into focus.
+
 <figure class="chart-figure">
-  <img src="/charts/cricket/indwi_2nd_t20i_bowling.png" alt="West Indies bowling figures — here, India's attack in the West Indies chase">
-  <figcaption>India's attack had no answer. On a night like this, even good overs went for plenty.
-  <span class="chart-source">Cricsheet ball-by-ball · 2nd T20I, Ranchi, 9 Oct 2026.</span></figcaption>
+  <img src="/charts/cricket/indwi_2nd_control.png" alt="Bar chart of the share of balls each team met in control by phase; West Indies started scratchy in the powerplay then matched India's control through the middle and death">
+  <figcaption>Share of balls met cleanly, by phase. West Indies were scratchy early (67% in the powerplay) but tightened up to match India through the middle and death — exactly when the chase needed it.
+  <span class="chart-source">Ball-by-ball with shot-control data · 2nd T20I, Ranchi, 9 Oct 2026.</span></figcaption>
 </figure>
+
+That powerplay number is the tell. West Indies didn't start in command — they rode some early risk against the new ball, controlling barely two balls in three. But once Hope and Rutherford were set, their control climbed to 82-85%, right in line with India's, and stayed there through the back end. A 250 chase doesn't demand flawless batting from ball one; it demands that you stop playing false shots before the required rate bites. West Indies did exactly that, and India's bowlers — unable to force the error once the pair settled — had no way back in.
 
 ## The takeaway
 
-India will feel they left runs out there and still can't understand how 249 wasn't enough. The honest answer: it almost always is, but Shai Hope had other ideas. Series level at 1-1, and West Indies had served notice this wasn't a one-sided tour.
+India will feel they left runs out there and still can't understand how 249 wasn't enough. The honest answer: it almost always is, but Shai Hope played one of those near-flawless chases where the scoreboard pressure never arrived. Series level at 1-1, and West Indies had served notice this wasn't a one-sided tour.

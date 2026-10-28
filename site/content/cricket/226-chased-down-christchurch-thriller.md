@@ -6,8 +6,8 @@ standfirst: "Glenn Phillips' 82 took New Zealand to 225. It wasn't enough. But t
 date: 2026-10-22
 category: "Match Analysis"
 tags: ["T20I", "India", "New Zealand", "run chase", "Sanju Samson", "Glenn Phillips"]
-cover: "/charts/cricket/t1_01_chase_worm.png"
-cover_alt: "Ball-by-ball worm chart of both innings showing India's chase staying just ahead of New Zealand's pace to the target line"
+cover: "/charts/cricket/indnz_1st_t20i_cover.png"
+cover_alt: "Match cover: New Zealand 225/4, India 230/6, India won by 4 wickets with 2 balls to spare"
 author: "Pranav Arakkal"
 featured: true
 methodology: >-

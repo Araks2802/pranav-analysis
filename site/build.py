@@ -323,7 +323,6 @@ def build(serve=False):
     env = make_env(config)
 
     articles = load_articles()
-    projects = load_projects()
 
     # Merge in Medium articles (write-once-on-Medium). Suppress any Medium post
     # that already has a local article pointing at it (via frontmatter `medium:`)
@@ -360,9 +359,7 @@ def build(serve=False):
     football_articles = [a for a in articles if a["section"] == "football"]
     about_fm, about_html = load_page("about")
     write(DIST / "index.html", env.get_template("home.html").render(
-        cricket_articles=cricket_articles[:4],
-        football_articles=football_articles[:4],
-        latest=articles[:6],
+        latest=articles[:9],
         page_title=config["title"],
         page_desc=config["description"],
         canonical="/",
@@ -397,25 +394,6 @@ def build(serve=False):
                   ))
             pages_built.append(a["url"])
 
-    # ---- Projects -------------------------------------------------------- #
-    write(DIST / "projects" / "index.html", env.get_template("projects.html").render(
-        projects=projects,
-        page_title=f"Projects — {config['title']}",
-        page_desc="Larger, reproducible cricket and football analysis projects.",
-        canonical="/projects/",
-    ))
-    pages_built.append("/projects/")
-    for p in projects:
-        write(DIST / "projects" / p["slug"] / "index.html",
-              env.get_template("project.html").render(
-                  p=p,
-                  page_title=f"{p['title']} — {config['title']}",
-                  page_desc=p["summary"] or p["research_question"],
-                  canonical=p["url"],
-                  og_image=p["cover"],
-              ))
-        pages_built.append(p["url"])
-
     # ---- About ----------------------------------------------------------- #
     write(DIST / "about" / "index.html", env.get_template("about.html").render(
         body_html=about_html, fm=about_fm,
@@ -439,7 +417,7 @@ def build(serve=False):
     write(DIST / "rss.xml", rss)
 
     print(f"Built {len(pages_built)} pages into {DIST}")
-    print(f"  articles: {len(articles)}  projects: {len(projects)}")
+    print(f"  articles: {len(articles_local)} local + {len(medium_articles)} medium")
 
     if serve:
         import functools

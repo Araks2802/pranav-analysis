@@ -6,16 +6,16 @@ standfirst: "West Indies posted a competitive 171. India didn't just chase it �
 date: 2026-10-06
 category: "Match Analysis"
 tags: ["T20I", "India", "West Indies", "Shreyas Iyer", "run chase", "century"]
-cover: "/charts/cricket/indwi_1st_t20i_worm.png"
-cover_alt: "Ball-by-ball worm of the first India–West Indies T20I showing India's rapid chase of 172"
+cover: "/charts/cricket/indwi_1st_t20i_cover.png"
+cover_alt: "Match cover: West Indies 171, India 172/2, India won by 8 wickets — Shreyas Iyer 102 off 42"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
-  Built from complete ball-by-ball data via Cricsheet, checked against the
-  published scorecard.
+  Built from detailed ball-by-ball data carrying delivery length, line and shot
+  type, checked against the published scorecard.
 sources:
-  - label: "Cricsheet ball-by-ball (CC BY-SA 4.0)"
-    url: "https://cricsheet.org/"
+  - label: "Ball-by-ball data with line, length and shot detail"
+  - label: "Scorecard cross-checked against ESPNcricinfo"
 related:
   - "hope-rutherford-ranchi-ind-wi-2nd"
 ---
@@ -50,12 +50,18 @@ West Indies' innings had a familiar shape: a bright start, a middle-overs stutte
 
 India lost Abhishek and Samson early, which on another day invites pressure. Instead it simply cleared the stage for Shreyas Iyer. His **102 off 42** is the sort of innings that reframes a target: once he was set, 171 stopped being a score to chase and became a number to embarrass. Ishan Kishan's unbeaten 37 was the quiet passenger on a very fast car.
 
+## Why 171 was never enough: India's lengths took wickets
+
+Here's the part the scorecard hides. Break West Indies' innings down by the length India bowled, and you can see where the wickets came from — and where India got away with the odd loose ball.
+
 <figure class="chart-figure">
-  <img src="/charts/cricket/indwi_1st_t20i_topbat.png" alt="Top scorers' boundary versus running split in the first T20I">
-  <figcaption>How the night's big hands were built. Iyer's innings was a boundary-heavy assault with just enough running to keep the strike.
-  <span class="chart-source">Cricsheet ball-by-ball · 1st T20I, Lucknow, 6 Oct 2026.</span></figcaption>
+  <img src="/charts/cricket/indwi_1st_length.png" alt="Bar chart of West Indies' economy against each delivery length; India's full and good-length balls took wickets cheaply while short balls and full tosses were expensive">
+  <figcaption>West Indies' economy by length. India's good-length (7.5 an over, two wickets) and full (8.6, five wickets) balls did the damage; the punishment came on the short balls and full tosses — which, tellingly, India didn't bowl many of.
+  <span class="chart-source">Ball-by-ball with length data · 1st T20I, Lucknow, 6 Oct 2026.</span></figcaption>
 </figure>
+
+It's an instructive split. The deliveries that *took* wickets — full and good length — also went for under nine an over, which is the dream combination: wicket-taking and economical at once. Where India leaked was the error ball: the few short deliveries (24 an over) and full tosses (18) that any attack coughs up. The lesson isn't that they bowled a clever containing length all night; it's that they picked up wickets at a good rate on their stock balls and didn't offer West Indies enough freebies to cash in. All ten wickets fell, and the innings stalled at 171.
 
 ## The takeaway
 
-For West Indies, the lesson was blunt: 171 is below par when the opposition has a batter in this mood. Their innings wasn't bad — it was simply answered by one of the best T20I hundreds you'll see. India 1-0, and the tone for a wild series was set.
+For West Indies, the lesson was blunt: 171 is below par when the opposition takes wickets on good balls and then has a batter in this mood. Their innings wasn't terrible — it was pegged back by regular wickets and then answered by one of the best T20I hundreds you'll see. India 1-0, and the tone for a wild series was set.

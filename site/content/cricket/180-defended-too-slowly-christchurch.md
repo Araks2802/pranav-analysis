@@ -6,8 +6,8 @@ standfirst: "A chase that should have been routine turned into a wobble, and the
 date: 2026-10-24
 category: "Match Analysis"
 tags: ["T20I", "India", "New Zealand", "Tilak Varma", "Naman Dhir", "run chase"]
-cover: "/charts/cricket/indnz_2nd_t20i_worm.png"
-cover_alt: "Ball-by-ball worm of the second T20I showing India's chase tracking New Zealand's 180 and sneaking home"
+cover: "/charts/cricket/indnz_2nd_t20i_cover.png"
+cover_alt: "Match cover: New Zealand 180/5, India 181/6, India won by 4 wickets — Tilak Varma 51 off 25"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
