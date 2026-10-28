@@ -13,7 +13,7 @@ My approach is simple to describe and harder to do well. Start with a question w
 
 The work on this site reflects what I spend my time on:
 
-- **Cricket analytics in R.** I work with ball-by-ball data from the [Cricsheet](https://cricsheet.org/) archive through the `cricketdata` package — reconstructing innings, validating scorecards, and breaking performances down by phase, matchup and scoring pattern. The [reproducible R pipeline](/projects/cricsheet-r-pipeline/) behind the cricket writing is a project in its own right.
+- **Cricket analytics in R.** I work with ball-by-ball data from the [Cricsheet](https://cricsheet.org/) archive through the `cricketdata` package — reconstructing innings, validating against the scorecard, and breaking performances down by phase, matchup and scoring pattern.
 - **Football analysis in Python.** I use StatsBomb's open event data with `statsbombpy` and `mplsoccer` to answer tactical and player questions — for example, [comparing how Rodri and Declan Rice progressed the ball at Euro 2024](/projects/rodri-rice-euro-2024/).
 - **Building tools and visualisations** that turn raw event and tracking data into something a coach, recruiter or fan can read at a glance.
 

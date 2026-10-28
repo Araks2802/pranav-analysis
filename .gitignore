@@ -28,3 +28,6 @@ analysis/**/*.zip
 # Node (not used, but guard against accidental installs)
 node_modules/
 t20_bbb (1).csv
+
+# Medium cache
+site/.cache/

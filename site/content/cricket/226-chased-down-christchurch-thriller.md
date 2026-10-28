@@ -11,25 +11,15 @@ cover_alt: "Ball-by-ball worm chart of both innings showing India's chase stayin
 author: "Pranav Arakkal"
 featured: true
 methodology: >-
-  This analysis uses complete ball-by-ball data for the match from the Cricsheet
-  archive, retrieved in R with the cricketdata package. Both innings are present
-  in full, so the worm, phase breakdown, bowling figures and boundary splits are
-  computed from the actual deliveries — not reconstructed from a scorecard. Every
-  figure was reconciled against the published scorecard in R with hard
-  assertions: innings totals (runs off bat plus extras), wickets, legal balls
-  (120 for New Zealand, 118 for India's 19.4 overs) and the recorded target of
-  226 all check out. Charts and calculations are reproducible from
-  analysis/cricket/india_nz_1st_t20i.R (with fetch_1st_t20i.R to pull the data).
+  Built from complete ball-by-ball data via Cricsheet, with every figure checked
+  against the published scorecard.
 sources:
-  - label: "Cricsheet ball-by-ball archive (CC BY-SA 4.0) — men's T20Is, match 1539432"
+  - label: "Cricsheet ball-by-ball (CC BY-SA 4.0)"
     url: "https://cricsheet.org/"
-  - label: "ESPNcricinfo — full scorecard, NZ v India 1st T20I"
+  - label: "ESPNcricinfo scorecard"
     url: "https://www.espn.com/cricket/series/24469/scorecard/1539432/new-zealand-vs-india-1st-t20i-24469"
-  - label: "ESPNcricinfo — match report"
-    url: "https://www.espn.in/cricket/series/24469/report/1539432/new-zealand-vs-india-1st-t20i-24469"
-  - label: "CricTracker — NZ v IND 1st T20I full scorecard"
-    url: "https://www.crictracker.com/live-scores/nz-vs-ind-1st-t20i-india-tour-of-new-zealand-22-oct-2026/full-scorecard/"
-related: []
+related:
+  - "180-defended-too-slowly-christchurch"
 ---
 
 A total of 225 is supposed to be safe. Not "probably win" safe — *bank it and go home* safe. In the history of men's T20 internationals, a side making 225 batting first wins almost every time. New Zealand made exactly that at Hagley Oval, powered by Glenn Phillips' unbeaten 82 off 40, and still lost with two balls to spare.

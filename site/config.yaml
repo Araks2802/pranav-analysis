@@ -12,8 +12,11 @@ description: >-
   transparent methods.
 # Contact / social links. Replace the placeholder email with your real address.
 # Leave a value blank to hide that link.
+# Medium RSS feed — the build pulls these in automatically so you can write
+# once on Medium and have the site list the posts.
+medium_feed: "https://medium.com/feed/@arakkal.pranav"
 contact:
-  email: "your.email@example.com"   # <-- replace with your real email
+  email: "arakkal.pranav@gmail.com"
   medium: "https://medium.com/@arakkal.pranav"
   github: ""        # e.g. https://github.com/yourusername
   linkedin: ""      # e.g. https://www.linkedin.com/in/yourusername

@@ -30,6 +30,7 @@
 {% endif %}
 
 <section class="listing wrap" data-accent="{{ meta.accent }}">
+  {% if meta.filters %}
   <div class="listing-controls">
     <div class="filter-row" role="group" aria-label="Filter by category">
       <button class="chip is-active" data-filter="all">All</button>
@@ -42,6 +43,7 @@
       <input type="search" id="article-search" placeholder="Search {{ meta.name|lower }} articles…" autocomplete="off">
     </label>
   </div>
+  {% endif %}
 
   {% if articles %}
   <div class="card-grid js-filter-grid">

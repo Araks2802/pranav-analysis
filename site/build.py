@@ -42,20 +42,16 @@ SECTIONS = {
     "cricket": {
         "name": "Cricket",
         "accent": "lime",
-        "categories": [
-            "Match Analysis", "Player Analysis", "Tactical Analysis",
-            "Data Stories", "Explainers", "Research Projects",
-        ],
-        "blurb": "Match breakdowns, player studies, tactical pieces and reproducible cricket data projects.",
+        "categories": ["Match Analysis", "Data Stories"],
+        "filters": True,   # show the category filter
+        "blurb": "Match breakdowns and data-led cricket stories.",
     },
     "football": {
         "name": "Football",
         "accent": "cyan",
-        "categories": [
-            "Player Analysis", "Tactical Analysis", "Performance Analysis",
-            "Recruitment & Scouting", "Data Stories",
-        ],
-        "blurb": "Performance analysis, player comparisons, tactical work and football data projects.",
+        "categories": [],      # no sub-categories — everything together
+        "filters": False,
+        "blurb": "Player comparisons, tactical work and football data stories.",
     },
 }
 
@@ -176,6 +172,110 @@ def load_projects():
     return projects
 
 
+def load_medium(config):
+    """Fetch the Medium RSS feed and return external article stubs.
+
+    These link straight to Medium (write once, there). They are cached to
+    site/.cache/medium.xml so the build still works offline. Classification
+    into cricket/football is by keyword; anything else is skipped so only
+    sport pieces surface. Returns a list shaped like local articles but with
+    `external=True` and `url` pointing at Medium.
+    """
+    import urllib.request
+    import xml.etree.ElementTree as ET
+
+    feed = (config.get("medium_feed") or "").strip()
+    if not feed:
+        return []
+
+    cache_dir = ROOT / ".cache"
+    cache_dir.mkdir(exist_ok=True)
+    cache = cache_dir / "medium.xml"
+    xml_text = None
+    try:
+        req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0 (portfolio build)"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            xml_text = resp.read().decode("utf-8", "replace")
+        cache.write_text(xml_text, encoding="utf-8")
+        print("  medium: fetched feed")
+    except Exception as e:  # offline or blocked — fall back to cache
+        if cache.exists():
+            xml_text = cache.read_text(encoding="utf-8")
+            print(f"  medium: using cached feed ({e})")
+        else:
+            print(f"  medium: unavailable, skipping ({e})")
+            return []
+
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return []
+
+    ns = {"content": "http://purl.org/rss/1.0/modules/content/"}
+    # Whole-word keyword match (so "odi" doesn't match "podium"). Title is
+    # weighted by checking it first.
+    cric_kw = ("cricket", "t20", "t20i", "ipl", "odi", "wpl", "batting", "bowling",
+               "rcb", "bazball", "padikkal", "sooryavanshi", "wicket", "innings",
+               "test match", "bowler", "batsman", "batter")
+    foot_kw = ("football", "euro", "rodri", "rice", "midfield", "midfielder",
+               "premier league", "winger", "striker", "finisher", "statsbomb",
+               "defender", "fullback", "xg")
+
+    def has_kw(text, kws):
+        return any(re.search(r"\b" + re.escape(k) + r"\b", text) for k in kws)
+
+    out = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").split("?")[0]
+        pub = item.findtext("pubDate") or ""
+        html = item.findtext("content:encoded", namespaces=ns) or ""
+        text = re.sub(r"<[^>]+>", " ", html).lower()
+        title_l = title.lower()
+        # Classify on the title first; fall back to body. This keeps an F1 piece
+        # (no cricket/football words in its title) from matching a stray body word.
+        if has_kw(title_l, cric_kw):
+            section = "cricket"
+        elif has_kw(title_l, foot_kw):
+            section = "football"
+        elif has_kw(text, cric_kw) and not has_kw(text, foot_kw):
+            section = "cricket"
+        elif has_kw(text, foot_kw) and not has_kw(text, cric_kw):
+            section = "football"
+        else:
+            continue
+        # parse RFC822 date
+        try:
+            date_val = dt.datetime.strptime(pub[:25].strip(), "%a, %d %b %Y %H:%M:%S").date()
+        except Exception:
+            date_val = None
+        # first paragraph as a description
+        first_p = re.search(r"<p>(.*?)</p>", html, re.S)
+        desc = re.sub(r"<[^>]+>", "", first_p.group(1)).strip() if first_p else ""
+        desc = re.sub(r"\s+", " ", desc)[:180]
+        out.append({
+            "section": section,
+            "section_name": SECTIONS[section]["name"],
+            "accent": SECTIONS[section]["accent"],
+            "slug": None,
+            "url": link,
+            "external": True,
+            "title": title,
+            "description": desc,
+            "standfirst": desc,
+            "date": date_val,
+            "date_display": date_val.strftime("%d %B %Y") if date_val else "",
+            "category": "Data Stories",
+            "tags": [],
+            "cover": "",
+            "cover_alt": title,
+            "author": config["author"],
+            "reading_time": max(1, round(len(re.findall(r"[A-Za-z0-9']+", text)) / WORDS_PER_MIN)),
+        })
+    print(f"  medium: {len(out)} sport articles")
+    return out
+
+
 def load_page(name: str):
     path = CONTENT_DIR / "pages" / f"{name}.md"
     if not path.exists():
@@ -208,7 +308,7 @@ def write(path: Path, html: str):
 
 def related_for(article, all_articles):
     """Resolve related articles by slug, else fall back to same section."""
-    by_slug = {a["slug"]: a for a in all_articles}
+    by_slug = {a["slug"]: a for a in all_articles if a.get("slug")}
     rel = [by_slug[s] for s in article["related"] if s in by_slug]
     if len(rel) < 3:
         same = [a for a in all_articles
@@ -224,6 +324,24 @@ def build(serve=False):
 
     articles = load_articles()
     projects = load_projects()
+
+    # Merge in Medium articles (write-once-on-Medium). Suppress any Medium post
+    # that already has a local article pointing at it (via frontmatter `medium:`)
+    # so nothing is duplicated.
+    local_medium_urls = {a.get("medium", "").split("?")[0] for a in articles if a.get("medium")}
+    local_titles = {a["title"].strip().lower() for a in articles}
+    medium_articles = [
+        ma for ma in load_medium(config)
+        if ma["url"].split("?")[0] not in local_medium_urls
+        and ma["title"].strip().lower() not in local_titles
+    ]
+    for a in articles:
+        a.setdefault("external", False)
+    all_articles = articles + medium_articles
+    all_articles.sort(key=lambda a: (a["date"] or dt.date.min), reverse=True)
+    # listings use the merged set; article *pages* are built only for local ones.
+    articles_local = articles
+    articles = all_articles
 
     # Fresh dist
     if DIST.exists():
@@ -242,12 +360,9 @@ def build(serve=False):
     football_articles = [a for a in articles if a["section"] == "football"]
     about_fm, about_html = load_page("about")
     write(DIST / "index.html", env.get_template("home.html").render(
-        featured=featured,
-        cricket_articles=cricket_articles[:3],
-        football_articles=football_articles[:3],
-        latest=articles[:5],
-        projects=projects[:2],
-        about_preview=about_fm.get("preview", ""),
+        cricket_articles=cricket_articles[:4],
+        football_articles=football_articles[:4],
+        latest=articles[:6],
         page_title=config["title"],
         page_desc=config["description"],
         canonical="/",
@@ -269,8 +384,8 @@ def build(serve=False):
         ))
         pages_built.append(f"/{section}/")
 
-        # ---- Article pages ----------------------------------------------- #
-        for a in sec_articles:
+        # ---- Article pages (local only; Medium posts link out) ----------- #
+        for a in [x for x in sec_articles if not x.get("external")]:
             write(DIST / section / a["slug"] / "index.html",
                   env.get_template("article.html").render(
                       a=a, meta=meta,
@@ -320,7 +435,7 @@ def build(serve=False):
     sitemap = env.get_template("sitemap.xml").render(base=base, urls=urls, articles=articles)
     write(DIST / "sitemap.xml", sitemap)
     write(DIST / "robots.txt", f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n")
-    rss = env.get_template("rss.xml").render(base=base, articles=articles[:20])
+    rss = env.get_template("rss.xml").render(base=base, articles=articles_local[:20])
     write(DIST / "rss.xml", rss)
 
     print(f"Built {len(pages_built)} pages into {DIST}")

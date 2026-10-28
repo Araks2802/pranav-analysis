@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_card.html" import article_card, project_card %}
+{% from "_card.html" import article_card %}
 {% block body_class %}page-home{% endblock %}
 {% block content %}
 
@@ -9,32 +9,11 @@
     <h1 class="hero-title">The numbers behind the <span class="accent-lime">cricket</span> and <span class="accent-cyan">football</span> that matter.</h1>
     <p class="hero-lede">{{ config.description }}</p>
     <div class="hero-actions">
-      <a class="btn btn--solid" href="/cricket/">Read the cricket</a>
-      <a class="btn btn--ghost" href="/football/">Read the football</a>
+      <a class="btn btn--solid" href="/cricket/">Cricket</a>
+      <a class="btn btn--ghost" href="/football/">Football</a>
     </div>
   </div>
 </section>
-
-{% if featured %}
-<section class="featured wrap">
-  <p class="section-label">Featured</p>
-  <a class="featured-card" href="{{ featured.url }}" data-accent="{{ featured.accent }}">
-    <div class="featured-media">
-      {% if featured.cover %}
-      <img src="{{ featured.cover }}" alt="{{ featured.cover_alt }}" width="1200" height="675">
-      {% else %}
-      <div class="card-media--placeholder" aria-hidden="true"><span>{{ featured.section_name }}</span></div>
-      {% endif %}
-    </div>
-    <div class="featured-body">
-      <span class="kicker kicker--{{ featured.accent }}">{{ featured.section_name }} · {{ featured.category }}</span>
-      <h2 class="featured-title">{{ featured.title }}</h2>
-      <p class="featured-dek">{{ featured.standfirst }}</p>
-      <p class="card-meta"><time datetime="{{ featured.date }}">{{ featured.date_display }}</time><span aria-hidden="true">·</span><span>{{ featured.reading_time }} min read</span></p>
-    </div>
-  </a>
-</section>
-{% endif %}
 
 <section class="section-split wrap">
   <div class="split-col" data-accent="lime">
@@ -42,7 +21,6 @@
       <h2><span class="accent-lime">Cricket</span></h2>
       <a class="more-link" href="/cricket/">All cricket →</a>
     </div>
-    <p class="split-blurb">{{ sections.cricket.blurb }}</p>
     <div class="card-grid card-grid--compact">
       {% for a in cricket_articles %}{{ article_card(a) }}{% endfor %}
     </div>
@@ -52,46 +30,25 @@
       <h2><span class="accent-cyan">Football</span></h2>
       <a class="more-link" href="/football/">All football →</a>
     </div>
-    <p class="split-blurb">{{ sections.football.blurb }}</p>
     <div class="card-grid card-grid--compact">
       {% for a in football_articles %}{{ article_card(a) }}{% endfor %}
     </div>
   </div>
 </section>
 
-{% if projects %}
-<section class="projects-preview wrap">
-  <div class="split-head">
-    <h2>Selected projects</h2>
-    <a class="more-link" href="/projects/">All projects →</a>
-  </div>
-  <div class="card-grid">
-    {% for p in projects %}{{ project_card(p) }}{% endfor %}
-  </div>
-</section>
-{% endif %}
-
 <section class="latest wrap">
   <p class="section-label">Latest</p>
   <ul class="latest-list">
     {% for a in latest %}
     <li>
-      <a href="{{ a.url }}">
+      <a href="{{ a.url }}"{% if a.external %} rel="noopener"{% endif %}>
         <span class="latest-kicker kicker--{{ a.accent }}">{{ a.section_name }}</span>
-        <span class="latest-title">{{ a.title }}</span>
-        <span class="latest-meta"><time datetime="{{ a.date }}">{{ a.date_display }}</time> · {{ a.reading_time }} min</span>
+        <span class="latest-title">{{ a.title }}{% if a.external %} <span class="ext-mark">↗</span>{% endif %}</span>
+        <span class="latest-meta"><time datetime="{{ a.date }}">{{ a.date_display }}</time></span>
       </a>
     </li>
     {% endfor %}
   </ul>
-</section>
-
-<section class="about-preview wrap">
-  <div class="about-preview-inner">
-    <p class="section-label">About</p>
-    <p class="about-preview-text">{{ about_preview }}</p>
-    <a class="btn btn--ghost" href="/about/">More about me</a>
-  </div>
 </section>
 
 {% endblock %}

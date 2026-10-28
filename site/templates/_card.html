@@ -1,21 +1,20 @@
 {% macro article_card(a, large=False) %}
 <article class="card {% if large %}card--large{% endif %}" data-accent="{{ a.accent }}" data-category="{{ a.category }}" data-title="{{ a.title|lower }}" data-tags="{{ a.tags|join(' ')|lower }}">
-  <a class="card-link" href="{{ a.url }}" aria-label="{{ a.title }}">
+  <a class="card-link" href="{{ a.url }}" {% if a.external %}rel="noopener"{% endif %} aria-label="{{ a.title }}{% if a.external %} (on Medium){% endif %}">
     <div class="card-media">
       {% if a.cover %}
       <img src="{{ a.cover }}" alt="{{ a.cover_alt }}" loading="lazy" width="800" height="500">
       {% else %}
       <div class="card-media--placeholder" aria-hidden="true"><span>{{ a.section_name }}</span></div>
       {% endif %}
-      <span class="kicker kicker--{{ a.accent }}">{{ a.category }}</span>
+      {% if a.external %}<span class="kicker kicker--{{ a.accent }}">On Medium ↗</span>{% endif %}
     </div>
     <div class="card-body">
       <h3 class="card-title">{{ a.title }}</h3>
       <p class="card-dek">{{ a.description }}</p>
       <p class="card-meta">
         <time datetime="{{ a.date }}">{{ a.date_display }}</time>
-        <span aria-hidden="true">·</span>
-        <span>{{ a.reading_time }} min read</span>
+        {% if a.reading_time %}<span aria-hidden="true">·</span><span>{{ a.reading_time }} min read</span>{% endif %}
       </p>
     </div>
   </a>
