@@ -11,16 +11,17 @@ cover_alt: "Vaibhav Sooryavanshi in a pink and navy Rajasthan Royals kit raises 
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
-  Built in R from Cricsheet ball-by-ball data via the cricketdata package. One
-  row per (batter, calendar year) across IPL and men's T20Is from 2020 onward,
-  minimum 60 balls in a season. Each season is paired with that batter's own
-  next season (1,634 pairs over 735 batters). Two ordinary-least-squares models
-  predict next-season strike rate and average from this season's strike rate,
-  average, boundary %, dot %, balls and innings. Plain OLS is used deliberately
-  so every coefficient is interpretable. Sooryavanshi's 2026 line is fed in to
-  forecast 2027. This is a projection with wide uncertainty, flagged as an
-  extrapolation because he sits at the edge of the data — not a prediction of
-  failure.
+  Built in R from Cricsheet ball-by-ball data via the cricketdata package. We
+  took every batter's season in the IPL and men's T20Is from 2020 onward, as
+  long as they faced at least 60 balls that year, and paired it with the same
+  batter's next season (1,634 pairs from 735 batters). Two simple straight-line
+  models then predict next season's strike rate and average from this season's
+  strike rate, average, boundary rate, dot-ball rate, balls faced and innings.
+  We kept the models simple on purpose, so it's easy to see what pushes the
+  forecast up or down. Sooryavanshi's 2026 numbers go in, and his 2027
+  forecast comes out. He sits right at the edge of the data, so treat it as a
+  best guess with plenty of room either way, not a prediction that he'll
+  struggle.
 sources:
   - label: "Cricsheet ball-by-ball via the cricketdata R package (CC BY-SA 4.0)"
     url: "https://cricsheet.org/"
@@ -37,7 +38,7 @@ Which brings us to Vaibhav Sooryavanshi, the latest and most extreme example you
 
 Across his 2026 T20s, the IPL and T20Is for India together, a 14-year-old produced the most extreme top-order T20 season anyone has on record: a strike rate of **223** at an average of **42.6**, from 1,022 runs off 459 balls in 24 innings to 20 October.
 
-Quick translation. Strike rate is runs per 100 balls, so he scored 223 runs for every 100 balls he faced. Average is runs per dismissal, so he made 42.6 runs every time he got out. Usually you pick one: score fast and get out a lot, or hang around and score slowly. He did both, at a level nobody else has.
+Quick translation. Strike rate is runs per 100 balls, so he scored 223 runs for every 100 balls he faced. Average is runs per dismissal, so he made 42.6 runs every time he got out. Usually you pick one: score fast and get out a lot, or hang around and score slowly. He did both, at a level no top-order batter on record has.
 
 And to be clear, this wasn't luck in the sense of being undeserved. He earned every run. But if you priced his next season off these numbers, you'd be walking straight into the hot-streak trap.
 
@@ -48,7 +49,7 @@ So will it repeat? Almost certainly not. The fun part is we can show why, and ro
 Rather than guess, we can look at what happened to everyone else. Take every batter's season since 2020 in the IPL and men's T20Is, and check what they did the next season. That's 1,634 pairs of seasons from 735 batters, plenty to see a real pattern. Draw a straight line through them, then read off where Sooryavanshi's 2027 should land based on his 2026.
 
 <figure class="chart-figure">
-  <img src="/charts/cricket-trader/q3_sr_scatter.png" alt="Scatter plot: each dot is a batter's strike rate this season versus the next; the real-trend line is much flatter than the dashed repeat line, and Sooryavanshi's 2026 value is pulled down to a 2027 forecast of 177">
+  <img src="/charts/cricket/sooryavanshi_sr_scatter.png" alt="Scatter plot: each dot is a batter's strike rate this season versus the next; the real-trend line is much flatter than the dashed repeat line, and Sooryavanshi's 2026 value is pulled down to a 2027 forecast of 177">
   <figcaption>Each grey dot is one batter's season paired with their next. The dashed line is "this season repeats"; the blue line is what actually happens — far flatter. The red arrow shows Sooryavanshi's 2026 strike rate of 223 pulled down to a 2027 forecast near 177.
   <span class="chart-source">Cricsheet via cricketdata.</span></figcaption>
 </figure>
@@ -72,7 +73,7 @@ Two things drive the drop, and neither of them is "he's not that good":
 
 ## Can we trust it?
 
-The nice part is that the answer doesn't hang on one method. This approach lands at about 177. A completely different one, which looks at rolling windows of recent form, got to about 170. When two different methods land that close, you can take the number seriously. The trend line says the same thing the chart shows: hot seasons come back.
+The nice part is that the answer doesn't hang on one method. This approach lands at about 177. A completely different one, which looks at rolling windows of recent form, got to about 170. When two different methods land that close, you can take the number seriously. The trend line says the same thing the chart shows: hot seasons cool off.
 
 The honest caveat. Sooryavanshi is right at the edge of the data, so the range of likely outcomes is wide, roughly 150–200 on strike rate. The average forecast is even shakier, because averages bounce around more from year to year than strike rates do. Treat it as a best guess, not a promise.
 
