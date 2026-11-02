@@ -14,6 +14,8 @@ featured: false
 # e.g. medium: "https://medium.com/@arakkal.pranav/...". This adds the
 # "Read this on Medium" link in the article footer. Then delete the
 # "Also on Medium" placeholder paragraph at the bottom of the body.
+# Until this is filled in, build.py hides the Medium RSS copy only if the
+# Medium title matches the title above exactly, so keep them identical.
 medium: ""
 methodology: >-
   Built in Python from ball-by-ball T20 data carrying bowler type, length, line
@@ -96,7 +98,7 @@ He hit 20 sixes and 17 fours. That means 188 of his 261 runs, about 72%, came fr
 
 **Pace versus spin.** Spin is where the gap was widest. Hope struck at 218.2 against our spinners (55 balls). His usual strike rate against spin is 125.1 (1,413 balls). Against our seamers he struck at 172.0 (82 balls), against 134.3 usually (1,570 balls). He was faster than usual against both, but against spin his strike rate rose by more than 90 runs per 100 balls.
 
-That runs against his record. Spin, and slow left-arm in particular, is usually the way to slow him down. Section 4 looks at why it failed here.
+That runs against his record. Spin, with slow left-arm among the styles that usually hold him back, is normally a way to slow him down. Section 4 looks at why it failed here.
 
 ## 4. Where our spinners went wrong
 
@@ -138,11 +140,11 @@ In short, he did not need the angles. He waited for the full ball and hit it bac
 
 ## 7. Recommendations for the next time we meet him
 
-1. **Spinners: hit a good length and stay there.** This is the clearest change we can make. Full spin went for 281.5 and good-length spin for 113.6. We should take some risk of being cut or pulled off a slightly shorter ball, because it costs less than being driven.
+1. **Spinners: hit a good length and stay there.** This is the clearest change we can make. Full spin went for 281.5 and good-length spin for 113.6. That gap is the whole case. We have not tested whether a shorter ball would do better: the six spin balls short of a good length went for 19 runs, which is too few to judge either way.
 2. **Protect the straight boundaries.** With 43.3% of his series runs going to long-on and long-off, a fielder back at long-on or long-off (or both against spin) is worth more than a deep square or a fine leg. Behind square, his series output was small.
 3. **Rethink the Axar match-up.** Axar's earlier record against him (13 balls) looked good on paper but did not hold. If Axar bowls to him, the field and length have to change. Pitching up into the strike zone cannot be the default.
 4. **Open with Arshdeep at him.** Arshdeep holding him to 107.7 matches his long-term record against left-arm medium-fast. Using Arshdeep early, at good length outside off, is our best route to an early wicket.
-5. **Seamers: fewer full tosses.** Our seamers gave him 15 full tosses (18.3% of their balls to him), and he scored at 186.7 off them. Every one of those is a free hit for a batter in this form.
+5. **Seamers: fewer full tosses.** Our seamers gave him 15 full tosses, 18.3% of their balls to him. They went at 186.7, close to his series rate, so they were not our most expensive ball. The problem is volume and control: nearly one ball in five from our seamers missed its length. The costlier full-length pace ball was the one that was not a full toss (213.6), so the wider aim is to pull our seamers back from full towards a good length.
 6. **Treat the death-overs number as a warning, not a plan.** 276 off 21 balls is alarming. But the sample is too small to build a specific death plan on. Our aim should be to keep him from still being in at the death at all.
 
 ## 8. Data and method note
