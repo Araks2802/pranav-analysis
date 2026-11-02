@@ -165,6 +165,12 @@ In short, he did not need the angles. He waited for the full ball and hit it bac
 
 This is a scouting report on four innings, not a full profile of the player. The plans above are where we would start next time. We would update them as soon as he faces us again.
 
+## Final word
+
+Credit where it is due: this was an outstanding series. Two unbeaten hundreds in four innings, one of them to chase down 250, in India, is a rare return from any visiting batter. He scored 60 runs per 100 balls more than he usually does, and he did it against the spin we usually rely on in these conditions.
+
+From our side, it means Shai Hope goes to the top of the list of batters we prepare for. From everyone else's side, we would be surprised if the IPL franchises were not watching closely. A wicketkeeper who can open, anchor a 250 chase and still strike at 190 against quality spin in India is exactly the kind of player auction tables are built around. Whoever picks him up next will be getting a batter in the form of his life. Whoever bowls to him next would do well to read section 7.
+
 ---
 
 **Also on Medium:** [MEDIUM LINK PLACEHOLDER: paste the Medium URL here after publishing](#medium-link-placeholder)
