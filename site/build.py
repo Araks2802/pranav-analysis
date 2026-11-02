@@ -87,6 +87,27 @@ def render_markdown(body: str) -> str:
     )
 
 
+def resolve_cover(fm, path):
+    """Return (cover, cover_alt), falling back if a local cover file is missing.
+
+    A post can name a cover it doesn't have yet (e.g. a photo still to be
+    added). If `cover` is a site path with no file under site/static/, use
+    `cover_fallback` / `cover_fallback_alt` instead (or no cover at all), so
+    the page never shows a broken image. Drop the file in and rebuild to switch.
+    """
+    cover = fm.get("cover", "") or ""
+    alt = fm.get("cover_alt", fm.get("title", ""))
+    if cover.startswith("/") and not (STATIC_DIR / cover.lstrip("/")).is_file():
+        fallback = fm.get("cover_fallback", "") or ""
+        if fallback.startswith("/") and not (STATIC_DIR / fallback.lstrip("/")).is_file():
+            fallback = ""
+        print(f"  cover: {cover} not found for {path.name}; "
+              f"using {fallback or 'no cover'}")
+        cover = fallback
+        alt = fm.get("cover_fallback_alt", alt) if fallback else ""
+    return cover, alt
+
+
 def load_articles():
     """Load every article across sections. Returns list of dicts."""
     articles = []
@@ -104,6 +125,7 @@ def load_articles():
             if isinstance(date_val, dt.datetime):
                 date_val = date_val.date()
             html = render_markdown(body)
+            cover, cover_alt = resolve_cover(fm, path)
             articles.append({
                 "section": section,
                 "section_name": SECTIONS[section]["name"],
@@ -117,8 +139,8 @@ def load_articles():
                 "date_display": date_val.strftime("%d %B %Y") if date_val else "",
                 "category": fm.get("category", "Data Stories"),
                 "tags": fm.get("tags", []) or [],
-                "cover": fm.get("cover", ""),
-                "cover_alt": fm.get("cover_alt", fm.get("title", "")),
+                "cover": cover,
+                "cover_alt": cover_alt,
                 "author": fm.get("author", "Pranav Arakkal"),
                 "sources": fm.get("sources", []) or [],
                 "methodology": fm.get("methodology", ""),
@@ -276,15 +298,6 @@ def load_medium(config):
     return out
 
 
-def load_page(name: str):
-    path = CONTENT_DIR / "pages" / f"{name}.md"
-    if not path.exists():
-        return {}, ""
-    raw = path.read_text(encoding="utf-8")
-    fm, body = parse_frontmatter(raw)
-    return fm, render_markdown(body)
-
-
 # --------------------------------------------------------------------------- #
 # Rendering
 # --------------------------------------------------------------------------- #
@@ -357,7 +370,6 @@ def build(serve=False):
     featured = next((a for a in articles if a["featured"]), articles[0] if articles else None)
     cricket_articles = [a for a in articles if a["section"] == "cricket"]
     football_articles = [a for a in articles if a["section"] == "football"]
-    about_fm, about_html = load_page("about")
     write(DIST / "index.html", env.get_template("home.html").render(
         latest=articles[:9],
         page_title=config["title"],
@@ -393,15 +405,6 @@ def build(serve=False):
                       og_image=a["cover"],
                   ))
             pages_built.append(a["url"])
-
-    # ---- About ----------------------------------------------------------- #
-    write(DIST / "about" / "index.html", env.get_template("about.html").render(
-        body_html=about_html, fm=about_fm,
-        page_title=f"About — {config['title']}",
-        page_desc=about_fm.get("description", config["description"]),
-        canonical="/about/",
-    ))
-    pages_built.append("/about/")
 
     # ---- 404 ------------------------------------------------------------- #
     write(DIST / "404.html", env.get_template("404.html").render(

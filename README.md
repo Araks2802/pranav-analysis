@@ -22,8 +22,7 @@ and built around real analytical work.
 │   ├── content/               # all content as Markdown + YAML frontmatter
 │   │   ├── cricket/           #   cricket articles
 │   │   ├── football/          #   football articles
-│   │   ├── projects/          #   research projects
-│   │   └── pages/             #   about.md
+│   │   └── projects/          #   research projects
 │   ├── templates/             # Jinja2 HTML templates (base, article, section, …)
 │   └── static/                # css, js, favicon, and chart images (/charts/…)
 ├── analysis/

@@ -14,8 +14,6 @@ featured: false
 # e.g. medium: "https://medium.com/@arakkal.pranav/...". This adds the
 # "Read this on Medium" link in the article footer. Then delete the
 # "Also on Medium" placeholder paragraph at the bottom of the body.
-# Until this is filled in, build.py hides the Medium RSS copy only if the
-# Medium title matches the title above exactly, so keep them identical.
 medium: ""
 methodology: >-
   Built in Python from ball-by-ball T20 data carrying bowler type, length, line
@@ -28,8 +26,8 @@ sources:
   - label: "Ball-by-ball T20 data with line, length, bowler-type and wagon-zone detail"
   - label: "Cover photo: News Mill"
 related:
-  - "hope-rutherford-ranchi-ind-wi-2nd"
-  - "hope-double-hyderabad-ind-wi-4th"
+  - "sooryavanshi-regression-to-mean"
+  - "padikkal-rcb-powerplay-transformation"
 ---
 
 *Cover photo: News Mill.*
@@ -53,7 +51,7 @@ Our four main takeaways:
 - **Arshdeep Singh contained him.** Hope made 28 off Arshdeep's 26 balls (strike rate 107.7) and Arshdeep bowled him once.
 - **He hit straight.** Only 8.8% of his runs came square of the wicket or behind it, so we can set the field for that.
 
-One caveat sits over the whole report. 137 balls is a small sample. Some of these findings are fairly firm and some are only suggestive. Section 8 explains which is which.
+One caveat sits over the whole report. 137 balls is a small sample. Some of these findings are fairly firm and some are only suggestive, so we give the ball count behind each one as we go.
 
 <figure class="chart-figure">
   <img src="/charts/cricket/hope_series_dashboard.png" alt="Shai Hope series dashboard: headline numbers, usual-record comparison, wagon wheels, strike rate by length, India bowlers, phase and bowling-style splits, and innings by innings">
@@ -146,24 +144,6 @@ In short, he did not need the angles. He waited for the full ball and hit it bac
 4. **Open with Arshdeep at him.** Arshdeep holding him to 107.7 matches his long-term record against left-arm medium-fast. Using Arshdeep early, at good length outside off, is our best route to an early wicket.
 5. **Seamers: fewer full tosses.** Our seamers gave him 15 full tosses, 18.3% of their balls to him. They went at 186.7, close to his series rate, so they were not our most expensive ball. The problem is volume and control: nearly one ball in five from our seamers missed its length. The costlier full-length pace ball was the one that was not a full toss (213.6), so the wider aim is to pull our seamers back from full towards a good length.
 6. **Treat the death-overs number as a warning, not a plan.** 276 off 21 balls is alarming. But the sample is too small to build a specific death plan on. Our aim should be to keep him from still being in at the death at all.
-
-## 8. Data and method note
-
-**Source.** Every number comes from a ball-by-ball T20 dataset, filtered to the West Indies in India T20I Series 2026/27 (6–17 October 2026, five matches). Each delivery is tagged with bowler type, length, line and wagon-wheel zone. Before the analysis we checked every match in which Hope batted: both innings are present, the ball-by-ball runs add up to the innings totals, a winner is recorded, and Hope's own ball rows match his final runs and balls faced. We also checked that the data is for Shai Hope and not Kyle Hope.
-
-**Sample sizes.** The series is 4 innings and 137 legal balls (wides are not counted as balls faced). His usual record covers all his T20s from 1 January 2024 to 18 September 2026: 136 innings and 2,999 balls across the CPL (32.3% of balls), T20Is (29.4%), ILT20 (14.1%), SA20 (6.8%), PSL and IPL (4.1% each), GSL (3.9%), BBL (3.0%) and BPL (2.3%).
-
-**The series is left out of the baseline.** None of the five series matches are counted in his usual record, so the series is compared with everything else he did, not with a figure that already includes it.
-
-**The no result.** The fifth match in Bengaluru stopped with India on 118/5 after 7.4 overs. West Indies never batted and Hope did not bat. The dataset does not say why play stopped, so we treat it only as a no result.
-
-**What is firm and what is only suggestive.** The series is under 5% of the size of his usual record, so every comparison here comes with wide uncertainty.
-
-- *Reasonably firm:* that he scored much faster than usual overall (137 balls against 2,999, with a 60-point gap in strike rate), and that he scored straight rather than square (based on all 261 runs).
-- *Suggestive:* the spin-length finding (27 full balls against 22 good-length balls), the Axar result (28 balls), and Arshdeep's control (26 balls), although Arshdeep's result does fit 106 balls of earlier evidence against that bowling style.
-- *Too small to act on alone:* the death-overs strike rate (21 balls), Shivam Dube (7 balls, 21 runs), short-of-length spin (6 balls) and his yorker record (3 balls). The point about good length and dismissals rests on just two wickets. It fits his scoring rate by length, but two dismissals do not make a pattern.
-
-This is a scouting report on four innings, not a full profile of the player. The plans above are where we would start next time. We would update them as soon as he faces us again.
 
 ## Final word
 

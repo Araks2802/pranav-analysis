@@ -1,13 +1,17 @@
 ---
-title: "The Teenager and the Trap: Why Vaibhav Sooryavanshi's Numbers Will Fall (and That's Fine)"
+title: "Vaibhav Sooryavanshi: What to Expect After a 223 Strike Rate"
 slug: "sooryavanshi-regression-to-mean"
-description: "A 14-year-old struck at 223 in IPL 2026. A season-to-season model says 2027 lands nearer 177 — not because he's worse, but because almost nobody sustains a season that hot. Here's the data."
+description: "A 14-year-old struck at 223 across his 2026 T20s. A season-to-season model says 2027 lands nearer 177 — not because he's worse, but because almost nobody sustains a season that hot. Here's the data."
 standfirst: "The most extreme top-order T20 season on record belongs to a teenager. Pricing that as the new normal is a mistake the numbers can prove — without betting against the player."
 date: 2026-10-20
 category: "Data Stories"
-tags: ["T20", "IPL", "Vaibhav Sooryavanshi", "regression to the mean", "forecasting", "R"]
-cover: "/charts/cricket-trader/q3_sr_scatter.png"
-cover_alt: "Scatter of batters' strike rate this season vs next, with a flatter real-trend line and Sooryavanshi's 2026-to-2027 projection marked in red"
+tags: ["T20", "IPL", "T20I", "Vaibhav Sooryavanshi", "regression to the mean", "forecasting", "R"]
+# Cover photo: drop the file at site/static/images/vaibhav_cover.jpg and
+# rebuild. Until it exists, build.py falls back to cover_fallback below.
+cover: "/images/vaibhav_cover.jpg"
+cover_alt: "Vaibhav Sooryavanshi batting"
+cover_fallback: "/charts/cricket-trader/q3_sr_scatter.png"
+cover_fallback_alt: "Scatter of batters' strike rate this season vs next, with a flatter real-trend line and Sooryavanshi's 2026-to-2027 projection marked in red"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
@@ -26,10 +30,11 @@ sources:
     url: "https://cricsheet.org/"
   - label: "Cricket Trader — a T20 analytics case study (the wider project this is from)"
 related:
-  - "226-chased-down-christchurch-thriller"
+  - "padikkal-rcb-powerplay-transformation"
+  - "shai-hope-post-series-report-ind-wi"
 ---
 
-In IPL 2026 a 14-year-old produced the most extreme top-order T20 season anyone has on record: a strike rate of **223** at an average of **42.6**. Those numbers are not a typo, and they are not a fluke in the sense of being undeserved — Vaibhav Sooryavanshi earned every run. But if you were pricing his next season off them, you would be walking into one of the oldest traps in sport: assuming the hottest season you've ever seen is the one that repeats.
+Across his 2026 T20s, the IPL and T20Is for India together, a 14-year-old produced the most extreme top-order T20 season anyone has on record: a strike rate of **223** at an average of **43.6**, from 1,047 runs off 469 balls in 25 innings. Those numbers are not a typo, and they are not a fluke in the sense of being undeserved — Vaibhav Sooryavanshi earned every run. But if you were pricing his next season off them, you would be walking into one of the oldest traps in sport: assuming the hottest season you've ever seen is the one that repeats.
 
 It won't. And the useful part is that we can show *why* it won't, and roughly *where* it lands instead, without ever claiming the player is going to be worse. Two things get tangled together in a season like this — scoring **rate** and underlying **skill** — and they move in opposite directions. The rate almost has to fall. The skill, for a teenager, is probably still rising. Both can be true at once.
 
@@ -49,7 +54,7 @@ Look at how flat the blue line is compared with the dashed "repeat" line. That g
 
 <div class="stat-row">
   <div class="stat-callout"><div class="stat-value">223 → 177</div><div class="stat-label">2026 strike rate to 2027 forecast — still elite, far below face value</div></div>
-  <div class="stat-callout"><div class="stat-value">42.6 → 34</div><div class="stat-label">Average: 2026 to the 2027 forecast</div></div>
+  <div class="stat-callout"><div class="stat-value">43.6 → 34</div><div class="stat-label">Average: 2026 to the 2027 forecast</div></div>
   <div class="stat-callout"><div class="stat-value">1,634</div><div class="stat-label">Season-to-season pairs the model learns from</div></div>
 </div>
 
@@ -70,6 +75,6 @@ The honest caveat: Sooryavanshi sits at the very edge of the data, so the uncert
 
 ## The bottom line
 
-If a market — or a selector, or a headline — prices ~220 as Sooryavanshi's new normal, that's a misread. The defensible expectation for 2027 is a high-but-human strike rate around 177 and an average near 34, with wide error bars. Still one of the most exciting young batters in the world. Just not, in cold numerical terms, quite the one IPL 2026 made him look.
+If a market — or a selector, or a headline — prices ~220 as Sooryavanshi's new normal, that's a misread. The defensible expectation for 2027 is a high-but-human strike rate around 177 and an average near 34, with wide error bars. Still one of the most exciting young batters in the world. Just not, in cold numerical terms, quite the one his 2026 made him look.
 
 *This analysis is one question from Cricket Trader, a set of T20 analytics problems worked end to end in R.*

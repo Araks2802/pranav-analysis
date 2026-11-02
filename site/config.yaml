@@ -12,9 +12,11 @@ description: >-
   transparent methods.
 # Contact / social links. Replace the placeholder email with your real address.
 # Leave a value blank to hide that link.
-# Medium RSS feed — the build pulls these in automatically so you can write
-# once on Medium and have the site list the posts.
-medium_feed: "https://medium.com/feed/@arakkal.pranav"
+# Medium RSS feed. When set, the build pulls Medium articles in and lists them
+# alongside local posts. Left blank so the site lists only its own posts; set it
+# back to "https://medium.com/feed/@arakkal.pranav" to re-enable.
+# (A post's own `medium:` field and its "Read this on Medium" link still work.)
+medium_feed: ""
 contact:
   email: "arakkal.pranav@gmail.com"
   medium: "https://medium.com/@arakkal.pranav"
