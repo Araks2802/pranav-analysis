@@ -6,12 +6,8 @@ standfirst: "He used to play himself in. Now he scores at 155 from ball one. Pad
 date: 2026-06-05
 category: "Data Stories"
 tags: ["IPL", "RCB", "Devdutt Padikkal", "powerplay", "player analysis", "R"]
-# Cover photo: drop the file at site/static/images/devdutt_cover.jpg and
-# rebuild. Until it exists, build.py falls back to cover_fallback below.
 cover: "/images/devdutt_cover.jpg"
-cover_alt: "Devdutt Padikkal batting for Royal Challengers Bengaluru"
-cover_fallback: "/images/padikkal_medium_header.jpg"
-cover_fallback_alt: "Devdutt Padikkal, in RCB kit and a gold helmet, raises his bat to the crowd"
+cover_alt: "Devdutt Padikkal, in a navy and red RCB shirt and a gold helmet, raises his bat in his right hand to acknowledge the crowd"
 author: "Pranav Arakkal"
 featured: false
 medium: "https://medium.com/@arakkal.pranav/the-quiet-revolution-how-devdutt-padikkal-became-rcbs-most-underrated-weapon-1c46cf07d68b"
