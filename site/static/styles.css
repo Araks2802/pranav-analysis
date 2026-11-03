@@ -233,6 +233,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 /* ---- Chart figures (used in-article) ------------------------------------- */
 .chart-figure { margin: 2.4em 0; }
 .chart-figure img { width: 100%; border: 1px solid var(--line); border-radius: var(--radius); background: var(--navy); }
+.chart-figure .chart-zoom { display: block; cursor: zoom-in; }
 .chart-figure figcaption { font-size: .86rem; color: var(--muted); margin-top: 10px; line-height: 1.5; }
 .chart-figure .chart-source { display: block; font-family: var(--font-mono); font-size: .76rem; color: var(--muted-2); margin-top: 4px; }
 
@@ -298,6 +299,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .footer-brand p { color: var(--muted); margin: 10px 0 0; font-size: .95rem; }
 .footer-nav { display: flex; flex-direction: column; gap: 10px; }
 .footer-nav a, .footer-contact a { color: var(--ink-dim); transition: color var(--t); }
+.footer-contact a { display: inline-block; padding-block: 4px; overflow-wrap: anywhere; }
 .footer-nav a:hover, .footer-contact a:hover { color: var(--lime); }
 .footer-contact .social { display: flex; gap: 16px; margin-top: 12px; }
 .footer-legal { padding-bottom: 32px; }
@@ -305,8 +307,10 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 
 /* ---- Responsive ---------------------------------------------------------- */
 @media (max-width: 920px) {
-  .featured-card { grid-template-columns: 1fr; }
-  .featured-media { min-height: 220px; aspect-ratio: 16/9; }
+  /* minmax(0, …) stops the media's aspect-ratio + min-height from widening the column past the card */
+  .featured-card { grid-template-columns: minmax(0, 1fr); }
+  /* no min-height here: through aspect-ratio it forced a 391px-wide image on phones */
+  .featured-media { min-height: 0; aspect-ratio: 16/9; }
   .section-split { grid-template-columns: 1fr; gap: 44px; }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
   .projects-preview .card-grid { grid-template-columns: 1fr; }

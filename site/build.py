@@ -79,12 +79,21 @@ def reading_time(body: str) -> int:
     return max(1, round(words / WORDS_PER_MIN))
 
 
+CHART_IMG = re.compile(r'(<figure class="chart-figure">\s*)(<img\b[^>]*\bsrc="([^"]+)"[^>]*>)')
+def link_chart_images(html: str) -> str:
+    """Wrap chart-figure images in a link to the full-size file, so tall
+    dashboards can be opened and zoomed on a phone."""
+    return CHART_IMG.sub(
+        r'\1<a class="chart-zoom" href="\3" target="_blank" rel="noopener">\2'
+        r'<span class="visually-hidden"> (open full size in a new tab)</span></a>',
+        html,
+    )
 def render_markdown(body: str) -> str:
-    return md.markdown(
+    return link_chart_images(md.markdown(
         body,
         extensions=["extra", "attr_list", "toc", "tables", "sane_lists"],
         output_format="html5",
-    )
+    ))
 
 
 def resolve_cover(fm, path):
