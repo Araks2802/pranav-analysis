@@ -323,8 +323,35 @@ def make_env(config):
     return env
 
 
+ANCHOR_TAG = re.compile(r'<a\b[^>]*>', re.IGNORECASE)
+EXTERNAL_HREF = re.compile(r'\bhref="(https?:)?//', re.IGNORECASE)
+REL_ATTR = re.compile(r'\brel="([^"]*)"', re.IGNORECASE)
+
+
+def external_links_new_tab(html: str) -> str:
+    """Make every link to another site (http/https) open in a new tab.
+    Internal links (/cricket/, #main, mailto:) are left alone."""
+    def fix(m):
+        tag = m.group(0)
+        if not EXTERNAL_HREF.search(tag) or re.search(r'\btarget=', tag, re.I):
+            return tag
+        rel = REL_ATTR.search(tag)
+        if rel:
+            vals = rel.group(1).split()
+            for v in ("noopener", "noreferrer"):
+                if v not in vals:
+                    vals.append(v)
+            tag = tag[:rel.start()] + f'rel="{" ".join(vals)}"' + tag[rel.end():]
+        else:
+            tag = tag[:-1] + ' rel="noopener noreferrer">'
+        return tag[:-1] + ' target="_blank">'
+    return ANCHOR_TAG.sub(fix, html)
+
+
 def write(path: Path, html: str):
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix == ".html":
+        html = external_links_new_tab(html)
     path.write_text(html, encoding="utf-8")
 
 

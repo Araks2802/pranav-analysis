@@ -1,7 +1,7 @@
 ---
 title: "Hope to Win"
 slug: "shai-hope-post-series-report-ind-wi"
-description: "Shai Hope took 261 runs off 137 balls from India, with two unbeaten hundreds. How a steady opener turned into a hitter, why India's spinners got hit so hard, and the one plan that actually worked."
+description: "Shai Hope scored 261 runs off 137 balls against India, with two unbeaten hundreds. How a steady opener turned into a hitter, why India's spinners got hit so hard, and the one plan that actually worked."
 standfirst: "Two unbeaten hundreds, 261 runs off 137 balls, and a batter who normally plays it steady suddenly hitting like a finisher. Here's how Shai Hope's series in India happened, in plain numbers."
 date: 2026-10-28
 category: "Data Stories"

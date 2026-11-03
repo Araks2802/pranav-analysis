@@ -18,13 +18,12 @@ methodology: >-
   shortlisted with role-specific rules, for example openers need a batting
   average of 35 or more. The team numbers are the dashboard's combined figures
   for all eleven players. The extra player figures in this piece (runs,
-  wickets, economy and leaderboard places) were counted from Himanish Ganjoo's
-  T20 ball-by-ball data for the same tournament. Their runs, balls and
+  wickets, economy and leaderboard places) were counted from T20 ball-by-ball
+  data for the same tournament. Their runs, balls and
   wickets match the dashboard's own totals.
 sources:
   - label: "Interactive Best XI dashboard (Tableau Public)"
     url: "https://public.tableau.com/views/T20WC_17687689843110/Final11"
-  - label: "Ball-by-ball T20 data by Himanish Ganjoo"
   - label: "Originally published on Medium"
     url: "https://medium.com/@arakkal.pranav/data-driven-best-xi-2024-t20-world-cup-656b251e831e"
 related:
