@@ -1,5 +1,5 @@
 ---
-title: "Devdutt Padikkal 2.0: From Slow Starter to RCB's Powerplay Weapon"
+title: "Devdutt 2.0"
 slug: "padikkal-rcb-powerplay-transformation"
 description: "Back at RCB, Devdutt Padikkal's strike rate has jumped from 123 to 162 and his first five balls from 88 to 155. The data on how he became a powerplay weapon, and the one weakness left."
 standfirst: "He used to play himself in. Now he scores at 155 from ball one. Padikkal's second RCB spell is a different batter by the numbers, and the powerplay is where it shows."

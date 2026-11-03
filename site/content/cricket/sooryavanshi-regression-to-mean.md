@@ -1,7 +1,7 @@
 ---
-title: "Vaibhav Sooryavanshi: What to Expect After a 223 Strike Rate"
+title: "Vaibhav Sooryavanshi: What to Expect in 2027?"
 slug: "sooryavanshi-regression-to-mean"
-description: "A 14-year-old struck at 223 across his 2026 T20s. Hot streaks rarely repeat, so where does his 2027 land? Probably nearer 177. Still elite, just a bit more human."
+description: "A 15-year-old struck at 223 across his 2026 T20s. Hot streaks rarely repeat, so where does his 2027 land? Probably nearer 177. Still elite, just a bit more human."
 standfirst: "Everyone loves a hot streak, and nobody wants it to end. Here's why the wildest top-order T20 season on record probably won't repeat, and why that's no knock on the kid."
 date: 2026-10-20
 category: "Data Stories"
@@ -36,7 +36,7 @@ Which brings us to Vaibhav Sooryavanshi, the latest and most extreme example you
 
 ## The season everyone's talking about
 
-Across his 2026 T20s, the IPL and T20Is for India together, a 14-year-old produced the most extreme top-order T20 season anyone has on record: a strike rate of **223** at an average of **42.6**, from 1,022 runs off 459 balls in 24 innings to 20 October.
+Across his 2026 T20s, the IPL and T20Is for India together, a 15-year-old produced the most extreme top-order T20 season anyone has on record: a strike rate of **223** at an average of **42.6**, from 1,022 runs off 459 balls in 24 innings to 20 October.
 
 Quick translation. Strike rate is runs per 100 balls, so he scored 223 runs for every 100 balls he faced. Average is runs per dismissal, so he made 42.6 runs every time he got out. Usually you pick one: score fast and get out a lot, or hang around and score slowly. He did both, at a level no top-order batter on record has.
 
@@ -69,7 +69,7 @@ Here's the thing. A strike rate of 177 would be a career-best season for almost 
 Two things drive the drop, and neither of them is "he's not that good":
 
 - **Hot streaks cool off.** His boundary rate was near 38%. That's a run of form that just doesn't come round that often. Boundary rate is the jumpiest number in batting, and usually the first one to settle down.
-- **Bowlers catch up.** Teams will now plan for him specifically: hard lengths, pace off the ball. That squeezes the huge returns a 14-year-old gets the first time the world sees him.
+- **Bowlers catch up.** Teams will now plan for him specifically: hard lengths, pace off the ball. That squeezes the huge returns a 15-year-old gets the first time the world sees him.
 
 ## Can we trust it?
 
