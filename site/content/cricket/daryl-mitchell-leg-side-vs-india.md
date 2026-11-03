@@ -20,7 +20,7 @@ methodology: >-
   Leg and off shares use runs with a wagon zone. Samples under 10 balls are
   flagged as small.
 sources:
-  - label: "Ball-by-ball T20 data with line, length, bowler-type and wagon-zone detail"
+  - label: "Ball-by-ball T20 data (line, length, bowler type and wagon zones) by Himanish Ganjoo"
 related:
   - "shai-hope-post-series-report-ind-wi"
   - "sooryavanshi-regression-to-mean"

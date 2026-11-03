@@ -3,7 +3,7 @@ title: "Hope to Win"
 slug: "shai-hope-post-series-report-ind-wi"
 description: "A post-series report on Shai Hope against India: 261 runs off 137 balls, why India's spinners leaked runs, what held him back, and how to bowl to him next time."
 standfirst: "Shai Hope made 261 off 137 balls against India, with two unbeaten hundreds. This report covers what he did, why it worked, where India's plans held, and what should change next time."
-date: 2026-11-02
+date: 2026-10-28
 category: "Data Stories"
 tags: ["T20I", "India", "West Indies", "Shai Hope", "post-series report", "player analysis"]
 cover: "/images/hope_cover_newsmill.jpg"
@@ -22,7 +22,7 @@ methodology: >-
   2,999 balls). Every match Hope batted in was checked for completeness. Samples
   under 10 balls are flagged as small.
 sources:
-  - label: "Ball-by-ball T20 data with line, length, bowler-type and wagon-zone detail"
+  - label: "Ball-by-ball T20 data (line, length, bowler type and wagon zones) by Himanish Ganjoo"
   - label: "Cover photo: News Mill"
 related:
   - "sooryavanshi-regression-to-mean"

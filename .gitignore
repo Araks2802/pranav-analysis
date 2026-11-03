@@ -31,3 +31,6 @@ t20_bbb (1).csv
 
 # Medium cache
 site/.cache/
+
+# Agent working files
+.agents/
