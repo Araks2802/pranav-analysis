@@ -47,6 +47,10 @@ The results follow him around. West Indies won both games where he got a hundred
 
 And this wasn't normal Hope. Since January 2024, leaving this series out, he strikes at 130.1 over 2,999 balls. Against India he scored about 60 more runs per 100 balls. Same guy, very different batter.
 
+Now, the fair point before anyone makes it. India is a batting paradise right now. Since 2024, teams batting first in T20Is in India have averaged about 190. Everywhere else it's about 164. More than one in three first innings in India go past 200. Elsewhere it's about one in six. And this series was flat even by Indian standards. The first innings averaged 222.5, and three of the four went past 200.
+
+So yes, big totals were normal here, and everyone's numbers look a bit shiny. But a flat pitch helps everyone a little. It doesn't explain one batter scoring 60 more runs per 100 balls than he usually does. And it definitely doesn't explain spin, the thing that usually slows him down, becoming the bowling he scored fastest off.
+
 Four things stand out:
 
 - **India's spinners kept pitching it up.** Half the spin balls he faced were full, and he scored at 281.5 off them.
@@ -67,7 +71,7 @@ One honest caveat. 137 balls is a small sample. Some of this is fairly solid and
 Here's each game, in order:
 
 - **T20I 1, Lucknow (6 Oct). India won.** West Indies batted first and were all out for 171 in 19.1 overs. Hope made a tidy 52 off 37 balls (6 fours, 2 sixes) before Naman Dhir had him caught in the 12th over. India knocked off 172 for two wickets in 14.4 overs.
-- **T20I 2, Ranchi (9 Oct). West Indies won.** India made 249/5 and still lost. Hope smashed 102* off 45 balls (6 fours, 9 sixes) and West Indies got to 252/4 in 18.3 overs.
+- **T20I 2, Ranchi (9 Oct). West Indies won.** India made 249/5 and still lost. Hope smashed 102* off 45 balls (6 fours, 9 sixes) and West Indies got to 252/4 in 18.3 overs. That's the second-highest successful chase in men's T20I history, behind only South Africa's 259 against West Indies in 2023. It's also the biggest T20I chase ever in India, and West Indies' biggest ever.
 - **T20I 3, Indore (11 Oct). India won.** India made 223 all out. Arshdeep bowled Hope for 5 off 5 balls in the 2nd over, and West Indies fell short on 209/7.
 - **T20I 4, Hyderabad (14 Oct). West Indies won.** Hope did it again: 102* off 50 balls (4 fours, 9 sixes) in a total of 247/3. India were held to 223/9 and lost by 24 runs.
 - **T20I 5, Bengaluru (17 Oct). No result.** India were 118/5 after 7.4 overs when play stopped. West Indies never batted, so Hope never got a go.
@@ -141,6 +145,6 @@ In other words, he didn't bother with the angles. He waited for the full one and
 
 ## Final word
 
-Credit where it's due. This was an outstanding series. Two unbeaten hundreds in four innings, one of them chasing down 250, in India. Very few visiting batters ever manage that. He scored 60 runs per 100 balls more than he usually does. And he did it against spin, the thing India usually lean on at home.
+Credit where it's due. This was an outstanding series. Two unbeaten hundreds in four innings, one of them chasing down 250, in India. Very few visiting batters ever manage that. Flat pitches helped, sure. They don't explain this. He scored 60 runs per 100 balls more than he usually does. And he did it against spin, the thing India usually lean on at home.
 
 For India, Shai Hope now goes to the top of the list of batters to plan for. And it'd be a surprise if the IPL franchises weren't watching too. A wicketkeeper who can open, anchor a 250 chase and still strike at 190 against quality spin in India is exactly the kind of player auction tables are built around. Whoever picks him up next is getting a batter in the form of his life. Whoever bowls to him next has some homework to do.
