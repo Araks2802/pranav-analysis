@@ -38,7 +38,7 @@ So I wanted to know three things. Is this just who he is? Did India make it easy
 Quick note before we start: the data here is T20s only, so this is about the T20I series and his T20 record, nothing else.
 
 <figure class="chart-figure">
-  <img src="/charts/cricket/mitchell_dashboard.png" alt="Daryl Mitchell series dashboard: headline numbers, leg-side share against every five-innings window of his usual record, leg versus off share, wagon wheels, runs by zone, strike rate by length, India bowlers, line and length against other teams, dismissals and innings by innings">
+  <img src="/charts/cricket/mitchell_dashboard_v2.png" alt="Daryl Mitchell series dashboard: headline numbers, leg-side share against every five-innings window of his usual record, leg versus off share, wagon wheels, runs by zone, strike rate by length, India bowlers, line and length against other teams, dismissals and innings by innings">
   <figcaption>The full series dashboard. "Usual" is his T20 record since 2024 with the series matches removed (1,448 balls).
   <span class="chart-source">Ball-by-ball data · India in New Zealand T20I Series, 22 Oct – 1 Nov 2026.</span></figcaption>
 </figure>
