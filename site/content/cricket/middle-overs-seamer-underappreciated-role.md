@@ -1,7 +1,7 @@
 ---
 title: "The Bargain in the Middle Overs"
 slug: "middle-overs-seamer-underappreciated-role"
-description: "Seamers now bowl 60% of the balls in the IPL's overs 12 to 16 and 46% in overs 7 to 11. The middle-overs seamer takes wickets almost as often as a death specialist, yet his median auction price is ₹1.75 crore."
+description: "Seamers now bowl 60% of the balls in the IPL's overs 12 to 16 and 46% in overs 7 to 11. The middle-overs seamer takes wickets almost as often as a death specialist, yet his median IPL price is ₹1.75 crore."
 standfirst: "The powerplay gets the start. The death overs get the headlines. The middle overs decide a lot of games, and the seamer bowling them is one of the cheapest buys at the IPL auction."
 date: 2026-10-30
 category: "Data Stories"
@@ -72,26 +72,26 @@ So pace leaks a few more runs and takes wickets a little more often. In a phase 
 Here's where it gets interesting. I sorted every IPL bowler with 120+ balls since 2024 into a role, then matched them to what they cost from 2024 to 2026. That's the auction price, or the retention fee for players their team kept.
 
 <figure class="chart-figure">
-  <img src="/charts/cricket/role_price_by_role.png" alt="Bar chart of median IPL auction price by bowling role for 2024 to 2026: middle-overs spinner ₹4.90 crore, powerplay bowler ₹4.51 crore, death bowler ₹4.40 crore and middle-overs seamer ₹1.75 crore">
-  <figcaption>Median auction price by bowling role, 2024–26 auctions. The middle-overs seamer is far cheaper than every other role.
-  <span class="chart-source">Cricsheet via cricketdata, matched to IPL auction prices.</span></figcaption>
+  <img src="/charts/cricket/role_price_by_role.png" alt="Bar chart of median IPL price (auction or retention) by bowling role for 2024 to 2026: middle-overs spinner ₹4.90 crore, powerplay bowler ₹4.51 crore, death bowler ₹4.40 crore and middle-overs seamer ₹1.75 crore">
+  <figcaption>Median IPL price by bowling role, 2024–26, counting auction buys and retentions. The middle-overs seamer is far cheaper than every other role.
+  <span class="chart-source">Cricsheet via cricketdata, matched to IPL auction and retention prices.</span></figcaption>
 </figure>
 
-The typical middle-overs seamer cost **₹1.75 crore**. The typical death bowler cost ₹4.40 crore, the powerplay bowler ₹4.51 crore and the middle-overs spinner ₹4.90 crore. That's the cheapest of the four main bowling roles by a distance. Sixteen of the 30 middle-overs seamers I could price went for ₹2 crore or less. Nine of them were uncapped.
+The typical middle-overs seamer cost **₹1.75 crore**. The typical death bowler cost ₹4.40 crore, the powerplay bowler ₹4.51 crore and the middle-overs spinner ₹4.90 crore. That's the cheapest of the four main bowling roles by a distance. Sixteen of the 30 middle-overs seamers I could price cost ₹2 crore or less. Eight of those 16 were uncapped.
 
 Quick word on "median", because it matters here. The median is the price of the bowler in the middle of the list. The average for middle-overs seamers is higher, about ₹4.2 crore, because a couple of all-rounders sit in this group. Cameron Green averaged ₹25.20 crore in my price data and Hardik Pandya ₹16.35 crore. Both are all-rounders, bought for a lot more than their middle-overs bowling. Drop them and you see what a normal middle-overs seamer actually costs, which is where the median comes in.
 
 Now put price next to wickets.
 
 <figure class="chart-figure">
-  <img src="/charts/cricket/role_wickets_price.png" alt="Dot chart of bowling roles by median auction price and balls per wicket. Middle-overs seamer: a wicket every 18.9 balls at ₹1.75 crore. Death bowler: 18.1 balls at ₹4.40 crore. Powerplay bowler: 20.6 balls at ₹4.51 crore. Middle-overs spinner: 21.8 balls at ₹4.90 crore">
+  <img src="/charts/cricket/role_wickets_price.png" alt="Dot chart of bowling roles by median IPL price (auction or retention) and balls per wicket. Middle-overs seamer: a wicket every 18.9 balls at ₹1.75 crore. Death bowler: 18.1 balls at ₹4.40 crore. Powerplay bowler: 20.6 balls at ₹4.51 crore. Middle-overs spinner: 21.8 balls at ₹4.90 crore">
   <figcaption>Higher up means more wickets, further left means cheaper. The middle-overs seamer sits on his own in the cheap, wicket-taking corner.
-  <span class="chart-source">IPL 2024–26, bowlers with 120+ balls. Cricsheet via cricketdata, matched to IPL auction prices.</span></figcaption>
+  <span class="chart-source">IPL 2024–26, bowlers with 120+ balls. Cricsheet via cricketdata, matched to IPL auction and retention prices.</span></figcaption>
 </figure>
 
 Across all their IPL overs since 2024, middle-overs seamers took a wicket every 18.9 balls. Death bowlers took one every 18.1, powerplay bowlers every 20.6 and middle-overs spinners every 21.8. So they strike almost as often as the death specialists, for well under half the price. They do go for more runs, about 9.6 an over on average. That's the catch, and it's part of why they come cheap. But wickets at that rate for that money is a deal.
 
-A few names make the point (average auction price, then IPL wickets since 2024):
+A few names make the point (average IPL price, then IPL wickets since 2024):
 
 - **Eshan Malinga:** ₹1.20 crore, 33 wickets.
 - **Prince Yadav:** ₹0.30 crore, 19 wickets.
