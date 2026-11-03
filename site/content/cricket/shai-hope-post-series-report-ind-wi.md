@@ -131,7 +131,7 @@ In short, he did not need the angles. He waited for the full ball and hit it bac
 
 <figure class="chart-figure">
   <img src="/charts/cricket/hope_series_wagon_wheels.png" alt="Three wagon wheels: Hope in the series, his usual record against pace and his usual record against spin, with runs per zone marked">
-  <figcaption>Where his runs went. Left: this series (137 balls). Centre and right: his usual record against pace (1,570 balls) and spin (1,413 balls). The numbers are runs per zone. Off side is on the left for a right-hander.
+  <figcaption>Where his runs went. Left: this series (137 balls). Centre and right: his usual record against pace (1,570 balls) and spin (1,413 balls). The numbers are runs per zone. Viewed from behind the batter, so for a right-hander like Hope the leg side is on the left and the off side on the right.
   <span class="chart-source">Ball-by-ball data · West Indies in India T20I Series, 6–17 Oct 2026.</span></figcaption>
 </figure>
 
