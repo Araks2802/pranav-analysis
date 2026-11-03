@@ -1,8 +1,8 @@
 ---
 title: "Hope to Win"
 slug: "shai-hope-post-series-report-ind-wi"
-description: "A post-series report on Shai Hope against India: 261 runs off 137 balls, why India's spinners leaked runs, what held him back, and how to bowl to him next time."
-standfirst: "Shai Hope made 261 off 137 balls against India, with two unbeaten hundreds. This report covers what he did, why it worked, where India's plans held, and what should change next time."
+description: "Shai Hope took 261 runs off 137 balls from India, with two unbeaten hundreds. How a steady opener turned into a hitter, why India's spinners got hit so hard, and the one plan that actually worked."
+standfirst: "Two unbeaten hundreds, 261 runs off 137 balls, and a batter who normally plays it steady suddenly hitting like a finisher. Here's how Shai Hope's series in India happened, in plain numbers."
 date: 2026-10-28
 category: "Data Stories"
 tags: ["T20I", "India", "West Indies", "Shai Hope", "post-series report", "player analysis"]
@@ -37,20 +37,24 @@ related:
   <div class="stat-callout"><div class="stat-value">2</div><div class="stat-label">Dismissals, both off good-length balls outside off</div></div>
 </div>
 
-## 1. Executive summary
+Some series belong to one player. This one belonged to Shai Hope. He batted four times against India and made 261 runs off 137 balls. Two of those innings were unbeaten hundreds. India got him out just twice.
 
-Shai Hope batted four times against India in this series. He made 261 runs off 137 balls. His strike rate was 190.5 (runs per 100 balls faced) and his average was 130.5 (runs per dismissal). India dismissed him twice. Two of his innings were unbeaten hundreds, and West Indies won both of those games. India won the two games in which they dismissed him. The series finished 2–2, and the Bengaluru game was a no result.
+## The short version
 
-On a ball-for-ball basis he was much more dangerous than his usual record. Since January 2024, outside this series, he strikes at 130.1 over 2,999 balls. Against India he scored about 60 more runs per 100 balls.
+Quick translation of the headline numbers. Strike rate is runs per 100 balls, and his was 190.5. Average is runs per dismissal, and his was 130.5. So every time India got him out, he'd already made well over a hundred. That's a silly number.
 
-Four main takeaways:
+The results follow him around. West Indies won both games where he got a hundred. India won the two games where they got him out. The series finished 2–2, and the Bengaluru game was a no result.
 
-- **India's spinners gave him too many full balls.** Half the spin deliveries he faced were full, and he scored at 281.5 off them.
-- **Good length outside off was the one plan that held.** Both dismissals came from it, and he scored at only 126 off good-length balls across the series.
-- **Arshdeep Singh contained him.** Hope made 28 off Arshdeep's 26 balls (strike rate 107.7) and Arshdeep bowled him once.
-- **He hit straight.** Only 8.8% of his runs came square of the wicket or behind it, so the field can be set for that.
+And this wasn't normal Hope. Since January 2024, leaving this series out, he strikes at 130.1 over 2,999 balls. Against India he scored about 60 more runs per 100 balls. Same guy, very different batter.
 
-One caveat sits over the whole report. 137 balls is a small sample. Some of these findings are fairly firm and some are only suggestive, so each one comes with the ball count behind it.
+Four things stand out:
+
+- **India's spinners kept pitching it up.** Half the spin balls he faced were full, and he scored at 281.5 off them.
+- **Good length outside off was the one thing that worked.** Both his dismissals came from it, and he scored at only 126 off good-length balls across the series.
+- **Arshdeep Singh had his number.** Hope made 28 off Arshdeep's 26 balls (strike rate 107.7), and Arshdeep bowled him once.
+- **He hit it straight.** Only 8.8% of his runs came square of the wicket or behind it.
+
+One honest caveat. 137 balls is a small sample. Some of this is fairly solid and some is more of a hint, so I'll give the ball count as I go.
 
 <figure class="chart-figure">
   <img src="/charts/cricket/hope_series_dashboard.png" alt="Shai Hope series dashboard: headline numbers, usual-record comparison, wagon wheels, strike rate by length, India bowlers, phase and bowling-style splits, and innings by innings">
@@ -58,34 +62,34 @@ One caveat sits over the whole report. 137 balls is a small sample. Some of thes
   <span class="chart-source">Ball-by-ball data · West Indies in India T20I Series, 6–17 Oct 2026.</span></figcaption>
 </figure>
 
-## 2. Series context
+## How the series went
 
-Here is how his innings went, match by match:
+Here's each game, in order:
 
-- **T20I 1, Lucknow (6 Oct). India won.** West Indies batted first and were all out for 171 in 19.1 overs. Hope made 52 off 37 balls (6 fours, 2 sixes) before Naman Dhir had him caught in the 12th over. India chased 172 for the loss of two wickets in 14.4 overs.
-- **T20I 2, Ranchi (9 Oct). West Indies won.** India made 249/5 and still lost. Hope made 102* off 45 balls (6 fours, 9 sixes) and West Indies reached 252/4 in 18.3 overs.
-- **T20I 3, Indore (11 Oct). India won.** India made 223 all out. Arshdeep bowled Hope for 5 off 5 balls in the 2nd over, and West Indies finished on 209/7.
-- **T20I 4, Hyderabad (14 Oct). West Indies won.** Hope made 102* off 50 balls (4 fours, 9 sixes) in a total of 247/3. India were held to 223/9 and lost by 24 runs.
-- **T20I 5, Bengaluru (17 Oct). No result.** India were 118/5 after 7.4 overs when play stopped. West Indies never batted, so Hope did not bat.
+- **T20I 1, Lucknow (6 Oct). India won.** West Indies batted first and were all out for 171 in 19.1 overs. Hope made a tidy 52 off 37 balls (6 fours, 2 sixes) before Naman Dhir had him caught in the 12th over. India knocked off 172 for two wickets in 14.4 overs.
+- **T20I 2, Ranchi (9 Oct). West Indies won.** India made 249/5 and still lost. Hope smashed 102* off 45 balls (6 fours, 9 sixes) and West Indies got to 252/4 in 18.3 overs.
+- **T20I 3, Indore (11 Oct). India won.** India made 223 all out. Arshdeep bowled Hope for 5 off 5 balls in the 2nd over, and West Indies fell short on 209/7.
+- **T20I 4, Hyderabad (14 Oct). West Indies won.** Hope did it again: 102* off 50 balls (4 fours, 9 sixes) in a total of 247/3. India were held to 223/9 and lost by 24 runs.
+- **T20I 5, Bengaluru (17 Oct). No result.** India were 118/5 after 7.4 overs when play stopped. West Indies never batted, so Hope never got a go.
 
-The pattern is simple. When he got through, West Indies won. When India got him out, India won. That does not mean one batter decides every game. But it is a fair summary of how much this series depended on him.
+See the pattern? When Hope got going, West Indies won. When India got him out, India won. One batter doesn't decide every game. But this series came pretty close.
 
-## 3. How he scored
+## From anchor to hitter
 
-**The overall shift.** His usual T20 record since 2024 is that of a steady top-order anchor. Against India he played like a hitter. A few measures show the change:
+Normally Hope is the steady type. He holds the top of the innings together and lets others take the big risks. Against India he flipped that and played like a hitter. A few numbers show the change:
 
-- **Strike rate:** 190.5 in the series against 130.1 usually.
-- **Boundary rate** (share of balls hit for four or six): 27.0% against 15.5%.
-- **Dot-ball rate** (share of balls he scored nothing off): 28.5% against 35.6%.
-- **Balls per dismissal** (how long he lasted on average before getting out): 68.5 against 27.0.
+- **Strike rate:** 190.5 in the series, against 130.1 usually.
+- **Boundary rate** (how often a ball goes for four or six): 27.0%, against 15.5%.
+- **Dot-ball rate** (how often he scored nothing off a ball): 28.5%, against 35.6%.
+- **Balls per dismissal** (how long he lasted before getting out): 68.5, against 27.0.
 
-He hit 20 sixes and 17 fours. That means 188 of his 261 runs, about 72%, came from boundaries. India never really kept him quiet and then forced a mistake. He scored freely and seldom got out.
+He hit 20 sixes and 17 fours. That's 188 of his 261 runs, about 72%, from boundaries alone. India never really tied him down and forced a mistake. He just kept scoring and hardly ever got out.
 
-**By phase.** This report uses the standard T20 phases: powerplay (overs 1–6), middle (7–15) and death (16–20). His strike rate went up in all three.
+**Phase by phase.** A T20 innings splits into three parts: the powerplay (overs 1–6), the middle (7–15) and the death (16–20). His strike rate went up in all three.
 
-- **Powerplay:** 157 off 56 balls, against 131 usually (1,248 balls). His powerplay dot-ball rate was 44.6%, almost the same as his usual 43.7%. So India did build some pressure early.
-- **Middle overs:** 192 off 60 balls, against 127 usually (1,511 balls). This is where India lost control. His dot-ball rate dropped to 20.0%, against 29.5% usually.
-- **Death:** 276 off 21 balls, against 148 usually (240 balls). This is the biggest jump, but it comes from only 21 balls.
+- **Powerplay:** 157 off 56 balls, against 131 usually (1,248 balls). His dot-ball rate here was 44.6%, almost the same as his usual 43.7%. So India did squeeze him early.
+- **Middle overs:** 192 off 60 balls, against 127 usually (1,511 balls). This is where it got away from India. His dot-ball rate fell to 20.0%, against 29.5% usually.
+- **Death:** 276 off 21 balls, against 148 usually (240 balls). The biggest jump of the lot. But it's only 21 balls, so don't lean on it too hard.
 
 <figure class="chart-figure">
   <img src="/charts/cricket/hope_series_phase_styles.png" alt="Strike rate by phase, series versus usual, and a table of Hope's numbers against each bowling style in the series">
@@ -93,19 +97,19 @@ He hit 20 sixes and 17 fours. That means 188 of his 261 runs, about 72%, came fr
   <span class="chart-source">Ball-by-ball data · West Indies in India T20I Series, 6–17 Oct 2026.</span></figcaption>
 </figure>
 
-**Pace versus spin.** Spin is where the gap was widest. Hope struck at 218.2 against India's spinners (55 balls). His usual strike rate against spin is 125.1 (1,413 balls). Against India's seamers he struck at 172.0 (82 balls), against 134.3 usually (1,570 balls). He was faster than usual against both, but against spin his strike rate rose by more than 90 runs per 100 balls.
+**Pace versus spin.** This is where it gets interesting. Hope struck at 218.2 against India's spinners (55 balls). His usual rate against spin is 125.1 (1,413 balls). Against the seamers he struck at 172.0 (82 balls), against 134.3 usually (1,570 balls). So he was quicker than usual against both. But against spin he was more than 90 runs per 100 balls quicker.
 
-That runs against his record. Spin, with slow left-arm among the styles that usually hold him back, is normally a way to slow him down. Section 4 looks at why it failed here.
+That's backwards for him. Spin is normally how you slow Hope down, and slow left-arm is one of the styles that usually keeps him quiet. So what went wrong?
 
-## 4. Where India's spinners went wrong
+## Where India's spinners went wrong
 
-**Too full.** 27 of the 55 spin balls Hope faced were full (49%). He scored 76 runs off those 27 balls, a strike rate of 281.5. When India's spinners hit a good length, it went 22 balls for 25 runs (strike rate 113.6), which is below his usual rate against spin. Only six spin balls were short of a good length, and they went for 19 runs. That is too few balls to read much into, though the cost is clear.
+**Too full, too often.** 27 of the 55 spin balls Hope faced were full (49%). He scored 76 off those 27 balls. That's a strike rate of 281.5. When the spinners hit a good length, it was 22 balls for 25 runs (strike rate 113.6). That's actually below his usual rate against spin. Only six spin balls were shorter than a good length, and they went for 19. Too few balls to say much, though they weren't cheap.
 
-The point here is simple. The trouble was not spin itself. It was spin bowled full. Full balls let him reach the pitch and hit down the ground, and with no fielder back straight that is where most of his runs went (Section 6).
+So the problem wasn't spin. It was spin pitched up. A full ball let him get to the pitch and hit it back down the ground. With nobody out deep straight, that's exactly where most of his runs went. More on that below.
 
-**Axar Patel.** Hope scored 59 off Axar's 28 balls (strike rate 210.7), including 6 sixes, and Axar did not dismiss him. His record did not point to that. In his usual record Hope strikes at 111.3 against slow left-arm orthodox (566 balls), one of his slowest rates against any style. Against Axar himself, before this series, it was 115.4, but that comes from only 13 balls. On paper Axar was India's best match-up. In practice he was the bowler Hope scored most off.
+**Axar Patel.** This one hurt. Hope scored 59 off Axar's 28 balls (strike rate 210.7), with 6 sixes, and Axar never got him out. Nothing in his record said that would happen. Usually Hope strikes at 111.3 against slow left-arm orthodox (566 balls), one of his slowest rates against any style. Against Axar himself, before this series, it was 115.4, but that's from just 13 balls. On paper Axar was India's best match-up. In real life he was the bowler Hope scored most off.
 
-**The other spinners.** Kuldeep Yadav went for 35 off 15 balls (strike rate 233.3, 3 sixes). Naman Dhir went for 26 off 12 balls (216.7), but he also took the first-match wicket. These samples are small. Each one is consistent with the wider pattern, but none would stand as evidence alone.
+**The other spinners.** Kuldeep Yadav went for 35 off 15 balls (strike rate 233.3, 3 sixes). Naman Dhir went for 26 off 12 balls (216.7), but he did get the wicket in the first game. These are small samples. They fit the bigger picture, but none of them proves much on its own.
 
 <figure class="chart-figure">
   <img src="/charts/cricket/hope_series_length_bowlers.png" alt="Hope's strike rate by delivery length, dismissals by length, and every India bowler's balls, runs and strike rate against him">
@@ -113,21 +117,21 @@ The point here is simple. The trouble was not spin itself. It was spin bowled fu
   <span class="chart-source">Ball-by-ball data · West Indies in India T20I Series, 6–17 Oct 2026.</span></figcaption>
 </figure>
 
-## 5. What worked
+## What actually worked
 
-**Good length outside off.** Both dismissals came from the same kind of delivery: a good-length ball outside off stump. In Lucknow Naman Dhir (off-spin) had him caught at 11.4 overs. In Indore Arshdeep bowled him at 1.5 overs. Across the series Hope scored at 126 off 43 good-length balls, against 251 off 49 full balls. Of the six length categories, good length was the cheapest for India's bowlers except the yorker, and he faced only 3 yorkers.
+**Good length outside off.** Both of Hope's dismissals came from the same ball: good length, outside off stump. In Lucknow, Naman Dhir (off-spin) had him caught at 11.4 overs. In Indore, Arshdeep bowled him at 1.5 overs. Across the series Hope scored at 126 off 43 good-length balls, against 251 off 49 full balls. Out of the six length types, only the yorker was cheaper than good length, and he faced just 3 of those.
 
-The line by itself made almost no difference. He struck at 189.0 off balls outside off (73 balls) and 187.1 off balls at the stumps (62 balls). The length is what mattered.
+The line barely mattered. He struck at 189.0 off balls outside off (73 balls) and 187.1 off balls at the stumps (62 balls). Basically the same. It was all about length.
 
-**Arshdeep Singh.** Arshdeep was the one bowler Hope never got on top of. He made 28 off Arshdeep's 26 balls (strike rate 107.7) with 10 dots, 4 fours and no sixes, and Arshdeep bowled him for 5 in Indore. This was not a one-off. Hope's usual strike rate against left-arm medium-fast is 111.3 (106 balls), so Arshdeep's figures match a long-standing weakness rather than a lucky series.
+**Arshdeep Singh.** Arshdeep was the one bowler Hope never got on top of. Hope made 28 off his 26 balls (strike rate 107.7), with 10 dots, 4 fours and no sixes. And Arshdeep bowled him for 5 in Indore. That's no fluke either. Hope's usual strike rate against left-arm medium-fast is 111.3 (106 balls). So Arshdeep was poking at an old weak spot, not getting lucky.
 
-**Mayank Yadav** was India's next most economical bowler: 45 runs off 28 balls (strike rate 160.7) with 11 dots, the most of any India bowler. That is still well above Hope's usual rate, but it held him back more than most.
+**Mayank Yadav** was the next cheapest: 45 runs off 28 balls (strike rate 160.7) with 11 dots, the most of any India bowler. Still well above Hope's usual rate. But he held him back better than most.
 
-## 6. Scoring zones: he played straight
+## He just hit it straight
 
-A wagon wheel shows where each scoring shot went. Here it shows something a fielding side can plan for. Only 23 of his 261 series runs (8.8%) came square of the wicket or behind it, in the fine leg, square leg, point and third man areas. In his usual record that share is 24.1%. Long-on and long-off together gave him 43.3% of his series runs, against 29.1% usually.
+A wagon wheel shows where each scoring shot went. Hope's tells a pretty clear story. Only 23 of his 261 runs (8.8%) came square of the wicket or behind it, in the fine leg, square leg, point and third man areas. Usually that share is 24.1%. Long-on and long-off together gave him 43.3% of his series runs, against 29.1% usually.
 
-In short, he did not need the angles. He waited for the full ball and hit it back past the bowler. Usually about a quarter of his runs come from the square and fine areas. Against India he barely used them.
+In other words, he didn't bother with the angles. He waited for the full one and hit it back past the bowler. Normally about a quarter of his runs come square or fine. Against India he barely went there.
 
 <figure class="chart-figure">
   <img src="/charts/cricket/hope_series_wagon_wheels.png" alt="Three wagon wheels: Hope in the series, his usual record against pace and his usual record against spin, with runs per zone marked">
@@ -135,17 +139,8 @@ In short, he did not need the angles. He waited for the full ball and hit it bac
   <span class="chart-source">Ball-by-ball data · West Indies in India T20I Series, 6–17 Oct 2026.</span></figcaption>
 </figure>
 
-## 7. How to bowl to him next time
-
-1. **Spinners: hit a good length and stay there.** This is the clearest change available. Full spin went for 281.5 and good-length spin for 113.6. That gap is the whole case. Whether a shorter ball would do better is untested: the six spin balls short of a good length went for 19 runs, which is too few to judge either way.
-2. **Protect the straight boundaries.** With 43.3% of his series runs going to long-on and long-off, a fielder back at long-on or long-off (or both against spin) is worth more than a deep square or a fine leg. Behind square, his series output was small.
-3. **Rethink the Axar match-up.** Axar's earlier record against him (13 balls) looked good on paper but did not hold. If Axar bowls to him, the field and length have to change. Pitching up into the strike zone cannot be the default.
-4. **Open with Arshdeep at him.** Arshdeep holding him to 107.7 matches his long-term record against left-arm medium-fast. Using Arshdeep early, at good length outside off, is the best route to an early wicket.
-5. **Seamers: fewer full tosses.** India's seamers gave him 15 full tosses, 18.3% of their balls to him. They went at 186.7, close to his series rate, so they were not the most expensive ball. The problem is volume and control: nearly one ball in five from India's seamers missed its length. The costlier full-length pace ball was the one that was not a full toss (213.6), so the wider aim is to pull the seamers back from full towards a good length.
-6. **Treat the death-overs number as a warning, not a plan.** 276 off 21 balls is alarming. But the sample is too small to build a specific death plan on. The aim should be to keep him from still being in at the death at all.
-
 ## Final word
 
-Credit where it is due: this was an outstanding series. Two unbeaten hundreds in four innings, one of them to chase down 250, in India, is a rare return from any visiting batter. He scored 60 runs per 100 balls more than he usually does, and he did it against the spin India usually rely on in these conditions.
+Credit where it's due. This was an outstanding series. Two unbeaten hundreds in four innings, one of them chasing down 250, in India. Very few visiting batters ever manage that. He scored 60 runs per 100 balls more than he usually does. And he did it against spin, the thing India usually lean on at home.
 
-For India, it means Shai Hope goes to the top of the list of batters to prepare for. Beyond India, it would be a surprise if the IPL franchises were not watching closely. A wicketkeeper who can open, anchor a 250 chase and still strike at 190 against quality spin in India is exactly the kind of player auction tables are built around. Whoever picks him up next will be getting a batter in the form of his life. Whoever bowls to him next would do well to read section 7.
+For India, Shai Hope now goes to the top of the list of batters to plan for. And it'd be a surprise if the IPL franchises weren't watching too. A wicketkeeper who can open, anchor a 250 chase and still strike at 190 against quality spin in India is exactly the kind of player auction tables are built around. Whoever picks him up next is getting a batter in the form of his life. Whoever bowls to him next has some homework to do.
