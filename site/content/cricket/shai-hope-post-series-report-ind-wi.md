@@ -41,7 +41,7 @@ Some series belong to one player. This one belonged to Shai Hope. He batted four
 
 ## The short version
 
-Quick translation of the headline numbers. Strike rate is runs per 100 balls, and his was 190.5. Average is runs per dismissal, and his was 130.5. So every time India got him out, he'd already made well over a hundred. That's a silly number.
+Quick translation of the headline numbers. Strike rate is runs per 100 balls, and his was 190.5. Average is runs per dismissal. He made 261 runs and got out only twice, so that's 130.5 runs for every wicket India took. That's a silly number.
 
 The results follow him around. West Indies won both games where he got a hundred. India won the two games where they got him out. The series finished 2–2, and the Bengaluru game was a no result.
 
