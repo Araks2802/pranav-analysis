@@ -63,7 +63,17 @@ Klopp's side had more of the ball: 63% possession against 58%, and about 110 mor
 
 One number barely moved: the press. PPDA, which measures how quickly a team swarms the ball back, was 9.8 for Klopp's side and 9.7 for Slot's. On this measure they pressed just as hard.
 
-That last point surprised me, because everyone (rightly) remembers Slot calming Liverpool down. The Premier League's own analysis found Slot's side recording a third fewer "pressed sequences" and a quarter fewer ball recoveries than Klopp's. Both can be true: Slot's side still presses hard *when it presses*, but it does so less often and holds a more compact shape the rest of the time. Our data shows the same thing from a different angle, that the team defended about four metres deeper on average even though the intensity of the press itself held up.
+That last point surprised me, because everyone (rightly) remembers Slot calming Liverpool down. The Premier League's own analysis found Slot's side recording a third fewer "pressed sequences" and a quarter fewer ball recoveries than Klopp's. Both can be true: Slot's side still presses hard *when it presses*, but it does so less often and holds a more compact shape the rest of the time.
+
+You can see that in where Liverpool actually won the ball back. Split the pitch into thirds and count every ball recovery.
+
+<figure class="chart-figure">
+  <img src="/charts/football/klopp_slot_ball_recovery_thirds.png" alt="Two pitch maps, split into defensive, middle and attacking thirds, showing the share of Liverpool's ball recoveries in each. Klopp: 42% defensive, 45% middle, 12% attacking. Slot: 47% defensive, 42% middle, 11% attacking.">
+  <figcaption>Where Liverpool won the ball back, as a share of all their regains. A bigger share higher up the pitch means winning it closer to the opponent's goal.
+  <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
+</figure>
+
+Both sides won plenty of it high: around an eighth of their regains came in the attacking third, and over half in the middle third or beyond. Klopp's side edged it, winning 57% of the ball in the middle and attacking thirds against Slot's 53%, so Slot's did sit a touch deeper, about four metres on average. But the shapes are close. This is two hard-pressing teams, one leaning marginally more conservative, not a presser and a counter-puncher.
 
 ## The right side swapped jobs
 
@@ -109,15 +119,15 @@ Klopp's Liverpool were famous for the counter: win it, go, score before the othe
 
 Both title sides were elite at it. Klopp's made **1.21 counter shots a game** and Slot's **1.37**, and measured as a rate (counters per ball won deep) they land in the same spot, about 12 per 100, against a league average of 8. So this wasn't one team countering and the other not. Both did it, and both did it well.
 
-What changed was the **direction**. Here's where every counter that ended in a shot went, coloured by the third of the pitch it ran through.
+What changed was the **direction**. Here's which side of the pitch every counter that ended in a shot came down.
 
 <figure class="chart-figure">
-  <img src="/charts/football/klopp_slot_counter_lanes.png" alt="Two pitch maps of Liverpool's counter-attacks that ended in a shot. Under Klopp the lines spread through the centre (43%) and left (35%). Under Slot nearly half (46%) funnel down Liverpool's right.">
-  <figcaption>Every counter that ended in a shot, from where the ball was won to the shot. Lines are coloured by which third they entered the final third through.
+  <img src="/charts/football/klopp_slot_counter_lanes.png" alt="Two pitch maps of Liverpool's counter shots split into left, centre and right lanes. Under Klopp: left 35%, centre 43%, right 22%. Under Slot: left 25%, centre 29%, right 46%.">
+  <figcaption>Each dot is a shot at the end of a counter, grouped by the third of the pitch the move came through. The percentages are the share of counter shots in each lane.
   <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
 </figure>
 
-Under Klopp, counters mostly ran through the middle (43%) or down the left (35%). Under Slot, **46% funnelled down Liverpool's right**, Salah's side. Same elite counter-attack, pointed in a different direction. Salah took the most counter shots under both managers, but the supporting cast changed completely: Mané, Oxlade-Chamberlain and Firmino under Klopp; Gakpo, Szoboszlai, Díaz and Jones under Slot.
+Under Klopp, counters mostly ran through the middle (43%) or down the left (35%), with the right the quietest lane (22%). Under Slot, it flips: **46% funnelled down Liverpool's right**, Salah's side. Same elite counter-attack, pointed in a different direction.
 
 ## The midfield did a different job
 
