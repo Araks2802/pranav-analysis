@@ -114,7 +114,7 @@ So by the quality of the football, measured in chances made and chances allowed,
 Where did those extra points come from? Three places, all pulling the same way:
 
 - **Finishing and goalkeeping.** Klopp's side scored about 18 goals more than its chances suggested and conceded a couple fewer. Slot's finished roughly in line with its chances.
-- **The big games.** Against the six best teams, Klopp's side took 31 points from 12 matches. Slot's took 20, despite creating slightly better chances in them.
+- **The big games.** Against the rest of the final top six, Klopp's side took 25 points from 10 matches (beating City, United, Chelsea, Leicester and Spurs, dropping points only in a dead-rubber loss at City and a draw at United). Slot's side took 19 from its 10 (against Arsenal, City, Chelsea, Newcastle and Villa), drawing four and losing at Chelsea, despite creating slightly better chances in them.
 - **The last ten minutes.** Klopp's side gained 10 points from goals after the 80th minute and never lost one late. Slot's gained 6 and lost 5.
 
 None of that is fake. Scoring more than your chances suggest, year after year, is a real skill, and Klopp's attack beat its xG for eight seasons running. But a +27 season is the kind of thing that doesn't repeat, and sure enough, Liverpool fell back the very next year. The 99 was a brilliant team catching a brilliant run at the same time.
