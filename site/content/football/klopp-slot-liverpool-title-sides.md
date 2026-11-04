@@ -129,6 +129,6 @@ A few honest limits. This is event data: it records what happened on the ball, n
 
 Klopp's 99-point side was the more *dominant* team, and the more *clinical* one. It pressed high, ran hard, leaned on flying full-backs, and converted its chances better than any team in the data. The reputation is earned.
 
-But Slot's 84-point side, by the chances it created and allowed, was quietly the *better* team on the pitch. It pressed just as hard when it chose to, broke faster, built through a smarter midfield, and funnelled everything down Salah's right side. It won fewer points because it finished its chances like a normal elite team instead of a historically lucky one.
+But Slot's 84-point side, by the chances it created and allowed, was quietly the *better* team on the pitch, helped by Salah's insane run.
 
-Same spine. Same club. A different beat. And the scoreline, for once, tells you less than the chances do.
+Same club. A different coach/manager. Both champions.
