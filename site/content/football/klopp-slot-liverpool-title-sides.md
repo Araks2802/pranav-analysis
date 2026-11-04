@@ -54,7 +54,7 @@ The short version: the press got quieter, the right side got sharper, and the 99
 Start with how the two teams played. Not how well, just *how*.
 
 <figure class="chart-figure">
-  <img src="/charts/football/klopp_slot_style.png" alt="Bar chart comparing Klopp 2019/20 and Slot 2024/25 per match: possession 63% vs 58%, passes 680 vs 571, non-penalty xG 1.7 vs 2.0, fast-break shots 0.7 vs 1.7, PPDA 9.8 vs 9.7, shots against 9.0 vs 10.2">
+  <img src="/charts/football/klopp_slot_style.png" alt="Bar chart comparing Klopp 2019/20 and Slot 2024/25 per match: possession 63% vs 58%, passes 680 vs 571, non-penalty xG 1.7 vs 2.0, counter shots 1.2 vs 1.4, PPDA 9.8 vs 9.7, shots against 9.0 vs 10.2">
   <figcaption>Each pair of bars is scaled so Klopp's side sits at 100. The numbers are the real per-match values.
   <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
 </figure>
