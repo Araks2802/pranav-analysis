@@ -22,11 +22,9 @@ methodology: >-
   xG is treated as a weighted coin, the per-match win/draw/loss chances are
   summed into points, and the season total is compared with points actually won.
   League-wide expected points match actual points to within about 1%.
-  Counter-attacks are counted from the events, not the provider's "Fast Break"
-  tag (which has grown more common league-wide over time): a counter starts
-  when a team wins the ball in its own half and counts if it reaches the final
-  third within 10 seconds and ends in a shot, with the same rules run for all
-  20 teams. Opponents are classified from their matches against everyone except
+  Counter-attacks are counted from the events: a counter starts when a team
+  wins the ball in its own half and counts if it reaches the final third within
+  10 seconds and ends in a shot, with the same rules run for all 20 teams. Opponents are classified from their matches against everyone except
   Liverpool, split at each season's median possession and verticality
   (progressive passes per 100 passes). Average positions use the median of a
   player's touches (and, separately, defensive actions) for the season's
@@ -41,8 +39,6 @@ sources:
     url: "https://learning.coachesvoice.com/cv/arne-slot-jurgen-klopp-tactics/"
   - label: "Tifo Football (The Athletic) — The difference between Slot and Klopp at Liverpool"
     url: "https://www.youtube.com/watch?v=hO4AZx7jpxw"
-  - label: "Squawka — Tactical explainer: what is a fast break? (Opta's definition)"
-    url: "https://www.squawka.com/en/features/fast-breaks-explained/"
   - label: "Cover image: Coaches' Voice"
 related:
   - "rodri-rice-euro-2024-progressions"
@@ -63,7 +59,7 @@ Start with how the two teams played. Not how well, just *how*.
   <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
 </figure>
 
-Klopp's side had more of the ball: 63% possession against 58%, and about 110 more passes a game. That fits the memory. The surprise is what Slot's side did with less of it. It created **more** non-penalty xG (2.0 a game against 1.7), and the raw data says it took far more shots on the counter too. That second claim turned out to need a hard look, and I've given it one further down, because the number is not what it first seems.
+Klopp's side had more of the ball: 63% possession against 58%, and about 110 more passes a game. That fits the memory. The surprise is what Slot's side did with less of it. It created **more** non-penalty xG (2.0 a game against 1.7) and broke just as quickly on the counter, which I come back to below.
 
 One number barely moved: the press. PPDA, which measures how quickly a team swarms the ball back, was 9.8 for Klopp's side and 9.7 for Slot's. On this measure they pressed just as hard.
 
@@ -107,15 +103,13 @@ There's one more way to see the whole thing at once: where each player stood, wi
 
 The top row is the attacking shape, and it's where the right-side swap jumps out: Klopp's Alexander-Arnold is the widest man on the pitch, Slot's Salah is. The bottom row is the same eleven when the other team has it, and both collapse into a tidy block, Slot's sitting a little deeper. It's a neat picture of a side that attacks with freedom and defends with shape.
 
-## The counter-attack that got re-routed, not revved up
+## The counter-attack got re-routed, not revved up
 
-Remember that claim from the top, that Slot's side took far more shots on the counter? The raw number said 0.74 a game under Klopp and 1.74 under Slot, more than double. It fits the story so perfectly that I nearly ran with it. Then I noticed the number came from a label I hadn't checked.
+Klopp's Liverpool were famous for the counter: win it, go, score before the other team got its shape back. So I wanted to see whether that carried into Slot's side, and I counted counters directly. My rule, plain and simple: the ball won in Liverpool's own half, reaching the final third within 10 seconds, ending in a shot. Same rule run for all 20 teams, so the numbers mean something next to the rest of the league.
 
-A "fast break" in this data is the provider's own tag. [Opta defines it](https://www.squawka.com/en/features/fast-breaks-explained/) as "an attempt created after a team quickly turn defence into attack, winning the ball in their own half." Fine, but is that tag applied the same way every season? I pulled every Premier League shot since 2014/15 and found the share tagged "Fast Break" has climbed steadily for the *whole league*, from about 1-2% of shots in the mid-2010s to around 7% now. Liverpool rode that same rising tide. (Squawka, using the same data, clocked a record league average of 2.04 fast breaks a game last season.) So a big chunk of that "0.74 to 1.74" jump isn't Liverpool. It's the label getting more generous.
+Both title sides were elite at it. Klopp's made **1.21 counter shots a game** and Slot's **1.37**, and measured as a rate (counters per ball won deep) they land in the same spot, about 12 per 100, against a league average of 8. So this wasn't one team countering and the other not. Both did it, and both did it well.
 
-So I counted counters myself, with rules I can show you: the ball won in Liverpool's own half, reaching the final third within 10 seconds, ending in a shot, and I ran the exact same rules for all 20 teams. By that count, Klopp's side made **1.21 counter shots a game** and Slot's **1.37** — Slot's still higher, but a world away from "more than double". And measured as a rate (counters per deep ball-win), both title sides land in the same spot, about 12 per 100, against a league average of 8. Both were elite at it. Neither was *more* elite in any way that holds up.
-
-What actually changed was the direction. Here's where every counter that ended in a shot went, coloured by the third of the pitch it ran through.
+What changed was the **direction**. Here's where every counter that ended in a shot went, coloured by the third of the pitch it ran through.
 
 <figure class="chart-figure">
   <img src="/charts/football/klopp_slot_counter_lanes.png" alt="Two pitch maps of Liverpool's counter-attacks that ended in a shot. Under Klopp the lines spread through the centre (43%) and left (35%). Under Slot nearly half (46%) funnel down Liverpool's right.">
@@ -123,9 +117,7 @@ What actually changed was the direction. Here's where every counter that ended i
   <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
 </figure>
 
-Under Klopp, counters mostly went through the middle (43%) or down the left (35%). Under Slot, **46% funnelled down Liverpool's right** — Salah's side. Same elite counter-attack, pointed in a different direction. Salah took the most counter shots under both managers, but the supporting cast changed completely: Mané, Oxlade-Chamberlain and Firmino under Klopp; Gakpo, Szoboszlai, Díaz and Jones under Slot.
-
-The lesson I nearly skipped: a stat with a confident label is the easiest thing to repeat and the easiest to get wrong. The tag pointed at something real, but its *size* was an illusion, and the only way to find that out was to rebuild it from scratch.
+Under Klopp, counters mostly ran through the middle (43%) or down the left (35%). Under Slot, **46% funnelled down Liverpool's right**, Salah's side. Same elite counter-attack, pointed in a different direction. Salah took the most counter shots under both managers, but the supporting cast changed completely: Mané, Oxlade-Chamberlain and Firmino under Klopp; Gakpo, Szoboszlai, Díaz and Jones under Slot.
 
 ## The midfield did a different job
 
