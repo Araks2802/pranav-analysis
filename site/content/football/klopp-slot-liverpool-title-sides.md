@@ -75,6 +75,16 @@ The shot maps show the result. Here's every open-play shot Salah took in each se
 
 Same player, same goal, different postcode. Under Klopp his shots pile up through the middle of the box. Under Slot they shift to the right channel, exactly where a wide forward who stays wide would shoot from. He took a few more shots, scored a few more goals (19 to 15 in open play), and did it from a different spot on the pitch.
 
+You can see the whole swap in where everyone stood. Here's the average position of each player across the season, worked out from the middle of all their touches.
+
+<figure class="chart-figure">
+  <img src="/charts/football/klopp_slot_avg_positions.png" alt="Two pitch maps of Liverpool's average player positions. Under Klopp (4-3-3), Alexander-Arnold is deep and wide on the right touchline while Salah sits infield near the box. Under Slot (4-2-3-1), Salah is wide on the right touchline and Alexander-Arnold has tucked inside; the front line is wider and the full-backs sit deeper.">
+  <figcaption>Average position of each player, both title sides. Each dot is the middle of a player's touches across the season; bigger dots mean more touches. Attacking left to right, right touchline at the bottom.
+  <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
+</figure>
+
+Look at the right edge. Under Klopp, Alexander-Arnold is the widest man on the pitch and Salah tucks inside him. Under Slot, they've switched: Salah is the one hugging the line, with Trent pulled infield next to the midfield. The front line is wider too, and both full-backs sit a touch deeper, which is the "full-backs tuck in to protect the middle" idea in one picture.
+
 The flip side is the full-backs. In 2019/20 Alexander-Arnold and Robertson combined for 25 league assists. In 2024/25, all of Liverpool's full-back assists came to seven, every one of them Trent's. Klopp's chances came from the full-backs bombing on. Slot's came from Salah and a cleverer midfield.
 
 ## The midfield did a different job
