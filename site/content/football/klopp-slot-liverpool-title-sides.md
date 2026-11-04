@@ -122,8 +122,8 @@ Both title sides were elite at it. Klopp's made **1.21 counter shots a game** an
 What changed was the **direction**. Here's which side of the pitch every counter that ended in a shot came down.
 
 <figure class="chart-figure">
-  <img src="/charts/football/klopp_slot_counter_lanes.png" alt="Two pitch maps of Liverpool's counter shots split into left, centre and right lanes. Under Klopp: left 35%, centre 43%, right 22%. Under Slot: left 25%, centre 29%, right 46%.">
-  <figcaption>Each dot is a shot at the end of a counter, grouped by the third of the pitch the move came through. The percentages are the share of counter shots in each lane.
+  <img src="/charts/football/klopp_slot_counter_lanes.png" alt="Two pitches split into left, centre and right lanes, showing the share of Liverpool's counter shots that came down each. Under Klopp: left 35%, centre 43%, right 22%. Under Slot: left 25%, centre 29%, right 46%.">
+  <figcaption>The share of counter shots that came down each lane, based on where the move entered the final third.
   <span class="chart-source">openplay event data, Premier League 2019/20 and 2024/25.</span></figcaption>
 </figure>
 
