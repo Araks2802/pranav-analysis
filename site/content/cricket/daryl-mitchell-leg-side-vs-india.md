@@ -24,7 +24,9 @@ methodology: >-
   the series matches removed). The ranking among batters uses the 302 with at
   least 250 tracked balls and 15 wide-line balls. Called wides come from the
   data's wide flag, and cost is runs per legal ball, so a wide counts as a free
-  run on a ball that has to be bowled again.
+  run on a ball that has to be bowled again. The bowler-arm split uses pace bowlers only
+  (left-arm: LF, LFM, LMF, LM; right-arm: RF, RFM, RMF, RM) on plain outside-off
+  balls, against every other right-handed batter since 1 Jan 2024.
 sources:
   - label: "Ball-by-ball T20 data (line, length, bowler type and wagon zones) by Himanish Ganjoo"
 related:
@@ -33,7 +35,7 @@ related:
 ---
 I was watching an R Ashwin video where he talked about how leg-side heavy Daryl Mitchell is, so I went to the data. Turns out "leg-side heavy" undersells it. Against India this series, Mitchell scored **81.8%** of his runs on the leg side. That's 144 of his 176 runs. Through point, the whole series, he managed 5.
 
-So I wanted to know three things. Is this just who he is? Did India make it easy for him? And what should the plan look like next time?
+So I wanted to know three things. Is this just who he is? Did India make it easy for him? And what actually worked against him?
 
 <div class="stat-row">
   <div class="stat-callout"><div class="stat-value">81.8%</div><div class="stat-label">Of his series runs on the leg side (144 of 176), against 63.7% usually</div></div>
@@ -107,6 +109,20 @@ Everyone else got hit. Prince Yadav went for 49 off 20 balls (strike rate 245), 
 
 Spin was a little cheaper: 27 runs off 19 balls (strike rate 142.1). That's only 19 balls though, and Varun Chakravarthy bowled just 5 of them, so I wouldn't read much into it.
 
+**Why him, though?** My best guess is the angle. Arshdeep is the one left-arm quick in this attack. (Axar is a left-arm spinner, but Bhuvneshwar, Mayank, Nitish and Prince all bowl right-arm.) A left-armer bowling to a right-hander angles the ball away from him. So a just-outside-off ball is already heading away, and to send it leg side Mitchell has to hit against the angle. From a right-armer the same ball is coming in at his body, so he can use the angle and drag it across the line over mid-wicket.
+
+The data backs that up, and it isn't a one-series thing. On plain outside-off balls (not the really wide ones), Mitchell sends **53.9%** of his runs leg side against right-arm pace in his usual record, and only **33.3%** against left-arm pace. Every other right-hander in the data shows the same gap: **47.9%** against right-arm pace and **29.0%** against left-arm pace, across about 81,000 balls. On the stumps line the gap mostly disappears (85.4% against right-arm, 81.4% against left-arm), which fits an angle story, because the angle only matters when the ball is outside off.
+
+<figure class="chart-figure">
+  <img src="/charts/cricket/mitchell_left_arm_angle.png" alt="Bar chart of the share of runs hit to the leg side off just-outside-off balls, by bowler arm. Against left-arm pace: Mitchell's usual record 33%, every other right-hander 29%, Mitchell this series 0% (8 balls, all Arshdeep). Against right-arm pace: Mitchell's usual record 54%, every other right-hander 48%, Mitchell this series 83% (37 balls)">
+  <figcaption>Leg-side share of runs off plain outside-off balls. Left-arm quicks push the ball away from a right-hander and the leg-side share drops, for Mitchell and for everyone else. White whiskers are the 95% range for his usual record. † marks fewer than 10 balls.
+  <span class="chart-source">Ball-by-ball data · T20s since 1 Jan 2024 (Mitchell's usual record and every other right-handed batter) and the India in New Zealand T20I Series, 22 Oct – 1 Nov 2026.</span></figcaption>
+</figure>
+
+The series fits it even more starkly. Arshdeep's 8 plain outside-off balls went for 5 runs, none of them leg side. The right-armers' 37 balls on that line went for 84 runs, 83.3% of them leg side (Bhuvneshwar 91%, Nitish 96%, Prince 82%, Mayank 69%). Add his two wide-line balls, which also went for nothing, and that's the 10 balls and 5 runs from above.
+
+Two honest caveats. The angle is my explanation: the data has no release point or movement in it, only where the runs went. And Mitchell's own left-arm sample is 78 balls (52 scoring shots), so his 33% could plausibly sit anywhere from about 19% to 50%. The league-wide gap, over 13,560 left-arm balls, is the sturdy part.
+
 How he got out:
 
 - **Christchurch:** Arshdeep, short on the stumps, caught for 28 off 19.
@@ -159,14 +175,4 @@ Three things get in the way.
 
 So, a trick India missed? Maybe a narrow one: a spinner, full, wide of off stump, as a surprise ball to tempt the big shot. Not a general plan, because the wides eat the saving.
 
-## So what's the plan next time?
-
-If I were setting the plan, here's where I'd start:
-
-1. **Bowl the Arshdeep ball.** Outside off, good length, and keep doing it. Good length is one of his slowest-scoring lengths in his usual record (strike rate 126), and other teams bowl it on 44.6% of balls. India got there on 25.7%.
-2. **Cut out the freebies.** 13 full tosses in 101 balls is a lot of gifts for a guy this happy to swing through the on side.
-3. **Guard the on side, straight.** Long-on and mid-wicket took 60% of his runs between them. If the ball's outside off and he's still going there, put the boundary riders there and make him beat you through cover and point, where he got 9 runs all series.
-4. **Don't go wide just because he's a leg-side player.** For most batters the wide ball is a gift, and even against Mitchell it costs about the same as plain outside off once you count the wides.
-5. **Save the wide one for spin, and use it sparingly.** Full and wide of off stump from a spinner got him three times in 33 balls in his usual record. That's a hunch on a small sample, and the wides make it expensive, so think of it as a surprise ball, not the plan. Beyond that, 19 balls against spin in the series isn't enough to call it either way.
-
-He's a leg-side player who, for one series, became a leg-side-only player. That's not a weakness exactly. He still scored 176 at 174.3. But it's a very clear map of where the runs are coming from, and next time India have no excuse not to use it.
+He's a leg-side player who, for one series, became a leg-side-only player. That's not a weakness exactly. He still scored 176 at 174.3. But it's a very clear map of where the runs are coming from.
