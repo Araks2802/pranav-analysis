@@ -27,8 +27,10 @@ methodology: >-
   the submitted dissertation; see the limitations section for the honest
   caveats.
 sources:
+  - label: "Himanish Ganjoo — T20 Metrics: A Primer (DL-Pro/lambda, RAA/WAA, shrinkage, win probability, leverage)"
+    url: "https://hganjoo.github.io/t20basics/"
   - label: "Efron & Morris (1975) — empirical-Bayes / Stein's estimator"
-  - label: "Duckworth & Lewis (2004); Stern (2016) — resource-based run expectancy"
+  - label: "Duckworth & Lewis (2004); Stern (2016) — resource-based run expectancy (DL-Pro / DLS)"
   - label: "FanGraphs sabermetrics library — WPA, leverage, WAR"
 related:
   - "sooryavanshi-regression-to-mean"
@@ -44,9 +46,11 @@ So for my master's dissertation I tried to build something that sees the context
 
 Cricket has been slow to do this, but baseball has been at it for forty years. The sabermetrics crowd stopped counting raw hits and started asking: how much did this one action change the team's expected runs, or its chance of winning? That's the lens I borrowed.
 
+I owe a real debt here, and I want to be clear about it. A lot of what CRIX-P is built from, I learned from **Himanish Ganjoo's** work, in particular his excellent primer, [T20 Metrics: A Primer](https://hganjoo.github.io/t20basics/). The DL-Pro resource model with its scoring-environment factor (lambda), the runs-above-average idea, the nested shrinkage for par scores, the win-probability and leverage framing: these are concepts he has developed and explained publicly, and I leaned on them heavily. CRIX-P is my own build and my own dissertation, but it stands squarely on the foundation his work laid out. If this post interests you at all, read his primer, it's the real thing.
+
 CRIX-P rests on one number, computed for every single ball: **how many runs did this delivery add to, or take away from, the batting team's expected final total, given the exact match situation?** A dot ball in the last over of a tight chase and a dot ball in the 3rd over of an easy one are not the same event, and this number knows it.
 
-To get "expected final total" I needed a model of how many runs a team should score from any position. Cricket already has one hiding in plain sight: the Duckworth-Lewis method, the thing that resets targets in rain-hit matches. It's built on exactly the right idea, that a team's scoring potential depends on the balls and wickets it has left. I fitted my own version (I called it DL-Pro) with one twist that matters: a per-match "scoring environment" dial.
+To get "expected final total" I needed a model of how many runs a team should score from any position. Cricket already has one hiding in plain sight: the Duckworth-Lewis method, the thing that resets targets in rain-hit matches. It's built on exactly the right idea, that a team's scoring potential depends on the balls and wickets it has left. I used the DL-Pro version of it, fitted to my own data. The part that matters most for this job is a per-match "scoring environment" dial (a factor Ganjoo's primer calls lambda) that stretches the model for a high-scoring ground and squeezes it for a low one.
 
 ## A six isn't always worth six
 
