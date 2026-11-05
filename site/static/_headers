@@ -1,0 +1,4 @@
+# Cloudflare headers (the equivalent of the [[headers]] block in netlify.toml).
+# Long-cache chart images, as before.
+/charts/*
+  Cache-Control: public, max-age=31536000

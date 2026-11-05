@@ -4,7 +4,7 @@ wordmark: "PRANAV ARAKKAL"
 tagline: "Data-driven cricket and football analysis"
 # The absolute URL the site will live at once deployed. Used for SEO/OpenGraph
 # and the sitemap. Update to your real domain after you deploy.
-base_url: "https://pranav-analysis.netlify.app"
+base_url: "https://pranav-analysis.arakkal-pranav.workers.dev"
 author: "Pranav Arakkal"
 description: >-
   Independent cricket and football analysis — match breakdowns, player studies,
