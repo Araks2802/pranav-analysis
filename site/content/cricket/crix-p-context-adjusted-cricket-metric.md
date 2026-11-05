@@ -1,13 +1,13 @@
 ---
 title: "CRIX-P: Grading Cricketers on More Than the Scoreboard"
 slug: "crix-p-context-adjusted-cricket-metric"
-description: "My MSc dissertation built CRIX-P, a context-adjusted performance metric for women's T20 cricket. It judges a run by when it was scored and a wicket by when it fell, not just the tally. It tracked team wins at R-squared 0.73, and it earned a distinction."
+description: "My MSc dissertation built CRIX-P, a context-adjusted performance metric for women's T20 cricket. It judges a run by when it was scored and a wicket by when it fell, not just the tally, and it earned a distinction."
 standfirst: "Batting average and strike rate treat every run the same, whether it's scored in a tense final over or a dead rubber. For my master's dissertation I tried to fix that. The result is CRIX-P, and it scored a distinction."
 date: 2026-10-17
 category: "Data Stories"
 tags: ["WPL", "T20", "women's cricket", "metric", "sabermetrics", "dissertation", "CRIX-P"]
 cover: "/images/crixp_cover.jpg"
-cover_alt: "Title graphic reading CRIX-P in large bold type, with the subtitle Cricket Runs Impact IndeX, a context-adjusted performance metric for women's T20 cricket, and three stat chips: R-squared 0.73 vs team win percentage, 0 to 100 percentile score, 4 WPL seasons plus 5 of T20I"
+cover_alt: "Title graphic reading CRIX-P in large bold type, with the subtitle Cricket Runs Impact IndeX, a context-adjusted performance metric for women's T20 cricket, and two stat chips: 0 to 100 percentile score, and 4 WPL plus 5 T20I seasons tested"
 author: "Pranav Arakkal"
 featured: true
 medium: ""
@@ -22,8 +22,8 @@ methodology: >-
   standardised within season and role, orthogonalised so shared signal isn't
   double-counted, and converted to a 0-100 percentile. A reliability label
   (Low/Medium/High) is reported alongside the score, never folded into it.
-  Validated with a five-pillar framework (validity, reliability, repeatability,
-  correlation with winning, actionability). Figures and exact numbers are from
+  Validated with a framework covering validity, reliability, repeatability and
+  actionability. Figures and exact numbers are from
   the submitted dissertation; see the limitations section for the honest
   caveats.
 sources:
@@ -102,17 +102,9 @@ And next to every score sits a **reliability label**, Low, Medium or High, based
 
 ## Does it actually work?
 
-A clever formula proves nothing on its own. So I put CRIX-P through a five-part gauntlet, and reported the bits that failed as loudly as the bits that passed.
+A clever formula proves nothing on its own. So I put CRIX-P through a battery of checks, and reported the bits that failed as loudly as the bits that passed.
 
 **It's not just re-labelling old stats.** CRIX-P correlates with strike rate and economy, as it should, but only loosely (around 0.6). If it correlated near-perfectly, it would be adding nothing. The gap is the new information.
-
-**It tracks winning, strongly.** Add up a team's CRIX-P and line it against how often that team actually won: an R-squared of **0.73** in the WPL, beating a traditional strike-rate-and-economy model (0.63). In the international data it hit 0.90. For a player metric, tracking team success that tightly is about the best face-check you can ask for.
-
-<figure class="chart-figure">
-  <img src="/charts/cricket/crixp_win_pct.png" alt="Horizontal bar chart of R-squared for explaining team win percentage. CRIX-P tops it at about 0.73, above a combined batting strike rate and bowling economy model (0.63), bowling economy alone (0.56), and single traditional stats lower down.">
-  <figcaption>How well each metric explains team win percentage in the WPL. CRIX-P's combined score beats every traditional measure, including a model that uses batting strike rate and bowling economy together.
-  <span class="chart-source">CRIX-P vs traditional baselines, WPL team-seasons.</span></figcaption>
-</figure>
 
 **It passes the eye test.** The players the metric crowns are the players the sport already crowns. Across four WPL seasons, the official Player-of-the-Series winners all landed near the very top of their groups: Nat Sciver-Brunt 1st, Sophie Devine 1st, Hayley Matthews 2nd. If your fancy metric had those names buried in mid-table, you'd know something was broken.
 
@@ -155,4 +147,4 @@ None of these sink the idea. They're the map of where it goes next: opposition a
 
 Baseball's analytics revolution didn't happen because someone found more stats. It happened because people started asking better questions of the stats they had. Cricket is arriving at that same moment, and the women's game, still early in its data journey, is a wide-open place to do it.
 
-CRIX-P is one attempt to move cricket evaluation past counting events toward understanding what they were worth. It's not the finished article, and I've tried to be clear about that. But it works well enough to track winning, surface hidden contributors, and, apparently, earn a distinction. I'll take it.
+CRIX-P is one attempt to move cricket evaluation past counting events toward understanding what they were worth. It's not the finished article, and I've tried to be clear about that. But it works well enough to pass its sanity checks, surface hidden contributors, and, apparently, earn a distinction. I'll take it.
