@@ -58,6 +58,12 @@ Wickets get the same treatment, and this is where it gets fun. A wicket isn't "a
 
 The model puts real numbers on that: in the WPL data, an early wicket cost about **12 runs** of expected total, and that fell to **under 3 runs** by the final overs. A bowling average treats all of those as one wicket. CRIX-P treats a top-order scalp in the 4th over as the far bigger deal it actually is.
 
+<figure class="chart-figure">
+  <img src="/charts/cricket/crixp_wicket_cost.png" alt="Bar chart of the average resource-adjusted run value of a wicket by over in the WPL. It falls steadily from about 12.3 runs in the first over to about 2 runs in the 20th, coloured by powerplay, middle and death phases.">
+  <figcaption>What a wicket is really worth, over by over. A dismissal in the powerplay costs four to six times more expected runs than one at the death, yet a bowling average counts them all the same.
+  <span class="chart-source">CRIX-P, all four WPL seasons pooled.</span></figcaption>
+</figure>
+
 ## Being good versus being decisive
 
 Run value tells you how *well* someone played. It doesn't quite tell you how much they *mattered*. A brilliant cameo in a game that's already lost is high quality but low impact.
@@ -65,6 +71,14 @@ Run value tells you how *well* someone played. It doesn't quite tell you how muc
 So I added a second number: **win probability added**, again lifted from baseball. For every ball, how much did the batting team's chance of winning go up or down? A single in the last over of a tied chase can be worth a mountain of win probability; the same single in a rout is worth almost nothing. This is how CRIX-P rewards players who show up in the moments that decide matches.
 
 Two numbers, then: **quality** (how good, per ball, in context) and **WPA** (how much it moved real games). They measure genuinely different things, which is the point.
+
+For the win-probability engine to be trustworthy, its predicted win chance has to match what actually happens. It does: when I line the model's predicted probability against the real win rate across hundreds of match situations, they track each other closely, in both innings.
+
+<figure class="chart-figure">
+  <img src="/charts/cricket/crixp_wp_calibration.png" alt="Two calibration plots, first and second innings, showing the model's fitted win-probability curve against the empirical win rate across score ratios. The orange empirical points hug the blue fitted S-curve in both panels.">
+  <figcaption>The win-probability model against reality. The curve is the model; the dots are what actually happened. When the model says 70%, teams won about 70% of the time.
+  <span class="chart-source">CRIX-P win-probability calibration, fitted across five women's T20 competitions.</span></figcaption>
+</figure>
 
 ## Don't get fooled by small samples
 
@@ -90,17 +104,37 @@ A clever formula proves nothing on its own. So I put CRIX-P through a five-part 
 
 **It tracks winning, strongly.** Add up a team's CRIX-P and line it against how often that team actually won: an R-squared of **0.73** in the WPL, beating a traditional strike-rate-and-economy model (0.63). In the international data it hit 0.90. For a player metric, tracking team success that tightly is about the best face-check you can ask for.
 
+<figure class="chart-figure">
+  <img src="/charts/cricket/crixp_win_pct.png" alt="Horizontal bar chart of R-squared for explaining team win percentage. CRIX-P tops it at about 0.73, above a combined batting strike rate and bowling economy model (0.63), bowling economy alone (0.56), and single traditional stats lower down.">
+  <figcaption>How well each metric explains team win percentage in the WPL. CRIX-P's combined score beats every traditional measure, including a model that uses batting strike rate and bowling economy together.
+  <span class="chart-source">CRIX-P vs traditional baselines, WPL team-seasons.</span></figcaption>
+</figure>
+
 **It passes the eye test.** The players the metric crowns are the players the sport already crowns. Across four WPL seasons, the official Player-of-the-Series winners all landed near the very top of their groups: Nat Sciver-Brunt 1st, Sophie Devine 1st, Hayley Matthews 2nd. If your fancy metric had those names buried in mid-table, you'd know something was broken.
 
 **But it's noisy, and I say so.** Split a season's data in half at random and the two halves only agree modestly (reliability around 0.3). T20 seasons are short, a handful of big deliveries move a score a lot, and bowling is especially jumpy year to year. CRIX-P catches real signal, but with real noise on top. That's exactly why the reliability label exists, and why I pitch this as a flashlight for finding players worth a closer look, not a final verdict.
 
 ## The player it found: Orla Prendergast
 
-My favourite result isn't a number, it's a name. Orla Prendergast, an Ireland all-rounder, was nowhere near the top of the 2024 run-scoring or wicket charts. On the traditional leaderboards she's easy to miss.
+My favourite result isn't a number, it's a name. Orla Prendergast is an Ireland all-rounder, 22 years old in 2024, playing for a team that doesn't get much airtime and isn't among the Test nations. If you scanned the 2024 run charts or wicket charts for the women's international year, you'd skim right past her. The volume just isn't eye-catching when your side plays fewer, lower-profile fixtures.
 
-On CRIX-P, she came out at the **top for both batting and bowling.** Why? Because her contributions came in moments that mattered, including 80 off 51 and two wickets in Ireland's first ever T20I win over England. A context-aware metric sees the value in that. A run tally doesn't.
+CRIX-P saw her differently. Among all T20I top-order batters in 2024 she ranked **3rd**, and among all T20I bowlers she ranked **7th**. Top-ten in the world on *both* sides of the ball, in the same year.
 
-That's the whole pitch for CRIX-P in one player: it surfaces the people whose real influence hides behind modest-looking totals. In women's cricket especially, where analytical coverage is thin and talent can go unseen, a tool that points a scout toward "look harder at her" feels genuinely useful.
+<figure class="chart-figure">
+  <img src="/charts/cricket/crixp_t20i_batting_2024.png" alt="CRIX-P leaderboard for 2024 T20I top-order batters. Smriti Mandhana and Alyssa Healy lead; Orla Prendergast is third on 95.9, flagged medium reliability on 194 balls.">
+  <figcaption>2024 T20I top-order batters by CRIX-P. Prendergast (95.9) sits third, behind only Mandhana and Healy, well above far more famous names.
+  <span class="chart-source">CRIX-P, Women's T20I 2024.</span></figcaption>
+</figure>
+
+<figure class="chart-figure">
+  <img src="/charts/cricket/crixp_t20i_bowling_2024.png" alt="CRIX-P leaderboard for 2024 T20I bowlers. Sarah Glenn tops it; Orla Prendergast is seventh on 96.6.">
+  <figcaption>The same year's T20I bowlers. Prendergast (96.6) is seventh, so she's elite with the ball as well as the bat.
+  <span class="chart-source">CRIX-P, Women's T20I 2024.</span></figcaption>
+</figure>
+
+Why does the metric rate her so highly when the raw tallies don't? Because her best cricket came in the biggest moments. In 2024 she made **80 off 51 and took two wickets in Ireland's first ever T20I win over England**, a genuine giant-killing, plus key contributions in wins over Sri Lanka and a clean sweep of Bangladesh. Those are high-leverage performances against strong opposition, exactly the kind of value that a run tally flattens and a context-aware metric rewards.
+
+Now, the honest asterisk: she's on **medium reliability**, because those scores rest on fewer balls than a Mandhana or a Healy gets in a busy international season. CRIX-P shows you that caveat rather than hiding it. But that's the whole pitch for the metric in one player: it points a scout toward "look harder at her," and in women's cricket, where coverage is thin and talent from smaller nations can go unseen, that nudge is genuinely worth something.
 
 ## Where it falls short
 
