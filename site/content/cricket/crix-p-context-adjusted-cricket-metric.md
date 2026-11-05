@@ -3,7 +3,7 @@ title: "CRIX-P: Grading Cricketers on More Than the Scoreboard"
 slug: "crix-p-context-adjusted-cricket-metric"
 description: "My MSc dissertation built CRIX-P, a context-adjusted performance metric for women's T20 cricket. It judges a run by when it was scored and a wicket by when it fell, not just the tally. It tracked team wins at R-squared 0.73, and it earned a distinction."
 standfirst: "Batting average and strike rate treat every run the same, whether it's scored in a tense final over or a dead rubber. For my master's dissertation I tried to fix that. The result is CRIX-P, and it scored a distinction."
-date: 2026-11-06
+date: 2026-10-17
 category: "Data Stories"
 tags: ["WPL", "T20", "women's cricket", "metric", "sabermetrics", "dissertation", "CRIX-P"]
 cover: "/images/crixp_cover.jpg"
