@@ -18,9 +18,13 @@ methodology: >-
   deliveries across the top 10 nations and five seasons. Two components are
   computed on every ball: a context-adjusted run value from a Duckworth-Lewis-
   style resource model (DL-Pro) fitted for the project, empirical-Bayes shrunk
-  into a per-ball "quality"; and win probability added (WPA). The two are
-  standardised within season and role, orthogonalised so shared signal isn't
-  double-counted, and converted to a 0-100 percentile. A reliability label
+  into a per-ball "quality"; and win probability added (WPA), kept as an
+  unshrunk season total. Both are standardised within season and role, then
+  combined one-to-one by adding quality to the part of WPA that quality doesn't
+  already explain (an orthogonalised residual, so shared signal isn't double-
+  counted), and the result is converted to a 0-100 percentile via the normal
+  CDF. A weight-sensitivity check confirms the ranking is robust to the exact
+  quality/WPA blend. A reliability label
   (Low/Medium/High) is reported alongside the score, never folded into it.
   Validated with a framework covering validity, reliability, repeatability and
   actionability. Figures and exact numbers are from
@@ -96,7 +100,17 @@ I also judge batters only against their own kind. An opener facing the new ball 
 
 The last step is putting quality and WPA together into a single 0-to-100 score, where 50 is dead average for your role and season and 90 means top-10%, like a percentile on a test.
 
-One subtlety I'm a little proud of: good players tend to rack up win probability *because* they're good, so quality and WPA overlap. If you just add them you count that shared skill twice. So I strip out the part of WPA that quality already explains, and keep only the extra, the impact a player had *beyond* what their raw skill would predict. A merely good player gets full credit for being good; a player who also turned up in the big moments gets a bonus on top.
+First, a note on what each number actually is. Quality is a per-ball *rate* that's been shrunk, so it answers "how good is this player, per opportunity?", much like a batting average. WPA is left as a raw season total, deliberately unshrunk, because it answers a different question: "how much did this player actually move real matches, in the chances they were given?" That's a counting stat by nature, the same way baseball's WAR is a rate multiplied by opportunities. Shrinking it, or turning it into a rate, would erase the very thing it exists to carry.
+
+To combine them, I first put both on the same footing by standardising each into a z-score within role and season (so an opener is compared to openers that year, a finisher to finishers). Then comes the one subtlety I'm a little proud of. Good players tend to rack up win probability *because* they're good, so quality and WPA overlap. If you just add the two z-scores you count that shared skill twice. So instead of adding them raw, I regress WPA on quality and keep only the residual, the part of a player's win-probability impact that their skill level *doesn't* already predict. The composite is simply quality plus that leftover:
+
+> `crix_raw = z_quality + (the part of z_wpa not explained by z_quality)`
+
+By construction the residual is uncorrelated with quality, so the two halves are genuinely independent: overall per-ball skill, plus situational impact beyond what that skill alone would predict. A merely good player gets full credit for being good; a player who also turned up in the big moments gets a bonus on top, without that bonus being a quiet re-statement of skill already counted once.
+
+That's an even-handed, one-to-one combination, not a dial I tuned to get the answer I wanted. I checked that too: re-running the rankings under a spread of alternative weightings (60/40, 40/60, 70/30, 30/70) barely moved them (Spearman 0.93 or higher against the one-to-one version), so the result doesn't hinge on a lucky choice of weights.
+
+Finally, that composite is turned into the 0-to-100 scale by reading it off a normal curve, which is why a score doubles as a percentile within your role and season.
 
 And next to every score sits a **reliability label**, Low, Medium or High, based purely on how much data it rests on. Two players can both score 85: one off a full season, one off the bare minimum. CRIX-P shows you the score *and* how much to trust it, instead of pretending they're equally solid.
 
