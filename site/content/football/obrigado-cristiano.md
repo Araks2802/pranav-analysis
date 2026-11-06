@@ -43,8 +43,6 @@ Cristiano Ronaldo has retired, and I have been putting off writing that sentence
 
 He was one of my idols. I do not say that lightly, and I do not think I am the only one. For a very long time he made it look normal to demand more of yourself than anyone else was asking. More training, more goals, one more season, one more tournament. Whatever you think of the rest of it, nobody can say he did not give everything he had to the game.
 
-So this is a thank-you. I wanted to use the one thing I know how to do, which is sit with the data, but I did not want the numbers to take over. There are two charts in this piece, and they are only there because they say something I could not say any better.
-
 ## Ten years, one dot at a time
 
 Here is every goal he scored for Portugal in the data I use, from the summer of 2016 to the summer of 2026, across the European Championships, the World Cups and the Nations League. One dot is one goal. The hollow ones are penalties.
