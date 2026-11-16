@@ -6,8 +6,8 @@ standfirst: "Everyone has a name for the player who delivers when it counts. We 
 date: 2026-11-16
 category: "Data Stories"
 tags: ["IPL", "T20I", "pressure", "clutch", "win probability", "leverage", "Rajasthan Royals", "Python"]
-cover: "/charts/cricket/rr_cover.png"
-cover_alt: "Title card reading Who delivers when it matters, with three figures: 185,567 balls analysed, 14.5 percent pressure balls, and an 80 20 split between Pressure Impact and clutch"
+cover: "/images/pressure_cover.jpg"
+cover_alt: "Bold white poster text on a dark navy background reading: Pressure is a privilege, not everyone gets to feel it"
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
