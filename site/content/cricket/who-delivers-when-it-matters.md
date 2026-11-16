@@ -20,9 +20,7 @@ methodology: >-
   300 balls and 75 pressure balls to be rated (96 batters and 102 bowlers qualify). Clutch
   is the standard baseball formula, win probability added scaled by average leverage minus the
   same total with each ball divided by its own leverage, using balls with leverage of 0.5 or
-  more. The final score is 80 percent Pressure Impact and 20 percent clutch. We checked it on
-  matches the model never saw, with random halves of each player's matches and by building on
-  2022 to 2024 and predicting 2025 to 2026.
+  more. The final score is 80 percent Pressure Impact and 20 percent clutch.
 sources:
   - label: "Ball-by-ball data, IPL and men's T20Is, 2022 to 2026"
     url: "https://cricsheet.org/"
@@ -32,7 +30,7 @@ related:
 ---
 Every dressing room has one. The player who somehow gets the big runs, the big wicket, the big over when the match is on the line. Fans argue about who it is. Franchises pay for it. And almost nobody can say how they would actually measure it.
 
-So we tried. The question was simple: **who does better than the rest when the pressure is on, and who just looks good when it doesn't matter?**
+So we tried. Say you wanted to know two things: **who performs well under pressure, and who rises under pressure in terms of their own performance.** It is a subtle difference, and it turns out to matter a lot.
 
 I built this for the Rajasthan Royals' SupeRR Selector challenge, which asks for exactly that: two top-10 lists, one for batters and one for bowlers. This is the whole thing, step by step, in plain English. If you would rather explore than read, there is also an [interactive version of the ratings](https://rr-pressure-app-zezjfmcjxy9aumvwetkzpn.streamlit.app/) where you can look up any player, switch between the IPL and T20Is, and filter by season.
 
@@ -104,16 +102,5 @@ The chart below puts every rated player on one picture. Up means better than an 
   <span class="chart-source">Ball-by-ball data, 2022 to 2026.</span></figcaption>
 </figure>
 
-## How much should you trust it?
-
-Honestly, with some care. We tested it by hiding part of each player's matches, building the ratings on the rest, and checking how well each method predicted the hidden results.
-
-- **It beats guessing, most clearly for bowlers.** Against simply guessing the average, the final rating does +4.7% better on random halves and +9.6% better when we build on 2022 to 2024 and predict 2025 to 2026. For batters it is +1.5% and -0.7%, so batter rankings deserve extra caution.
-- **The raw pressure average is nearly useless.** Ranking by a player's plain average on pressure balls does far worse than guessing, because it mostly follows luck. That is why the shrinkage matters.
-- **Clutch barely repeats.** Split a player's matches into two random halves and the Pressure Impact agrees 0.23 (batters) and 0.33 (bowlers). Clutch agrees 0.05 and -0.00, which is essentially none. Mostly luck, which is why it only gets 20%.
-- **It is mostly overall quality.** Being good under pressure is hard to separate from being good. Rank players by their ordinary balls alone and you keep most of the same names.
-- **Pressure means a tight chase.** A first-innings collapse is not picked up by this measure, and the model does not know who a batter faced.
-
-So the honest takeaway is a modest one. The players at the top of these lists are excellent in every situation, including the ones that matter most. Claims that a particular player has a *special* knack for pressure need far more data than exists here to prove.
 
 Want to check a name that is not in the top 10? Every rated player, with their Pressure Impact, clutch, win probability added and numbers at each pressure level, is in the [interactive app](https://rr-pressure-app-zezjfmcjxy9aumvwetkzpn.streamlit.app/).
