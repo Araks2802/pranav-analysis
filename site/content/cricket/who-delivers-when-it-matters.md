@@ -34,7 +34,7 @@ Every dressing room has one. The player who somehow gets the big runs, the big w
 
 So we tried. The question was simple: **who does better than the rest when the pressure is on, and who just looks good when it doesn't matter?**
 
-I built this for the Rajasthan Royals' SupeRR Selector challenge, which asks for exactly that: two top-10 lists, one for batters and one for bowlers. This is the whole thing, step by step, in plain English.
+I built this for the Rajasthan Royals' SupeRR Selector challenge, which asks for exactly that: two top-10 lists, one for batters and one for bowlers. This is the whole thing, step by step, in plain English. If you would rather explore than read, there is also an [interactive version of the ratings](https://rr-pressure-app-zezjfmcjxy9aumvwetkzpn.streamlit.app/) where you can look up any player, switch between the IPL and T20Is, and filter by season.
 
 ## First, what counts as pressure?
 
@@ -115,3 +115,5 @@ Honestly, with some care. We tested it by hiding part of each player's matches, 
 - **Pressure means a tight chase.** A first-innings collapse is not picked up by this measure, and the model does not know who a batter faced.
 
 So the honest takeaway is a modest one. The players at the top of these lists are excellent in every situation, including the ones that matter most. Claims that a particular player has a *special* knack for pressure need far more data than exists here to prove.
+
+Want to check a name that is not in the top 10? Every rated player, with their Pressure Impact, clutch, win probability added and numbers at each pressure level, is in the [interactive app](https://rr-pressure-app-zezjfmcjxy9aumvwetkzpn.streamlit.app/).
