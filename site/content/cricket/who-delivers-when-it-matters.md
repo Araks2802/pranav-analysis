@@ -1,7 +1,7 @@
 ---
 title: "Who Delivers When It Matters? Rating IPL and T20I Players Under Pressure"
 slug: "who-delivers-when-it-matters"
-description: "A ball-by-ball look at 185,567 IPL and T20I deliveries to find who adds the most when the match is on the line. Heinrich Klaasen and Sunil Narine lead, but the bigger finding is how hard 'clutch' is to measure."
+description: "A ball-by-ball look at 189,683 IPL and T20I deliveries to find who adds the most when the match is on the line. Tim David and Sunil Narine lead, but the bigger finding is how hard 'clutch' is to measure."
 standfirst: "Everyone has a name for the player who delivers when it counts. We tried to put a number on it, and found that being good under pressure and rising under pressure are two different things."
 date: 2026-11-16
 category: "Data Stories"
@@ -11,13 +11,13 @@ cover_alt: "Bold white poster text on a dark navy background reading: Pressure i
 author: "Pranav Arakkal"
 featured: false
 methodology: >-
-  Built in Python on ball-by-ball data for 777 usable IPL and men's T20I matches from 2022 to 2026
-  (185,567 balls). Every ball gets a win probability from an expected-runs curve, and a leverage
+  Built in Python on ball-by-ball data for 802 usable IPL and men's T20I matches from 2022 to 2026, including completed rain-reduced games, which are scored on their own revised overs and target
+  (189,683 balls). Every ball gets a win probability from an expected-runs curve, and a leverage
   score from how much each possible outcome would move that probability. A pressure ball is one
-  with leverage of 1.4 or more, about one ball in seven. Each ball is scored in runs against an
+  with leverage of 1.4 or more, about one ball in eight. Each ball is scored in runs against an
   average player in the same innings, phase and leverage band, and the players' averages are
   shrunk towards the group by empirical Bayes so small samples cannot top the list. Players need
-  300 balls and 75 pressure balls to be rated (96 batters and 102 bowlers qualify). Clutch
+  300 balls and 75 pressure balls to be rated (101 batters and 110 bowlers qualify). Clutch
   is the standard baseball formula, win probability added scaled by average leverage minus the
   same total with each ball divided by its own leverage, using balls with leverage of 0.5 or
   more. The final score is 80 percent Pressure Impact and 20 percent clutch.
@@ -36,7 +36,7 @@ I built this for the Rajasthan Royals' SupeRR Selector challenge, which asks for
 
 ## First, what counts as pressure?
 
-You can't measure pressure by feel, so we measured it by what a ball can do to the match. For every ball in 777 IPL and T20I matches, we worked out the batting side's chance of winning, then asked a second question *before the ball was bowled*: if this ball goes for a wicket, a dot, a single, a four or a six, how far does that chance move?
+You can't measure pressure by feel, so we measured it by what a ball can do to the match. For every ball in 802 IPL and T20I matches, we worked out the batting side's chance of winning, then asked a second question *before the ball was bowled*: if this ball goes for a wicket, a dot, a single, a four or a six, how far does that chance move?
 
 Average those swings and you get what I call **leverage**. An average ball is 1.0. A ball that can swing the match three times as much is a 3.
 
@@ -48,7 +48,7 @@ Here is a real one. Mumbai defending 167 against Bengaluru, May 2026. Bengaluru 
   <span class="chart-source">Ball-by-ball data, IPL and men's T20Is, 2022 to 2026.</span></figcaption>
 </figure>
 
-We split leverage into three bands: **low (0.5 to 0.85), medium (0.85 to 1.4) and high (1.4 and above)**. A **pressure ball** is a high-leverage ball. That is about one ball in seven, and almost all of them come in the middle and end of a chase.
+We split leverage into three bands: **low (0.5 to 0.85), medium (0.85 to 1.4) and high (1.4 and above)**. A **pressure ball** is a high-leverage ball. That is about one ball in eight, and almost all of them come in the middle and end of a chase.
 
 ## Two ways to be good under pressure
 
@@ -67,30 +67,30 @@ Those are not the same thing. A player who is elite in every situation has nothi
 </figure>
 
 <div class="stat-row">
-  <div class="stat-callout"><div class="stat-value">+29.9</div><div class="stat-label">Suryakumar Yadav's Pressure Impact: extra runs per 100 pressure balls</div></div>
+  <div class="stat-callout"><div class="stat-value">+29.0</div><div class="stat-label">Suryakumar Yadav's Pressure Impact: extra runs per 100 pressure balls</div></div>
   <div class="stat-callout"><div class="stat-value">-0.30</div><div class="stat-label">His clutch score: no gap between his best and his usual</div></div>
-  <div class="stat-callout"><div class="stat-value">+1.16</div><div class="stat-label">Rinku Singh's clutch score: he lifts under pressure</div></div>
+  <div class="stat-callout"><div class="stat-value">+1.09</div><div class="stat-label">Rinku Singh's clutch score: he lifts under pressure</div></div>
 </div>
 
-Jasprit Bumrah is the same story. He is 2nd among bowlers on Pressure Impact, and 62th of 101 on clutch (-0.21). Nobody thinks he is a poor performer in big moments. It just means he is as good in the quiet overs as he is in the loud ones.
+Jasprit Bumrah is the same story. He is 2nd among bowlers on Pressure Impact, and 63rd of 107 on clutch (-0.19). Nobody thinks he is a poor performer in big moments. It just means he is as good in the quiet overs as he is in the loud ones.
 
 ## Putting them together
 
 If you want the player who is genuinely best when the match is on the line, Pressure Impact is the better guide. Clutch still tells us something, so I kept it, but only as 20% of the final score because it is far noisier. The **combined score** is 80% Pressure Impact and 20% clutch, scaled so that 50 is the average rated player.
 
-One more safeguard: luck. A player with 75 pressure balls and a hot streak looks brilliant for no reason. So every number is pulled back towards the average in proportion to how little data stands behind it. David Warner, for example, scores +37 runs per 100 on his raw pressure balls, but only has 75 of them, so his final rating settles at +24.0. Players need at least 300 balls and 75 pressure balls to be rated at all, which leaves 96 batters and 102 bowlers.
+One more safeguard: luck. A player with 75 pressure balls and a hot streak looks brilliant for no reason. So every number is pulled back towards the average in proportion to how little data stands behind it. Vaibhav Sooryavanshi, for example, scores +111 runs per 100 on his raw pressure balls, but only has 80 of them, so his final rating settles at +25.0. Players need at least 300 balls and 75 pressure balls to be rated at all, which leaves 101 batters and 110 bowlers.
 
 ## The top 10
 
 <figure class="chart-figure">
   <img src="/charts/cricket/rr_top10_batters.png" alt="Horizontal bar chart of the ten batters with the highest combined pressure score">
-  <figcaption>Heinrich Klaasen, Tim David, Suryakumar Yadav lead the batters. The gaps between the top few are small, so treat the top three as a cluster, not a strict order.
+  <figcaption>Tim David, Heinrich Klaasen, Suryakumar Yadav lead the batters. The gaps between the top few are small, so treat the top three as a cluster, not a strict order.
   <span class="chart-source">Ball-by-ball data, 2022 to 2026.</span></figcaption>
 </figure>
 
 <figure class="chart-figure">
   <img src="/charts/cricket/rr_top10_bowlers.png" alt="Horizontal bar chart of the ten bowlers with the highest combined pressure score">
-  <figcaption>Sunil Narine, Rashid Khan, Jasprit Bumrah lead the bowlers. Bumrah's clutch score holds him back a little, but his Pressure Impact is among the best.
+  <figcaption>Sunil Narine, Jasprit Bumrah, Rashid Khan lead the bowlers. Bumrah's clutch score sits a little below zero, but his Pressure Impact is among the best.
   <span class="chart-source">Ball-by-ball data, 2022 to 2026.</span></figcaption>
 </figure>
 
