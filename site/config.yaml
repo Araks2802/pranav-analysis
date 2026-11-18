@@ -17,9 +17,11 @@ description: >-
 # back to "https://medium.com/feed/@arakkal.pranav" to re-enable.
 # (A post's own `medium:` field and its "Read this on Medium" link still work.)
 medium_feed: ""
+# Google Analytics 4 Measurement ID (looks like G-AB12CD34EF). Leave blank to turn analytics off.
+google_analytics_id: ""
 contact:
   email: "arakkal.pranav@gmail.com"
   medium: "https://medium.com/@arakkal.pranav"
   github: ""        # e.g. https://github.com/yourusername
-  linkedin: ""      # e.g. https://www.linkedin.com/in/yourusername
+  linkedin: "https://www.linkedin.com/in/pranav-arakkal-323691249"
   x: ""             # e.g. https://x.com/yourusername

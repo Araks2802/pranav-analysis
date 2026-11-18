@@ -23,6 +23,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
+  {% if ga_id %}
+  <!-- Google Analytics 4. Only added when google_analytics_id is set in config.yaml -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ ga_id }}');
+  </script>
+  {% endif %}
   {% block head %}{% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">

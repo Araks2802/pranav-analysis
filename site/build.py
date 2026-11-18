@@ -318,6 +318,11 @@ def make_env(config):
         lstrip_blocks=True,
     )
     env.globals["config"] = config
+    # Google Analytics: only a well-formed GA4 Measurement ID (e.g. G-AB12CD34EF) is accepted, so nothing else can be injected into pages
+    ga = str(config.get("google_analytics_id") or "").strip()
+    if ga and not re.fullmatch(r"G-[A-Z0-9]{4,16}", ga):
+        raise SystemExit(f"config.yaml: google_analytics_id '{ga}' is not a GA4 Measurement ID (it should look like G-AB12CD34EF)")
+    env.globals["ga_id"] = ga
     env.globals["sections"] = SECTIONS
     env.globals["now"] = dt.datetime.now()
     return env
