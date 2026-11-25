@@ -23,9 +23,9 @@ methodology: >-
   third and box, key passes, xA, npxG). Ball losses count the last controlled
   action before the opponent gets the ball, in the middle and final third. The
   ball-loss index divides actual losses by the losses an average player would have
-  made with the same kinds of action in the same zones. Midfield height is where a
-  player's touches sit between his own centre-backs (0%) and his own striker
-  (100%). A counter is a move from a turnover that reaches the defending team's
+  made with the same kinds of action in the same zones. Player positions are each player's average touch position, placed between his
+  own team's centre-backs and striker in every match so that deep and high teams
+  compare fairly. A counter is a move from a turnover that reaches the defending team's
   third within 15 seconds. Prices are fees paid or reported values (Transfermarkt
   and news reports, November 2026). Full method, code and every number are in the
   presentation linked in the post.
@@ -102,12 +102,12 @@ Anderson was always going to be the Rodri replacement. On passing and winning th
 On the pitch, though, he plays a different game. He pushes on and carries the ball forward. A fair question is whether that's just because Forest sat so deep. So I measured where each midfielder plays **between his own centre-backs and his own striker**. A deep team moves all three back together, so team style drops out.
 
 <figure class="chart-figure">
-  <img src="/charts/football/enzo_pitch_positions.png" alt="Pitch diagram showing where midfielders play between their own centre-backs (0%) and own striker (100%) in 2025/26. Rodri 38%, Caicedo 46%, Nico González 47% sit in the sitter zone. Bouaddi 52%, Anderson 64%, Enzo 75% and Cherki 110% are all further up the pitch.">
-  <figcaption>Only left to right matters here; the up-and-down spread just keeps the names readable. The shaded strip is where the sitters played.
-  <span class="chart-source">openplay event data, 2025/26, each player at his own club.</span></figcaption>
+  <img src="/charts/football/enzo_pitch_positions.png" alt="Football pitch showing each midfielder's average position in 2025/26. Rodri, Nico González and Caicedo sit inside a shaded strip just behind the centre circle. Bouaddi, Anderson and Enzo are all further up the pitch, and Cherki is higher still.">
+  <figcaption>Each dot is a player's average position. The shaded strip is where the sitters played.
+  <span class="chart-source">openplay event data, 2025/26, each player at his own club. Sitters in gold.</span></figcaption>
 </figure>
 
-**How to read it:** take the average position of a team's centre-backs when they touch the ball. That's 0%. Take the average position of the team's striker. That's 100%. Each midfielder then gets a number for how far up that line his touches sit. It's measured against his own team, so a side that sits deep doesn't fool it. It also isn't capped at 100%: Cherki's 110% simply means he receives the ball further forward than his striker does, which is what you'd expect from a number 10 who drifts into the box.
+**How to read it:** each dot is where a player's touches sit on average. To make teams comparable, I place every player between his own team's centre-backs and his own striker (the dashed lines), so a side that defends deep doesn't distort it. Up and down on the pitch is just each player's real average width. Cherki is beyond the striker's line because he receives the ball further forward than his own striker does, which fits a number 10 who drifts into the box.
 
 Even at Forest, Anderson was the one going forward. In games where Forest played two holding midfielders, he was the higher of the two **79% of the time**, with Ibrahim Sangaré sitting behind him. That's exactly how Caicedo and Enzo split the job at Chelsea.
 
@@ -116,9 +116,9 @@ Even at Forest, Anderson was the one going forward. In games where Forest played
 This is the chart that convinced me.
 
 <figure class="chart-figure">
-  <img src="/charts/football/enzo_setups.png" alt="Dot chart of where each midfielder plays between his own centre-backs and striker, for Pep's City 2024/25 and 2025/26, Maresca's Chelsea 2024/25 and City now. Each of the first three has one player in the sitter zone (Kovačić, Rodri or Nico González, Caicedo). City now has nobody in it: Bouaddi 52%, Anderson 64%, Enzo 75%, Cherki 110%.">
-  <figcaption>The shaded zone is where the sitters played. City now have nobody in it.
-  <span class="chart-source">openplay event data. City now: measured at their 2025/26 clubs.</span></figcaption>
+  <img src="/charts/football/enzo_setups.png" alt="Four football pitches showing midfielders' average positions: Pep's City 2024/25, Pep's City 2025/26, Maresca's Chelsea 2024/25 and City now. The first three each have one sitter (Kovačić, Rodri or Nico González, Caicedo) inside the shaded strip. City now, made up of Bouaddi, Anderson, Enzo and Cherki, has nobody in it.">
+  <figcaption>Sitters in gold, inside the shaded strip. City now have nobody in it.
+  <span class="chart-source">openplay event data. Dashed lines mark each team's centre-backs and striker. City now: measured at their 2025/26 clubs.</span></figcaption>
 </figure>
 
 Pep rotated his midfield constantly. No trio started more than three league games together. But there was **always** one player who sat: Kovačić in 2024/25, Rodri or Nico González last season. Maresca had Caicedo at Chelsea. City now have Anderson, Enzo, Bouaddi and Cherki, and every one of them plays forward.
@@ -155,7 +155,7 @@ So a high pivot isn't a disaster by itself, and I'm not going to pretend the dat
 
 Here's the part I like most. Maresca's Chelsea had Enzo create and Caicedo sit. City already have Enzo. They have Anderson, who on passing and winning the ball back looks like Rodri.
 
-So my suggestion: **ask Anderson to sit back more and be the Caicedo or Rodri, rather than venturing forward.** Drop him from 64% towards the 40s, let Enzo be the one who goes, and City have the same split Enzo already played for a season and a half.
+So my suggestion: **ask Anderson to sit back more and be the Caicedo or Rodri, rather than venturing forward.** Move him back into the sitters' strip, let Enzo be the one who goes, and City have the same split Enzo already played for a season and a half.
 
 It fixes the shape for free. Part of why Anderson loses the ball so often is the job he's been given (about 40% of it, on my numbers), so sitting should bring that down too. He'd give up some carries and shots. I haven't tested whether he can hold that role over a season, because he's never been the deepest midfielder at a club. It's a call for Maresca, but the profile says it's worth a try before anyone spends another £20m.
 
@@ -163,7 +163,7 @@ It fixes the shape for free. Part of why Anderson loses the ball so often is the
 
 Here's my opinion, and I think the numbers back it up: **letting Nico González go was a mistake.**
 
-He was the one player in the squad who did the boring, vital job. He sat at 47% on the centre-back-to-striker scale, right in the sitter zone. For keeping the ball, he was in the best 10% of midfielders in Europe. And he counter-pressed as hard as Caicedo. He's exactly the profile this midfield is crying out for, and he's at Newcastle now.
+He was the one player in the squad who did the boring, vital job. He played right in the sitter strip. For keeping the ball, he was in the best 10% of midfielders in Europe. And he counter-pressed as hard as Caicedo. He's exactly the profile this midfield is crying out for, and he's at Newcastle now.
 
 ## And if Anderson can't do it?
 
