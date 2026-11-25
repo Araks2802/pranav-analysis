@@ -95,21 +95,23 @@ Before anyone panics, here's what Enzo genuinely brings.
 
 So no, this isn't a case of City throwing money at the wrong player. The problem is what's around him.
 
-## The catch: Anderson isn't Rodri
+## The catch: Anderson is not quite Rodri
 
 Anderson was always going to be the Rodri replacement. On passing and winning the ball back, he's one of the ten most Rodri-like midfielders in Europe.
 
-On the pitch, though, he plays a different game. He pushes on and carries the ball forward. A fair question is whether that's just because Forest sat so deep. So I measured where each midfielder plays **between his own centre-backs and his own striker**. A deep team moves all three back together, so team style drops out.
+On the pitch the picture is closer than you'd think. Here is where each midfielder plays on average, split into when he defends (where he wins or contests the ball) and when he attacks (where he is on the ball). The pitch is zoomed in on the middle.
 
 <figure class="chart-figure">
-  <img src="/charts/football/enzo_pitch_positions.png" alt="Football pitch showing each midfielder's average position in 2025/26. Rodri, Nico González and Caicedo sit inside a shaded strip just behind the centre circle. Bouaddi, Anderson and Enzo are all further up the pitch, and Cherki is higher still.">
-  <figcaption>Each dot is a player's average position. The shaded strip is where the sitters played.
-  <span class="chart-source">openplay event data, 2025/26, each player at his own club. Sitters in gold.</span></figcaption>
+  <img src="/charts/football/enzo_pitch_positions.png" alt="Two zoomed football pitches showing each midfielder's average position in 2025/26. Defending: Anderson is the deepest, then Bouaddi, Caicedo, Rodri, Enzo, Cherki and Nico González. Attacking: Caicedo, Rodri and Nico González are deepest, Anderson is just ahead of them, and Bouaddi, Enzo and Cherki are clearly higher.">
+  <figcaption>Sitters in gold. City attack to the right.
+  <span class="chart-source">openplay event data, 2025/26, each player at his own club. Defending = tackles, interceptions, recoveries, challenges and blocks. Attacking = passes, dribbles, touches and shots.</span></figcaption>
 </figure>
 
-**How to read it:** each dot is where a player's touches sit on average. To make teams comparable, I place every player between his own team's centre-backs and his own striker (the dashed lines), so a side that defends deep doesn't distort it. Up and down on the pitch is just each player's real average width. Cherki is beyond the striker's line because he receives the ball further forward than his own striker does, which fits a number 10 who drifts into the box.
+When City's midfielders defend, Anderson is the deepest of them all, deeper than Caicedo and Rodri. On the ball he sits just ahead of the three sitters, while Bouaddi, Enzo and Cherki are clearly higher. Cherki, as you'd expect from a number 10, is the furthest forward.
 
-Even at Forest, Anderson was the one going forward. In games where Forest played two holding midfielders, he was the higher of the two **79% of the time**, with Ibrahim Sangaré sitting behind him. That's exactly how Caicedo and Enzo split the job at Chelsea.
+Two warnings. Event data only sees a player when he does something, so this is where he is when he touches the ball or makes a defensive action, not a full map. And Forest defended deep: their defensive actions averaged lower than City's. Measured against his own partner, Anderson was still the one going forward. In games where Forest played two holding midfielders, he was the higher of the two **79% of the time**, with Ibrahim Sangaré sitting behind him. That's how Caicedo and Enzo split the job at Chelsea.
+
+So Anderson isn't far from a sitter's position already, which makes my later suggestion more realistic. The difference is what he does with the ball: he carries and dribbles far more than Rodri or Caicedo.
 
 ## Pep and Maresca always had a sitter
 
@@ -155,7 +157,7 @@ So a high pivot isn't a disaster by itself, and I'm not going to pretend the dat
 
 Here's the part I like most. Maresca's Chelsea had Enzo create and Caicedo sit. City already have Enzo. They have Anderson, who on passing and winning the ball back looks like Rodri.
 
-So my suggestion: **ask Anderson to sit back more and be the Caicedo or Rodri, rather than venturing forward.** Move him back into the sitters' strip, let Enzo be the one who goes, and City have the same split Enzo already played for a season and a half.
+So my suggestion: **ask Anderson to sit back more and be the Caicedo or Rodri, rather than venturing forward.** Move him a few yards back, let Enzo be the one who goes, and City have the same split Enzo already played for a season and a half.
 
 It fixes the shape for free. Part of why Anderson loses the ball so often is the job he's been given (about 40% of it, on my numbers), so sitting should bring that down too. He'd give up some carries and shots. I haven't tested whether he can hold that role over a season, because he's never been the deepest midfielder at a club. It's a call for Maresca, but the profile says it's worth a try before anyone spends another £20m.
 
